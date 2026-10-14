@@ -1,0 +1,3510 @@
+{
+  "voice": "en_US-ljspeech-high",
+  "entries": [
+    {
+      "id": "word-construct",
+      "text": "construct",
+      "file": "4bd2b137bbd319a663d1b642.mp3"
+    },
+    {
+      "id": "example-construct-0",
+      "text": "Construct a URL from the base path.",
+      "file": "ca2d8bd10bdf849f7af11c3e.mp3"
+    },
+    {
+      "id": "example-construct-1",
+      "text": "The function constructs a tree from the input data.",
+      "file": "ef5690c58391877d0acc64d4.mp3"
+    },
+    {
+      "id": "word-constructor",
+      "text": "constructor",
+      "file": "03315aaee1e1ba51ded2938b.mp3"
+    },
+    {
+      "id": "example-constructor-0",
+      "text": "The constructor accepts a configuration object.",
+      "file": "826738216eaf4b2f8c846b09.mp3"
+    },
+    {
+      "id": "example-constructor-1",
+      "text": "Avoid making network requests inside the constructor.",
+      "file": "7158580ee308550db5309222.mp3"
+    },
+    {
+      "id": "word-construction",
+      "text": "construction",
+      "file": "b2836e9be9a95ad83dd32820.mp3"
+    },
+    {
+      "id": "example-construction-0",
+      "text": "Object construction can fail if the configuration is invalid.",
+      "file": "d19b672700e0b0a560899409.mp3"
+    },
+    {
+      "id": "example-construction-1",
+      "text": "Move the construction of the lookup table outside the loop.",
+      "file": "48ec45440ee141926f4c6343.mp3"
+    },
+    {
+      "id": "word-reconstruct",
+      "text": "reconstruct",
+      "file": "71a9c39890be61dc55e0bd1a.mp3"
+    },
+    {
+      "id": "example-reconstruct-0",
+      "text": "Reconstruct the object from the saved data.",
+      "file": "e0a4fc7746259e06a43db1aa.mp3"
+    },
+    {
+      "id": "example-reconstruct-1",
+      "text": "The debugger can reconstruct the call sequence.",
+      "file": "201777acf13ef134b3e2e7dd.mp3"
+    },
+    {
+      "id": "word-structure",
+      "text": "structure",
+      "file": "3794057fc40a6997721d31c7.mp3"
+    },
+    {
+      "id": "example-structure-0",
+      "text": "Choose a data structure that supports fast lookups.",
+      "file": "740addf115560a12ac2c2422.mp3"
+    },
+    {
+      "id": "example-structure-1",
+      "text": "The new module has a clear structure.",
+      "file": "c5c128fc7c35d7bac80e584d.mp3"
+    },
+    {
+      "id": "word-structural",
+      "text": "structural",
+      "file": "895820d36ede852a268e3c96.mp3"
+    },
+    {
+      "id": "example-structural-0",
+      "text": "The validator checks for structural errors.",
+      "file": "359f1222ed2e77132bd6cebd.mp3"
+    },
+    {
+      "id": "example-structural-1",
+      "text": "This refactor introduces several structural changes.",
+      "file": "a2b71cc3088a69ac6186ee92.mp3"
+    },
+    {
+      "id": "word-restructure",
+      "text": "restructure",
+      "file": "8fe1ba8fe3f43ab0b5a96cab.mp3"
+    },
+    {
+      "id": "example-restructure-0",
+      "text": "Restructure the module to separate parsing from validation.",
+      "file": "631ff85f7108b406762de037.mp3"
+    },
+    {
+      "id": "example-restructure-1",
+      "text": "We need to restructure the project directories.",
+      "file": "3e907de1e925c641306823c8.mp3"
+    },
+    {
+      "id": "word-instruct",
+      "text": "instruct",
+      "file": "6ac6f34786b25f953b37d2e7.mp3"
+    },
+    {
+      "id": "example-instruct-0",
+      "text": "Instruct the client to retry the request.",
+      "file": "d23b51fb01d3ef803307c7e4.mp3"
+    },
+    {
+      "id": "example-instruct-1",
+      "text": "The header instructs the browser not to cache the response.",
+      "file": "9b88879b10fdfa87e3adaaa2.mp3"
+    },
+    {
+      "id": "word-instruction",
+      "text": "instruction",
+      "file": "51e51ddec45f1301cb48a66d.mp3"
+    },
+    {
+      "id": "example-instruction-0",
+      "text": "The processor executes one instruction at a time.",
+      "file": "9afdf7efce690fae1adce8e5.mp3"
+    },
+    {
+      "id": "example-instruction-1",
+      "text": "Follow the installation instructions carefully.",
+      "file": "54ab39e0074a274f7d918be8.mp3"
+    },
+    {
+      "id": "word-infrastructure",
+      "text": "infrastructure",
+      "file": "779fd921656aef22e0345107.mp3"
+    },
+    {
+      "id": "example-infrastructure-0",
+      "text": "The team manages infrastructure through code.",
+      "file": "6a176f434d439b8aa640610a.mp3"
+    },
+    {
+      "id": "example-infrastructure-1",
+      "text": "Monitor the infrastructure during deployment.",
+      "file": "7a8254f59805a004a2bb8944.mp3"
+    },
+    {
+      "id": "word-import",
+      "text": "import",
+      "file": "13aee341788aaa8f99f844b8.mp3"
+    },
+    {
+      "id": "example-import-0",
+      "text": "Import the utility from the shared module.",
+      "file": "169ab7909385d0bde279b9a4.mp3"
+    },
+    {
+      "id": "example-import-1",
+      "text": "The tool can import records from a CSV file.",
+      "file": "45eff20efd7f21fcb1652968.mp3"
+    },
+    {
+      "id": "word-importer",
+      "text": "importer",
+      "file": "1215ba4c18211f3240afa9da.mp3"
+    },
+    {
+      "id": "example-importer-0",
+      "text": "The importer skips empty rows.",
+      "file": "52daef65ac6c5dd7320845d2.mp3"
+    },
+    {
+      "id": "example-importer-1",
+      "text": "Configure the importer before loading the file.",
+      "file": "7860ee03ffdb57bd98765203.mp3"
+    },
+    {
+      "id": "word-importable",
+      "text": "importable",
+      "file": "34e5c0cec3401570edd526ab.mp3"
+    },
+    {
+      "id": "example-importable-0",
+      "text": "Make the helper importable from the package root.",
+      "file": "1c18988080cce0c0d128ceea.mp3"
+    },
+    {
+      "id": "example-importable-1",
+      "text": "The module is importable after installation.",
+      "file": "8d9009253649680e178cf90d.mp3"
+    },
+    {
+      "id": "word-export",
+      "text": "export",
+      "file": "bb0c7f1aaef73e1a237495b3.mp3"
+    },
+    {
+      "id": "example-export-0",
+      "text": "Export the report as a JSON file.",
+      "file": "e61c4be3fe9381572f61f31b.mp3"
+    },
+    {
+      "id": "example-export-1",
+      "text": "This module exports a single function.",
+      "file": "51300cdb3e3faefc50727754.mp3"
+    },
+    {
+      "id": "word-exporter",
+      "text": "exporter",
+      "file": "de3de2a45b15542a260c1d0d.mp3"
+    },
+    {
+      "id": "example-exporter-0",
+      "text": "The exporter writes metrics to a remote server.",
+      "file": "8010a49c8ba63ebca1e4e54c.mp3"
+    },
+    {
+      "id": "example-exporter-1",
+      "text": "Restart the exporter after changing its settings.",
+      "file": "625159804050b3d94165174b.mp3"
+    },
+    {
+      "id": "word-exportable",
+      "text": "exportable",
+      "file": "f8d577987059d179dff65b46.mp3"
+    },
+    {
+      "id": "example-exportable-0",
+      "text": "The results are exportable as plain text.",
+      "file": "f250cb5919ce458236ad48e5.mp3"
+    },
+    {
+      "id": "example-exportable-1",
+      "text": "Only public fields are exportable.",
+      "file": "2f1f108c1b050fea4e53d758.mp3"
+    },
+    {
+      "id": "word-portable",
+      "text": "portable",
+      "file": "785032ea0e4187c7fcf47758.mp3"
+    },
+    {
+      "id": "example-portable-0",
+      "text": "Write portable code that avoids platform-specific APIs.",
+      "file": "1c6844319000c66ca3a06ff7.mp3"
+    },
+    {
+      "id": "example-portable-1",
+      "text": "This library is portable across several operating systems.",
+      "file": "615f5ad6299b8b09f7359a9f.mp3"
+    },
+    {
+      "id": "word-portability",
+      "text": "portability",
+      "file": "2a767be708f01f1b7e16c7d1.mp3"
+    },
+    {
+      "id": "example-portability-0",
+      "text": "The wrapper improves the portability of the application.",
+      "file": "092440a94a3355b22f3bf807.mp3"
+    },
+    {
+      "id": "example-portability-1",
+      "text": "Test portability on both Linux and Windows.",
+      "file": "d2008ed7b75505ec68703bf0.mp3"
+    },
+    {
+      "id": "word-form",
+      "text": "form",
+      "file": "673d431dcd7e10f07cc73365.mp3"
+    },
+    {
+      "id": "example-form-0",
+      "text": "Validate the form before submitting it.",
+      "file": "575a8b99da00e5b8ed405a5d.mp3"
+    },
+    {
+      "id": "example-form-1",
+      "text": "The form contains three required fields.",
+      "file": "9d82c9f6e862b8a954100aae.mp3"
+    },
+    {
+      "id": "word-format",
+      "text": "format",
+      "file": "54c9983384be9e595a5d21f4.mp3"
+    },
+    {
+      "id": "example-format-0",
+      "text": "Format the timestamp as an ISO string.",
+      "file": "83b79ae5b03eb53115d2a032.mp3"
+    },
+    {
+      "id": "example-format-1",
+      "text": "The parser does not support this file format.",
+      "file": "967d4371960c0ddac387c8cf.mp3"
+    },
+    {
+      "id": "word-formatting",
+      "text": "formatting",
+      "file": "7bc5f4849607a20e38c65541.mp3"
+    },
+    {
+      "id": "example-formatting-0",
+      "text": "The linter checks formatting in every file.",
+      "file": "fc30861c020e4420854315ad.mp3"
+    },
+    {
+      "id": "example-formatting-1",
+      "text": "Keep formatting changes in a separate commit.",
+      "file": "0fee04010d079dacf94f8d1e.mp3"
+    },
+    {
+      "id": "word-transform",
+      "text": "transform",
+      "file": "c66c54185c24c17d23e4b925.mp3"
+    },
+    {
+      "id": "example-transform-0",
+      "text": "Transform the response into a list of objects.",
+      "file": "97bf28b049225df6ac9d02c5.mp3"
+    },
+    {
+      "id": "example-transform-1",
+      "text": "The pipeline transforms raw events into metrics.",
+      "file": "ab540f82148f5e34c0e12f6d.mp3"
+    },
+    {
+      "id": "word-transformation",
+      "text": "transformation",
+      "file": "708355a0c3012d21574cbde8.mp3"
+    },
+    {
+      "id": "example-transformation-0",
+      "text": "Apply the transformation before saving the data.",
+      "file": "d4c6505ac938eb0e1b55079b.mp3"
+    },
+    {
+      "id": "example-transformation-1",
+      "text": "This transformation preserves the original order.",
+      "file": "dc62a7c3d7ec1489de55b4d8.mp3"
+    },
+    {
+      "id": "word-transformer",
+      "text": "transformer",
+      "file": "57a1e4f4a60534077590861b.mp3"
+    },
+    {
+      "id": "example-transformer-0",
+      "text": "The transformer converts the syntax tree into code.",
+      "file": "1449970a38c1bc9cabdf9e74.mp3"
+    },
+    {
+      "id": "example-transformer-1",
+      "text": "Register a custom transformer for this format.",
+      "file": "f9e1ee3892907b742ef9c0b8.mp3"
+    },
+    {
+      "id": "word-formal",
+      "text": "formal",
+      "file": "a7dd94bc62f1cbdfa5f8befd.mp3"
+    },
+    {
+      "id": "example-formal-0",
+      "text": "The protocol has a formal specification.",
+      "file": "93d24678d1135e9b3b2299ce.mp3"
+    },
+    {
+      "id": "example-formal-1",
+      "text": "Formal verification can reveal errors in the model.",
+      "file": "5be0897c29f91abba1d0d71a.mp3"
+    },
+    {
+      "id": "word-formalize",
+      "text": "formalize",
+      "file": "250fe9b7a4aa13f2d81fdb81.mp3"
+    },
+    {
+      "id": "example-formalize-0",
+      "text": "Formalize the requirements before implementation.",
+      "file": "8b7de9691bc5a8bf2ec66f8e.mp3"
+    },
+    {
+      "id": "example-formalize-1",
+      "text": "We can formalize the rule as a constraint.",
+      "file": "6f0281998f5ebea6bb45aecb.mp3"
+    },
+    {
+      "id": "word-extract",
+      "text": "extract",
+      "file": "ffdc92c3a4a422be010482fd.mp3"
+    },
+    {
+      "id": "example-extract-0",
+      "text": "Extract the user ID from the token.",
+      "file": "08019d3576f104bf3acb109a.mp3"
+    },
+    {
+      "id": "example-extract-1",
+      "text": "This function extracts links from an HTML document.",
+      "file": "3f29de14032642661d641162.mp3"
+    },
+    {
+      "id": "word-extraction",
+      "text": "extraction",
+      "file": "1ea67503df367144a2efe649.mp3"
+    },
+    {
+      "id": "example-extraction-0",
+      "text": "Data extraction runs every night.",
+      "file": "023a6b2e1f18e7b2ba35c083.mp3"
+    },
+    {
+      "id": "example-extraction-1",
+      "text": "The extraction step removes unnecessary fields.",
+      "file": "08d01d193357bc4dbded3788.mp3"
+    },
+    {
+      "id": "word-extractor",
+      "text": "extractor",
+      "file": "1a9462e4ca77435ea0db7bc3.mp3"
+    },
+    {
+      "id": "example-extractor-0",
+      "text": "The extractor reads metadata from each file.",
+      "file": "41776b2964d83e6fcf527693.mp3"
+    },
+    {
+      "id": "example-extractor-1",
+      "text": "Write a custom extractor for this document type.",
+      "file": "6e6838b785934789b6c3da8e.mp3"
+    },
+    {
+      "id": "word-abstract",
+      "text": "abstract",
+      "file": "ac14fc16fb7811357610a0e8.mp3"
+    },
+    {
+      "id": "example-abstract-0",
+      "text": "An abstract class cannot be instantiated directly in Java.",
+      "file": "fba559dd6510b7193a780ae9.mp3"
+    },
+    {
+      "id": "example-abstract-1",
+      "text": "Define an abstract interface for storage operations.",
+      "file": "8e6d85417e1eabac1716e547.mp3"
+    },
+    {
+      "id": "word-abstraction",
+      "text": "abstraction",
+      "file": "c2fa515003bbd253984ba39d.mp3"
+    },
+    {
+      "id": "example-abstraction-0",
+      "text": "This abstraction hides the database details.",
+      "file": "8a9b65ad8bffaaea84ebcd17.mp3"
+    },
+    {
+      "id": "example-abstraction-1",
+      "text": "Avoid adding an abstraction without a clear need.",
+      "file": "7a0ee57ba300cb16d3fd98f7.mp3"
+    },
+    {
+      "id": "word-abstractly",
+      "text": "abstractly",
+      "file": "5f775a2d7d28afc0f152ad84.mp3"
+    },
+    {
+      "id": "example-abstractly-0",
+      "text": "Describe the operation abstractly before choosing an algorithm.",
+      "file": "1ff6a47646f8929615500009.mp3"
+    },
+    {
+      "id": "example-abstractly-1",
+      "text": "Think abstractly about the data flow.",
+      "file": "3d6c38ae5a8ddfa6efd5f809.mp3"
+    },
+    {
+      "id": "word-subtract",
+      "text": "subtract",
+      "file": "77cfab1d5579a1d74998c8a1.mp3"
+    },
+    {
+      "id": "example-subtract-0",
+      "text": "Subtract the start time from the end time.",
+      "file": "c8402691500eebb8823e0d35.mp3"
+    },
+    {
+      "id": "example-subtract-1",
+      "text": "Subtract one from the counter after each retry.",
+      "file": "85c36ed2c437e1a8414891bc.mp3"
+    },
+    {
+      "id": "word-subtraction",
+      "text": "subtraction",
+      "file": "94168bbb2365bf7c947abd1f.mp3"
+    },
+    {
+      "id": "example-subtraction-0",
+      "text": "Integer subtraction can overflow.",
+      "file": "de5aaef9d910dc184db1d550.mp3"
+    },
+    {
+      "id": "example-subtraction-1",
+      "text": "The expression uses subtraction to calculate the difference.",
+      "file": "f02de90dc03c9db3794857c4.mp3"
+    },
+    {
+      "id": "word-inspect",
+      "text": "inspect",
+      "file": "30ed89d4c8024b0cf2ed1652.mp3"
+    },
+    {
+      "id": "example-inspect-0",
+      "text": "Inspect the response headers in the browser.",
+      "file": "3b210c8701b8c90c2b409816.mp3"
+    },
+    {
+      "id": "example-inspect-1",
+      "text": "Inspect the stack trace to find the failing function.",
+      "file": "ce63f25fbae041a996d5e476.mp3"
+    },
+    {
+      "id": "word-inspection",
+      "text": "inspection",
+      "file": "88e78eecf2cd736634aeb153.mp3"
+    },
+    {
+      "id": "example-inspection-0",
+      "text": "Manual inspection revealed a missing field.",
+      "file": "073a904283b76ca756b003a8.mp3"
+    },
+    {
+      "id": "example-inspection-1",
+      "text": "The code inspection identified an unsafe cast.",
+      "file": "37a376b9f365e88ac294309e.mp3"
+    },
+    {
+      "id": "word-inspector",
+      "text": "inspector",
+      "file": "205a018424ce40032937b237.mp3"
+    },
+    {
+      "id": "example-inspector-0",
+      "text": "Open the network inspector to view the request.",
+      "file": "26f9507c3dd630fa82873eef.mp3"
+    },
+    {
+      "id": "example-inspector-1",
+      "text": "The inspector shows the current value of each variable.",
+      "file": "68b8f338d4edf7a972cbc3d9.mp3"
+    },
+    {
+      "id": "word-introspect",
+      "text": "introspect",
+      "file": "cba7f00521f290da556d737a.mp3"
+    },
+    {
+      "id": "example-introspect-0",
+      "text": "The library can introspect an object at runtime.",
+      "file": "536a0f5b6dc6f2e3ba8aec7a.mp3"
+    },
+    {
+      "id": "example-introspect-1",
+      "text": "Use this tool to introspect the database schema.",
+      "file": "669915433d55f337bc66f89a.mp3"
+    },
+    {
+      "id": "word-introspection",
+      "text": "introspection",
+      "file": "9969a62fe4d3afa3580d981a.mp3"
+    },
+    {
+      "id": "example-introspection-0",
+      "text": "Introspection exposes the available fields of a type.",
+      "file": "a19d34ab41ebd379209b4ccd.mp3"
+    },
+    {
+      "id": "example-introspection-1",
+      "text": "Disable schema introspection when the deployment requires it.",
+      "file": "141a039722f28a0cccf46c12.mp3"
+    },
+    {
+      "id": "word-retrospect",
+      "text": "retrospect",
+      "file": "28503ca05e6f92f0f91fd9cd.mp3"
+    },
+    {
+      "id": "example-retrospect-0",
+      "text": "In retrospect, the migration needed more tests.",
+      "file": "3f6b697d756a264fc3b9c104.mp3"
+    },
+    {
+      "id": "example-retrospect-1",
+      "text": "The design seems simpler in retrospect.",
+      "file": "4154ddf83b6b76ebbf2ad954.mp3"
+    },
+    {
+      "id": "word-retrospective",
+      "text": "retrospective",
+      "file": "6ffc4f9c20c1c541a3cbf58f.mp3"
+    },
+    {
+      "id": "example-retrospective-0",
+      "text": "Discuss the deployment failure in the retrospective.",
+      "file": "accfabc730869057725f659b.mp3"
+    },
+    {
+      "id": "example-retrospective-1",
+      "text": "The team holds a retrospective after each sprint.",
+      "file": "de36db3a5db45b150c6783a8.mp3"
+    },
+    {
+      "id": "word-script",
+      "text": "script",
+      "file": "8865579efe1865ae19772220.mp3"
+    },
+    {
+      "id": "example-script-0",
+      "text": "Run the script from the project root.",
+      "file": "3be37b159b95e22a3a5b967e.mp3"
+    },
+    {
+      "id": "example-script-1",
+      "text": "The script creates a backup of the database.",
+      "file": "333ecb2512abe017a79833e0.mp3"
+    },
+    {
+      "id": "word-scripting",
+      "text": "scripting",
+      "file": "c0e3d6f53b48f1732da10e99.mp3"
+    },
+    {
+      "id": "example-scripting-0",
+      "text": "Scripting helps automate repetitive tasks.",
+      "file": "549fad30b5e93da6644abf9e.mp3"
+    },
+    {
+      "id": "example-scripting-1",
+      "text": "The tool supports scripting in Python.",
+      "file": "68ea179880706f06c895c26b.mp3"
+    },
+    {
+      "id": "word-describe",
+      "text": "describe",
+      "file": "81ed0f65f7e665e067417b4c.mp3"
+    },
+    {
+      "id": "example-describe-0",
+      "text": "Describe the expected behavior in the test.",
+      "file": "a337e757908ba260aa462ab1.mp3"
+    },
+    {
+      "id": "example-describe-1",
+      "text": "The README describes how to configure the service.",
+      "file": "5af75641afcbf9bbd0fd76f3.mp3"
+    },
+    {
+      "id": "word-description",
+      "text": "description",
+      "file": "20eb2bfb13f6b46b17629824.mp3"
+    },
+    {
+      "id": "example-description-0",
+      "text": "Add a short description to each parameter.",
+      "file": "fadd7e0918ae3f8d75d9b837.mp3"
+    },
+    {
+      "id": "example-description-1",
+      "text": "The error description explains why validation failed.",
+      "file": "0e50847748f75b414942b1fa.mp3"
+    },
+    {
+      "id": "word-descriptive",
+      "text": "descriptive",
+      "file": "261c55e3e19779b256e8d268.mp3"
+    },
+    {
+      "id": "example-descriptive-0",
+      "text": "Use descriptive names for your variables.",
+      "file": "faf907c97ddf12781c9d43ff.mp3"
+    },
+    {
+      "id": "example-descriptive-1",
+      "text": "Return a descriptive error message.",
+      "file": "4aaf572966f1907ffc605629.mp3"
+    },
+    {
+      "id": "word-subscribe",
+      "text": "subscribe",
+      "file": "a4a554e8a4839969ad48d026.mp3"
+    },
+    {
+      "id": "example-subscribe-0",
+      "text": "Subscribe to the stream before sending events.",
+      "file": "fc64a5fba5dd642158e3ab30.mp3"
+    },
+    {
+      "id": "example-subscribe-1",
+      "text": "Clients can subscribe to updates for a specific topic.",
+      "file": "22da03f85af40abab29b48cd.mp3"
+    },
+    {
+      "id": "word-subscriber",
+      "text": "subscriber",
+      "file": "5a4799a6c013b326dc8b457f.mp3"
+    },
+    {
+      "id": "example-subscriber-0",
+      "text": "Each subscriber receives the same event.",
+      "file": "42a7cde06509eab230f1785a.mp3"
+    },
+    {
+      "id": "example-subscriber-1",
+      "text": "Remove the subscriber when the component unmounts.",
+      "file": "fce4e99600cdab0d245d95c3.mp3"
+    },
+    {
+      "id": "word-subscription",
+      "text": "subscription",
+      "file": "46ea71b93d39df7e3f208978.mp3"
+    },
+    {
+      "id": "example-subscription-0",
+      "text": "Cancel the subscription when it is no longer needed.",
+      "file": "22ca7e840216aae218538221.mp3"
+    },
+    {
+      "id": "example-subscription-1",
+      "text": "The subscription remains active until the connection closes.",
+      "file": "eef0cf7ade9f5b312251766b.mp3"
+    },
+    {
+      "id": "word-unsubscribe",
+      "text": "unsubscribe",
+      "file": "62121238eb92511b13a720ef.mp3"
+    },
+    {
+      "id": "example-unsubscribe-0",
+      "text": "Unsubscribe from the stream during cleanup.",
+      "file": "4873123c50ae39976a850bf4.mp3"
+    },
+    {
+      "id": "example-unsubscribe-1",
+      "text": "The client can unsubscribe at any time.",
+      "file": "7dfee19704a331940cf92698.mp3"
+    },
+    {
+      "id": "word-compile",
+      "text": "compile",
+      "file": "2f6223da4d5574fd925126f7.mp3"
+    },
+    {
+      "id": "example-compile-0",
+      "text": "Compile the source code before running the program.",
+      "file": "8d29fecd6d887eebef38f9a4.mp3"
+    },
+    {
+      "id": "example-compile-1",
+      "text": "The project does not compile with this configuration.",
+      "file": "ec1c22187821ca17483c57a1.mp3"
+    },
+    {
+      "id": "word-compiler",
+      "text": "compiler",
+      "file": "f767601dccd212a934eb9a03.mp3"
+    },
+    {
+      "id": "example-compiler-0",
+      "text": "The compiler reports a type error.",
+      "file": "8b3ee2e55662b1aa49ec4482.mp3"
+    },
+    {
+      "id": "example-compiler-1",
+      "text": "Enable warnings in the compiler settings.",
+      "file": "79ac4a89dc5b1623197bedd2.mp3"
+    },
+    {
+      "id": "word-compilation",
+      "text": "compilation",
+      "file": "dcb9618e1be7b515fc7a221e.mp3"
+    },
+    {
+      "id": "example-compilation-0",
+      "text": "Compilation failed because a dependency was missing.",
+      "file": "ab6e26925555db8a69d42776.mp3"
+    },
+    {
+      "id": "example-compilation-1",
+      "text": "Incremental compilation reduces build time.",
+      "file": "62445128361dd3d3b7b73808.mp3"
+    },
+    {
+      "id": "word-recompile",
+      "text": "recompile",
+      "file": "0430dc13a6eacaddd3a7d3cd.mp3"
+    },
+    {
+      "id": "example-recompile-0",
+      "text": "Recompile the module after changing the interface.",
+      "file": "83a6fb535edb13629ef7836a.mp3"
+    },
+    {
+      "id": "example-recompile-1",
+      "text": "You do not need to recompile every file.",
+      "file": "bd0cb926ea839c9f9afed526.mp3"
+    },
+    {
+      "id": "word-decompile",
+      "text": "decompile",
+      "file": "f290a67f1c0cc450c4fbdb60.mp3"
+    },
+    {
+      "id": "example-decompile-0",
+      "text": "The tool can decompile the bytecode.",
+      "file": "c512ea710d169a94d76d777d.mp3"
+    },
+    {
+      "id": "example-decompile-1",
+      "text": "Decompile the test artifact to inspect the generated logic.",
+      "file": "b167cac3a898dabf5a0fe920.mp3"
+    },
+    {
+      "id": "word-decompiler",
+      "text": "decompiler",
+      "file": "61ca2114fbd21ee8194bd892.mp3"
+    },
+    {
+      "id": "example-decompiler-0",
+      "text": "The decompiler produces readable source code.",
+      "file": "b69b12e72e7c8b567d9e17cb.mp3"
+    },
+    {
+      "id": "example-decompiler-1",
+      "text": "A decompiler may not recover the original variable names.",
+      "file": "c5a54a724f832e8858262d5f.mp3"
+    },
+    {
+      "id": "word-recompilation",
+      "text": "recompilation",
+      "file": "bc102c48dd7a49e4929fb3f8.mp3"
+    },
+    {
+      "id": "example-recompilation-0",
+      "text": "Changing the header triggers recompilation.",
+      "file": "73f007e4c4ac1435f7b526c6.mp3"
+    },
+    {
+      "id": "example-recompilation-1",
+      "text": "The cache avoids unnecessary recompilation.",
+      "file": "f9552753cae206b817d9f506.mp3"
+    },
+    {
+      "id": "word-parse",
+      "text": "parse",
+      "file": "29508f16cf4e20be03ef90d2.mp3"
+    },
+    {
+      "id": "example-parse-0",
+      "text": "Parse the JSON response before accessing its properties.",
+      "file": "9cd8ec221bee9ef9758f49f6.mp3"
+    },
+    {
+      "id": "example-parse-1",
+      "text": "The function parses the command-line arguments.",
+      "file": "77e5f3a785b40ace95777383.mp3"
+    },
+    {
+      "id": "word-parser",
+      "text": "parser",
+      "file": "6c5a895d72b4053b51b4d88f.mp3"
+    },
+    {
+      "id": "example-parser-0",
+      "text": "The parser rejects invalid input.",
+      "file": "530363ae92331776ff67b94c.mp3"
+    },
+    {
+      "id": "example-parser-1",
+      "text": "Pass the text to the parser.",
+      "file": "53d68609cdf137cd58bd89e7.mp3"
+    },
+    {
+      "id": "word-parsing",
+      "text": "parsing",
+      "file": "5da9a3b1428b7c21f4e59c0e.mp3"
+    },
+    {
+      "id": "example-parsing-0",
+      "text": "Parsing stops at the first syntax error.",
+      "file": "3093fab003c2a90efcf63254.mp3"
+    },
+    {
+      "id": "example-parsing-1",
+      "text": "The library supports streaming parsing.",
+      "file": "8ffbd35f84bd5a4cc0619853.mp3"
+    },
+    {
+      "id": "word-reparse",
+      "text": "reparse",
+      "file": "a8dad9ce2d02ad26dab090e4.mp3"
+    },
+    {
+      "id": "example-reparse-0",
+      "text": "Reparse the document after applying the patch.",
+      "file": "bee40707bd0d8f0ad1114450.mp3"
+    },
+    {
+      "id": "example-reparse-1",
+      "text": "The editor only needs to reparse the changed section.",
+      "file": "a2d29a9d767ec7ba2d0f473c.mp3"
+    },
+    {
+      "id": "word-parseable",
+      "text": "parseable",
+      "file": "5a9da64134e94178df41bab7.mp3"
+    },
+    {
+      "id": "example-parseable-0",
+      "text": "Return the error in a machine-parseable format.",
+      "file": "beccf9fdba79e2158450e356.mp3"
+    },
+    {
+      "id": "example-parseable-1",
+      "text": "The output must remain parseable after compression is removed.",
+      "file": "9541dab9db3c714673064adb.mp3"
+    },
+    {
+      "id": "word-configure",
+      "text": "configure",
+      "file": "a8f101d312da5a4cb2a3121e.mp3"
+    },
+    {
+      "id": "example-configure-0",
+      "text": "Configure the server to listen on port 8080.",
+      "file": "dc763e4fc608e2d1d6530638.mp3"
+    },
+    {
+      "id": "example-configure-1",
+      "text": "You can configure the timeout in this file.",
+      "file": "fdca8395191c2e61bb9aa439.mp3"
+    },
+    {
+      "id": "word-configuration",
+      "text": "configuration",
+      "file": "8a070c551861bd9278e814b5.mp3"
+    },
+    {
+      "id": "example-configuration-0",
+      "text": "Load the configuration before starting the service.",
+      "file": "ca95bef6f391730f722f7ed6.mp3"
+    },
+    {
+      "id": "example-configuration-1",
+      "text": "The default configuration works for local development.",
+      "file": "1001f2fc341ee7a4df2c5f46.mp3"
+    },
+    {
+      "id": "word-configurable",
+      "text": "configurable",
+      "file": "4249f922dab8a865cabb0acc.mp3"
+    },
+    {
+      "id": "example-configurable-0",
+      "text": "The retry limit is configurable.",
+      "file": "86093fb20c745d663b24ae44.mp3"
+    },
+    {
+      "id": "example-configurable-1",
+      "text": "Expose the cache size as a configurable option.",
+      "file": "1eaec05d701d5987d95a6175.mp3"
+    },
+    {
+      "id": "word-reconfigure",
+      "text": "reconfigure",
+      "file": "fc58f04f86b5715e941a124e.mp3"
+    },
+    {
+      "id": "example-reconfigure-0",
+      "text": "Reconfigure the service after rotating the certificate.",
+      "file": "5426539702a09397e9aa48d6.mp3"
+    },
+    {
+      "id": "example-reconfigure-1",
+      "text": "The client can reconfigure itself without restarting.",
+      "file": "d459151d39424dda81b1d744.mp3"
+    },
+    {
+      "id": "word-misconfigure",
+      "text": "misconfigure",
+      "file": "197e512d276e4c5af25b970e.mp3"
+    },
+    {
+      "id": "example-misconfigure-0",
+      "text": "It is easy to misconfigure the proxy settings.",
+      "file": "75746d3427d434c97b1bb694.mp3"
+    },
+    {
+      "id": "example-misconfigure-1",
+      "text": "A typo can cause an operator to misconfigure the service.",
+      "file": "e1450ae576bfa3feb5d9beaa.mp3"
+    },
+    {
+      "id": "word-misconfiguration",
+      "text": "misconfiguration",
+      "file": "f6fe4caea6d0e8c435567bd6.mp3"
+    },
+    {
+      "id": "example-misconfiguration-0",
+      "text": "A misconfiguration caused the connection failure.",
+      "file": "f976fcd1e3abd097ee4de385.mp3"
+    },
+    {
+      "id": "example-misconfiguration-1",
+      "text": "The health check detects common misconfigurations.",
+      "file": "02b921659f25f1008d405992.mp3"
+    },
+    {
+      "id": "word-depend",
+      "text": "depend",
+      "file": "bea14b19c51f4b9007841a2c.mp3"
+    },
+    {
+      "id": "example-depend-0",
+      "text": "The result may depend on the operating system.",
+      "file": "10bc04294c3a4483503b385c.mp3"
+    },
+    {
+      "id": "example-depend-1",
+      "text": "This module does not depend on the user interface.",
+      "file": "4b1fa416209d42504aa315a3.mp3"
+    },
+    {
+      "id": "word-dependent",
+      "text": "dependent",
+      "file": "3aea51f280311ea720578065.mp3"
+    },
+    {
+      "id": "example-dependent-0",
+      "text": "The output is dependent on the input order.",
+      "file": "70d90955786565e2a8dd9dd1.mp3"
+    },
+    {
+      "id": "example-dependent-1",
+      "text": "Restart the dependent services after the database is ready.",
+      "file": "f56ee1b0dc4b4756d4884f2f.mp3"
+    },
+    {
+      "id": "word-dependency",
+      "text": "dependency",
+      "file": "efe8eb0dad951310e7339f9c.mp3"
+    },
+    {
+      "id": "example-dependency-0",
+      "text": "This package has no external dependencies.",
+      "file": "d96ce60661eaac721968cfaa.mp3"
+    },
+    {
+      "id": "example-dependency-1",
+      "text": "Update the dependency to fix the compatibility issue.",
+      "file": "4ef3aedae3067e7436256c12.mp3"
+    },
+    {
+      "id": "word-independent",
+      "text": "independent",
+      "file": "f455a20d4f6e8fedf2faf063.mp3"
+    },
+    {
+      "id": "example-independent-0",
+      "text": "Run independent tasks in parallel.",
+      "file": "773279338f46172649f52908.mp3"
+    },
+    {
+      "id": "example-independent-1",
+      "text": "Keep the tests independent of each other.",
+      "file": "39e5164a735e40bee4c9ffe2.mp3"
+    },
+    {
+      "id": "word-independence",
+      "text": "independence",
+      "file": "b0fa8d4911aaefad4e6e8906.mp3"
+    },
+    {
+      "id": "example-independence-0",
+      "text": "This interface provides independence from the storage engine.",
+      "file": "19a8fc80f944fce152df4a72.mp3"
+    },
+    {
+      "id": "example-independence-1",
+      "text": "Test independence improves the reliability of the suite.",
+      "file": "47985a6a571327ebe50c86d4.mp3"
+    },
+    {
+      "id": "word-interdependent",
+      "text": "interdependent",
+      "file": "2d6beffa57475c0a65bca103.mp3"
+    },
+    {
+      "id": "example-interdependent-0",
+      "text": "These services are tightly interdependent.",
+      "file": "5f6d14bbf98c7abd9cad8c0a.mp3"
+    },
+    {
+      "id": "example-interdependent-1",
+      "text": "Avoid deploying interdependent changes separately.",
+      "file": "5662c639de4c5a5c630b2989.mp3"
+    },
+    {
+      "id": "word-interdependency",
+      "text": "interdependency",
+      "file": "b1c8afe0ad6b07c574a8c40a.mp3"
+    },
+    {
+      "id": "example-interdependency-0",
+      "text": "Document the interdependencies between modules.",
+      "file": "2b5f197223d1aea7a9e2e2e5.mp3"
+    },
+    {
+      "id": "example-interdependency-1",
+      "text": "The diagram reveals an unexpected interdependency.",
+      "file": "d18de446d61f358e09803557.mp3"
+    },
+    {
+      "id": "word-mutate",
+      "text": "mutate",
+      "file": "ca5f681bb41749f08160ca71.mp3"
+    },
+    {
+      "id": "example-mutate-0",
+      "text": "Do not mutate the input array.",
+      "file": "c978eac9ca641372034bf769.mp3"
+    },
+    {
+      "id": "example-mutate-1",
+      "text": "The callback may mutate shared state.",
+      "file": "ea84517b07ad34ebc1ea9337.mp3"
+    },
+    {
+      "id": "word-mutation",
+      "text": "mutation",
+      "file": "88fadd2095a77886115638c5.mp3"
+    },
+    {
+      "id": "example-mutation-0",
+      "text": "The mutation updates the user profile.",
+      "file": "573897b7b190179ad11bbfae.mp3"
+    },
+    {
+      "id": "example-mutation-1",
+      "text": "Avoid direct mutation of shared data.",
+      "file": "c4c8941861a41bdde395ebca.mp3"
+    },
+    {
+      "id": "word-mutant",
+      "text": "mutant",
+      "file": "ef757ae786954a77fa314b97.mp3"
+    },
+    {
+      "id": "example-mutant-0",
+      "text": "The test suite failed to detect the mutant.",
+      "file": "6ec076c7997b0f2d9bbce058.mp3"
+    },
+    {
+      "id": "example-mutant-1",
+      "text": "A surviving mutant may reveal a gap in the tests.",
+      "file": "3f0edb4b93f13a7b4ad56d73.mp3"
+    },
+    {
+      "id": "word-mutable",
+      "text": "mutable",
+      "file": "fa1bcb7742d09e22268189bf.mp3"
+    },
+    {
+      "id": "example-mutable-0",
+      "text": "A mutable object can change after creation.",
+      "file": "b2a81f607d1752013620f76a.mp3"
+    },
+    {
+      "id": "example-mutable-1",
+      "text": "Protect mutable state with a lock.",
+      "file": "12746f57f669bc9d49713cf1.mp3"
+    },
+    {
+      "id": "word-immutable",
+      "text": "immutable",
+      "file": "48ff5c11a85915079fd979a8.mp3"
+    },
+    {
+      "id": "example-immutable-0",
+      "text": "Strings are immutable in JavaScript.",
+      "file": "b33c1f8d5c4333900e12a0b2.mp3"
+    },
+    {
+      "id": "example-immutable-1",
+      "text": "Return a new object instead of changing the immutable value.",
+      "file": "d48d0080be8f156e24249190.mp3"
+    },
+    {
+      "id": "word-immutability",
+      "text": "immutability",
+      "file": "a793a4d74f005914d9ae1131.mp3"
+    },
+    {
+      "id": "example-immutability-0",
+      "text": "Immutability makes state changes easier to track.",
+      "file": "3269ed5f51fcfe91f57c6942.mp3"
+    },
+    {
+      "id": "example-immutability-1",
+      "text": "The type system can enforce immutability.",
+      "file": "75130aa3ffa478d546e62aee.mp3"
+    },
+    {
+      "id": "word-synchronous",
+      "text": "synchronous",
+      "file": "f51af3bf0e5773a9cb3e6755.mp3"
+    },
+    {
+      "id": "example-synchronous-0",
+      "text": "A synchronous call blocks until it returns.",
+      "file": "a8fcc84b8a76eebda8485acc.mp3"
+    },
+    {
+      "id": "example-synchronous-1",
+      "text": "Use synchronous operations only when the delay is acceptable.",
+      "file": "f6ae68936ff44d04bc6af974.mp3"
+    },
+    {
+      "id": "word-asynchronous",
+      "text": "asynchronous",
+      "file": "e95c3a33fbafab04fccbe412.mp3"
+    },
+    {
+      "id": "example-asynchronous-0",
+      "text": "The client uses asynchronous requests.",
+      "file": "a9e213fa7289fddebad320ee.mp3"
+    },
+    {
+      "id": "example-asynchronous-1",
+      "text": "An asynchronous function returns a promise in JavaScript.",
+      "file": "82cca3be15b6c027000a4f14.mp3"
+    },
+    {
+      "id": "word-synchronize",
+      "text": "synchronize",
+      "file": "37b1d6541f2cce4c1040dca6.mp3"
+    },
+    {
+      "id": "example-synchronize-0",
+      "text": "Synchronize the local cache with the server.",
+      "file": "c20e5b24ba20b75598b30aa6.mp3"
+    },
+    {
+      "id": "example-synchronize-1",
+      "text": "The lock helps synchronize access to shared state.",
+      "file": "09158cbecd973124496e94fa.mp3"
+    },
+    {
+      "id": "word-synchronization",
+      "text": "synchronization",
+      "file": "38b36271bc42822df838af1f.mp3"
+    },
+    {
+      "id": "example-synchronization-0",
+      "text": "Data synchronization runs in the background.",
+      "file": "3fedfa94a9940930cbd3efac.mp3"
+    },
+    {
+      "id": "example-synchronization-1",
+      "text": "The threads require synchronization to avoid a race condition.",
+      "file": "029ec73d559e3ed808795c92.mp3"
+    },
+    {
+      "id": "word-async",
+      "text": "async",
+      "file": "11ef288e04d2a9d090b1db06.mp3"
+    },
+    {
+      "id": "example-async-0",
+      "text": "Mark the function as async to use await inside it.",
+      "file": "b7911e4dd0a88c6b1f530a32.mp3"
+    },
+    {
+      "id": "example-async-1",
+      "text": "The async handler returns a promise.",
+      "file": "f9bd99c9ef0df953e1425c87.mp3"
+    },
+    {
+      "id": "word-sync",
+      "text": "sync",
+      "file": "3b30feba209aa88e8aea2df6.mp3"
+    },
+    {
+      "id": "example-sync-0",
+      "text": "Sync the settings across your devices.",
+      "file": "ef7423a56faed1ea41ed7cbc.mp3"
+    },
+    {
+      "id": "example-sync-1",
+      "text": "The next sync starts in five minutes.",
+      "file": "c56f199ffc94a7af52fae490.mp3"
+    },
+    {
+      "id": "word-asynchronously",
+      "text": "asynchronously",
+      "file": "e868e1ad28bb44c4e1bb66a5.mp3"
+    },
+    {
+      "id": "example-asynchronously-0",
+      "text": "Load the image asynchronously.",
+      "file": "10715b131f35951b33770e8a.mp3"
+    },
+    {
+      "id": "example-asynchronously-1",
+      "text": "The worker processes messages asynchronously.",
+      "file": "42fb285e106b1e5056d41d69.mp3"
+    },
+    {
+      "id": "word-argument",
+      "text": "argument",
+      "file": "eeafa7bc1131ba9551ce1a57.mp3"
+    },
+    {
+      "id": "example-argument-0",
+      "text": "Pass the file path as the first argument.",
+      "file": "2e30fc62c5c1baa36708fb7f.mp3"
+    },
+    {
+      "id": "example-argument-1",
+      "text": "The function accepts an optional argument.",
+      "file": "6ad460b8bccf45ebac6e8e9e.mp3"
+    },
+    {
+      "id": "word-parameter",
+      "text": "parameter",
+      "file": "41f755345df6e3a9fce0d0fb.mp3"
+    },
+    {
+      "id": "example-parameter-0",
+      "text": "The timeout parameter is measured in milliseconds.",
+      "file": "3f69dc996ce1e44500356caa.mp3"
+    },
+    {
+      "id": "example-parameter-1",
+      "text": "Give each parameter a descriptive name.",
+      "file": "379563c189f9ad21fc86d527.mp3"
+    },
+    {
+      "id": "word-exception",
+      "text": "exception",
+      "file": "c43c4afe08f59c0aed5333c2.mp3"
+    },
+    {
+      "id": "example-exception-0",
+      "text": "Catch the exception at the service boundary.",
+      "file": "24b937c58d3a09dfa4486e87.mp3"
+    },
+    {
+      "id": "example-exception-1",
+      "text": "An unhandled exception terminated the process.",
+      "file": "025dbd7b44cb2606f79c4faf.mp3"
+    },
+    {
+      "id": "word-invalid",
+      "text": "invalid",
+      "file": "d9290b3f41d4da821a7c00e1.mp3"
+    },
+    {
+      "id": "example-invalid-0",
+      "text": "The server rejected the invalid token.",
+      "file": "f64fdc16890ef6b3757fd7c9.mp3"
+    },
+    {
+      "id": "example-invalid-1",
+      "text": "Return an error for invalid input.",
+      "file": "9f8c5aacca4e4f53c2aa2177.mp3"
+    },
+    {
+      "id": "word-deprecated",
+      "text": "deprecated",
+      "file": "2650961509c3c6a84eb2833e.mp3"
+    },
+    {
+      "id": "example-deprecated-0",
+      "text": "This method is deprecated; use the new API instead.",
+      "file": "8a36d0e7321bbb390345a0d5.mp3"
+    },
+    {
+      "id": "example-deprecated-1",
+      "text": "Replace the deprecated option before upgrading.",
+      "file": "a765de554047b11369311616.mp3"
+    },
+    {
+      "id": "word-undefined",
+      "text": "undefined",
+      "file": "3d317848cf72b44287baba44.mp3"
+    },
+    {
+      "id": "example-undefined-0",
+      "text": "The variable is undefined at this point.",
+      "file": "ae2ed4820656e2c37f121c3f.mp3"
+    },
+    {
+      "id": "example-undefined-1",
+      "text": "Check for undefined before reading the property.",
+      "file": "548a49b08727fb7427c1d509.mp3"
+    },
+    {
+      "id": "word-request",
+      "text": "request",
+      "file": "ec0a990e6b55602038e25b50.mp3"
+    },
+    {
+      "id": "example-request-0",
+      "text": "Send a request to the API endpoint.",
+      "file": "2ba4144965a914120813a7e3.mp3"
+    },
+    {
+      "id": "example-request-1",
+      "text": "The request failed because the token expired.",
+      "file": "4a5a34e784270c5d5461e7fa.mp3"
+    },
+    {
+      "id": "word-response",
+      "text": "response",
+      "file": "e1db90b51e0a4beb589b3173.mp3"
+    },
+    {
+      "id": "example-response-0",
+      "text": "The response contains a list of users.",
+      "file": "987d5fbb5897f2f521216174.mp3"
+    },
+    {
+      "id": "example-response-1",
+      "text": "Check the status code before processing the response.",
+      "file": "2576076156b9d5dc5d1b7d9f.mp3"
+    },
+    {
+      "id": "word-endpoint",
+      "text": "endpoint",
+      "file": "1b1a15e9c951d45507524343.mp3"
+    },
+    {
+      "id": "example-endpoint-0",
+      "text": "This endpoint returns the current user profile.",
+      "file": "917a12f0e55ee4d6db08f848.mp3"
+    },
+    {
+      "id": "example-endpoint-1",
+      "text": "Protect the endpoint with authentication.",
+      "file": "7b6a80e96f33be52397525ba.mp3"
+    },
+    {
+      "id": "word-payload",
+      "text": "payload",
+      "file": "736b416c0ab4bc9c08102da1.mp3"
+    },
+    {
+      "id": "example-payload-0",
+      "text": "The payload must include a user ID.",
+      "file": "61284aa4c4bea30d327480c1.mp3"
+    },
+    {
+      "id": "example-payload-1",
+      "text": "Reject the request if the payload is too large.",
+      "file": "cfa46e16e65b90062bb09c97.mp3"
+    },
+    {
+      "id": "word-timeout",
+      "text": "timeout",
+      "file": "f15aadedcd06ccbc59077f41.mp3"
+    },
+    {
+      "id": "example-timeout-0",
+      "text": "Increase the timeout for slow connections.",
+      "file": "af88ef950c5c65e4c22c20ca.mp3"
+    },
+    {
+      "id": "example-timeout-1",
+      "text": "A timeout does not always mean the operation failed.",
+      "file": "2a58c00e3f67bb8659580750.mp3"
+    },
+    {
+      "id": "word-retry",
+      "text": "retry",
+      "file": "537307b4050a5751101033da.mp3"
+    },
+    {
+      "id": "example-retry-0",
+      "text": "Retry the request after a short delay.",
+      "file": "acccef9f6332bfb1cd0284fb.mp3"
+    },
+    {
+      "id": "example-retry-1",
+      "text": "Limit the number of retry attempts.",
+      "file": "aff99ef5b4543dc3952d27bf.mp3"
+    },
+    {
+      "id": "word-build",
+      "text": "build",
+      "file": "a27b86427f3941dcce632f92.mp3"
+    },
+    {
+      "id": "example-build-0",
+      "text": "The build failed during type checking.",
+      "file": "581a024b2eb4d7851f312a8f.mp3"
+    },
+    {
+      "id": "example-build-1",
+      "text": "Build the application before deployment.",
+      "file": "23922e79215ec2ff175cb2b8.mp3"
+    },
+    {
+      "id": "word-deploy",
+      "text": "deploy",
+      "file": "cef57ceb04f5afdb7b390a72.mp3"
+    },
+    {
+      "id": "example-deploy-0",
+      "text": "Deploy the new version to the staging environment.",
+      "file": "2b9811a4f522521e840f25e0.mp3"
+    },
+    {
+      "id": "example-deploy-1",
+      "text": "We deploy small changes frequently.",
+      "file": "eda1a67a249c8da7e4537e32.mp3"
+    },
+    {
+      "id": "word-release",
+      "text": "release",
+      "file": "2ec3e48e766287e413a30372.mp3"
+    },
+    {
+      "id": "example-release-0",
+      "text": "This release fixes several compatibility issues.",
+      "file": "19a5991a3fd1e5164b23232c.mp3"
+    },
+    {
+      "id": "example-release-1",
+      "text": "Release the lock after updating the shared value.",
+      "file": "221cf95907ea14975032c31a.mp3"
+    },
+    {
+      "id": "word-artifact",
+      "text": "artifact",
+      "file": "23d7f7d979624bd407088a6d.mp3"
+    },
+    {
+      "id": "example-artifact-0",
+      "text": "Upload the build artifact after the tests pass.",
+      "file": "1e8ab8490080896a4f25e231.mp3"
+    },
+    {
+      "id": "example-artifact-1",
+      "text": "Keep each artifact associated with its commit.",
+      "file": "88b33545825bdee1576b20df.mp3"
+    },
+    {
+      "id": "word-environment",
+      "text": "environment",
+      "file": "895b9af809ef5fecf8cbd091.mp3"
+    },
+    {
+      "id": "example-environment-0",
+      "text": "Set the environment variable before starting the server.",
+      "file": "9005720d096489eae1595ad9.mp3"
+    },
+    {
+      "id": "example-environment-1",
+      "text": "The bug only occurs in the production environment.",
+      "file": "edf264997758c7262f9ed3cc.mp3"
+    },
+    {
+      "id": "word-rollback",
+      "text": "rollback",
+      "file": "e53091500261b0a080f9449f.mp3"
+    },
+    {
+      "id": "example-rollback-0",
+      "text": "Prepare a rollback plan before deployment.",
+      "file": "ed747f844ffa09ce656c2847.mp3"
+    },
+    {
+      "id": "example-rollback-1",
+      "text": "The rollback restored the previous version.",
+      "file": "a5c58f1de20ec2ff7de8eb76.mp3"
+    },
+    {
+      "id": "word-query",
+      "text": "query",
+      "file": "45231a535b185402e1f733b9.mp3"
+    },
+    {
+      "id": "example-query-0",
+      "text": "The query returns the ten most recent records.",
+      "file": "64bc04feee673c1efb444f96.mp3"
+    },
+    {
+      "id": "example-query-1",
+      "text": "Optimize the query before adding more servers.",
+      "file": "55362f4a3fad08fcc533d77e.mp3"
+    },
+    {
+      "id": "word-schema",
+      "text": "schema",
+      "file": "1bab9556000c9937252d49a2.mp3"
+    },
+    {
+      "id": "example-schema-0",
+      "text": "Validate the document against the schema.",
+      "file": "bfb93df564b03237bfca68da.mp3"
+    },
+    {
+      "id": "example-schema-1",
+      "text": "The migration changes the database schema.",
+      "file": "4a4ecb4c165c330df2d8c16b.mp3"
+    },
+    {
+      "id": "word-transaction",
+      "text": "transaction",
+      "file": "465c9c597697309fe4d5fa7a.mp3"
+    },
+    {
+      "id": "example-transaction-0",
+      "text": "Roll back the transaction if any operation fails.",
+      "file": "a73a04c411512fec129f4ab4.mp3"
+    },
+    {
+      "id": "example-transaction-1",
+      "text": "Commit the transaction after all updates succeed.",
+      "file": "6ecd37bb0d1f480f16a35542.mp3"
+    },
+    {
+      "id": "word-cache",
+      "text": "cache",
+      "file": "60e4f044b0f77150c3afd0a3.mp3"
+    },
+    {
+      "id": "example-cache-0",
+      "text": "Store the result in the cache.",
+      "file": "021e2e2c79d46aadff8ec54f.mp3"
+    },
+    {
+      "id": "example-cache-1",
+      "text": "Invalidate the cache when the source data changes.",
+      "file": "c5d7ae8fe4d49206908109d7.mp3"
+    },
+    {
+      "id": "word-index",
+      "text": "index",
+      "file": "45e31892e992ee5f5784a6f4.mp3"
+    },
+    {
+      "id": "example-index-0",
+      "text": "Create an index on the email column.",
+      "file": "40f7c3785b5cd498e8f34412.mp3"
+    },
+    {
+      "id": "example-index-1",
+      "text": "The array index is out of bounds.",
+      "file": "bdfba1088cc4fc39b949165d.mp3"
+    },
+    {
+      "id": "word-constraint",
+      "text": "constraint",
+      "file": "2bd1c7442823667c4884545c.mp3"
+    },
+    {
+      "id": "example-constraint-0",
+      "text": "The value violates a unique constraint.",
+      "file": "1e79b92d4d984ac9809bf8f7.mp3"
+    },
+    {
+      "id": "example-constraint-1",
+      "text": "Add a constraint to prevent negative quantities.",
+      "file": "86cc769fb27d97b7728fe41a.mp3"
+    },
+    {
+      "id": "word-debug",
+      "text": "debug",
+      "file": "dd45e99b034df62e96b84bfe.mp3"
+    },
+    {
+      "id": "example-debug-0",
+      "text": "Use a breakpoint to debug the callback.",
+      "file": "3c62b807da0609e102abeb06.mp3"
+    },
+    {
+      "id": "example-debug-1",
+      "text": "Debug the issue in a local environment first.",
+      "file": "ff3bbcca00e1533bd6db669e.mp3"
+    },
+    {
+      "id": "word-trace",
+      "text": "trace",
+      "file": "d47194c056539ada9ffda8e4.mp3"
+    },
+    {
+      "id": "example-trace-0",
+      "text": "The stack trace shows where the error occurred.",
+      "file": "3271e3e2e7b5de701ca4ea4d.mp3"
+    },
+    {
+      "id": "example-trace-1",
+      "text": "Trace the request across multiple services.",
+      "file": "8c395a07611f7fa1fe9aa0a0.mp3"
+    },
+    {
+      "id": "word-assert",
+      "text": "assert",
+      "file": "7cd0f93e4f5e2c33eee632c2.mp3"
+    },
+    {
+      "id": "example-assert-0",
+      "text": "Assert that the result is not empty.",
+      "file": "c31d622c49fff4cc11f7f3de.mp3"
+    },
+    {
+      "id": "example-assert-1",
+      "text": "The test asserts that the callback runs once.",
+      "file": "ab79ea90491d59db2c768dc0.mp3"
+    },
+    {
+      "id": "word-mock",
+      "text": "mock",
+      "file": "20d80396842e38dba633ba01.mp3"
+    },
+    {
+      "id": "example-mock-0",
+      "text": "Mock the network client in the unit test.",
+      "file": "40c593495f545c0fce06568f.mp3"
+    },
+    {
+      "id": "example-mock-1",
+      "text": "The mock returns a fixed response.",
+      "file": "3739b32f94e784e7c8dad122.mp3"
+    },
+    {
+      "id": "word-merge",
+      "text": "merge",
+      "file": "b09823a483b1fb55010fe43e.mp3"
+    },
+    {
+      "id": "example-merge-0",
+      "text": "Merge the branch after the checks pass.",
+      "file": "ea8d476f06bc117ae6f7e54e.mp3"
+    },
+    {
+      "id": "example-merge-1",
+      "text": "This function merges two sorted arrays.",
+      "file": "cce903d1cb6fe1b813e3e7da.mp3"
+    },
+    {
+      "id": "word-conflict",
+      "text": "conflict",
+      "file": "d8b811eeb7643435de663940.mp3"
+    },
+    {
+      "id": "example-conflict-0",
+      "text": "Resolve the conflict before committing the file.",
+      "file": "4bf30be7d9236c2d02e956fd.mp3"
+    },
+    {
+      "id": "example-conflict-1",
+      "text": "The update caused a version conflict.",
+      "file": "13ad486a1ab88180849a991b.mp3"
+    },
+    {
+      "id": "word-review",
+      "text": "review",
+      "file": "76ac518b6153d7fc161d5052.mp3"
+    },
+    {
+      "id": "example-review-0",
+      "text": "Review the changes before merging the branch.",
+      "file": "0c8eb69e1e8d18ab6b52e66c.mp3"
+    },
+    {
+      "id": "example-review-1",
+      "text": "The code review caught a missing error handler.",
+      "file": "7a3db165ed6a23ad2de108a0.mp3"
+    },
+    {
+      "id": "word-approve",
+      "text": "approve",
+      "file": "64ce70d52082840853f7ae42.mp3"
+    },
+    {
+      "id": "example-approve-0",
+      "text": "Approve the change after verifying the test results.",
+      "file": "71c6db6dc65811311ce5f466.mp3"
+    },
+    {
+      "id": "example-approve-1",
+      "text": "A maintainer must approve the pull request.",
+      "file": "5db36968b62e9853ef22af6f.mp3"
+    },
+    {
+      "id": "word-execute",
+      "text": "execute",
+      "file": "c31d020d89c74454af932e0f.mp3"
+    },
+    {
+      "id": "example-execute-0",
+      "text": "The worker executes each task in a separate process.",
+      "file": "120d0b9a6f6405ac518659ba.mp3"
+    },
+    {
+      "id": "example-execute-1",
+      "text": "The scheduler executes pending jobs every five minutes.",
+      "file": "966a7c2084660e731afda116.mp3"
+    },
+    {
+      "id": "word-execution",
+      "text": "execution",
+      "file": "99c603292351d238e32b4d9a.mp3"
+    },
+    {
+      "id": "example-execution-0",
+      "text": "Execution stops when an unhandled exception occurs.",
+      "file": "926605fe4d175d0d77a39017.mp3"
+    },
+    {
+      "id": "example-execution-1",
+      "text": "The profiler samples the call stack during execution.",
+      "file": "c5c08998e121008c3de7c9b3.mp3"
+    },
+    {
+      "id": "word-executable",
+      "text": "executable",
+      "file": "586653d6a318cdf96e126854.mp3"
+    },
+    {
+      "id": "example-executable-0",
+      "text": "The build produces a standalone executable.",
+      "file": "628c153f46b852129fbc92a8.mp3"
+    },
+    {
+      "id": "example-executable-1",
+      "text": "Mark the script as executable before running it on the server.",
+      "file": "5a5eab71695ec80799c61506.mp3"
+    },
+    {
+      "id": "word-executor",
+      "text": "executor",
+      "file": "a3ecb5cd649e4d703b79efea.mp3"
+    },
+    {
+      "id": "example-executor-0",
+      "text": "Submit the task to the executor.",
+      "file": "f87b6d3f6c136740f8337ac7.mp3"
+    },
+    {
+      "id": "example-executor-1",
+      "text": "The executor retries failed jobs twice before giving up.",
+      "file": "67873964193d13038b1b8ad3.mp3"
+    },
+    {
+      "id": "word-allocate",
+      "text": "allocate",
+      "file": "1d62b47407fbb04eedbe0409.mp3"
+    },
+    {
+      "id": "example-allocate-0",
+      "text": "Allocate enough memory for the output buffer.",
+      "file": "4d0b93d5779f7a381c80cbbd.mp3"
+    },
+    {
+      "id": "example-allocate-1",
+      "text": "The runtime allocates a new frame for every function call.",
+      "file": "244b3386000c8eb70b3a053d.mp3"
+    },
+    {
+      "id": "word-allocation",
+      "text": "allocation",
+      "file": "6e529a5cb35af60d218dd263.mp3"
+    },
+    {
+      "id": "example-allocation-0",
+      "text": "Frequent memory allocation can slow down the application.",
+      "file": "09f536a28ed728a47bc0e20b.mp3"
+    },
+    {
+      "id": "example-allocation-1",
+      "text": "The profiler shows that allocation happens inside the request handler.",
+      "file": "e6c589b1dc632496b17d964a.mp3"
+    },
+    {
+      "id": "word-allocator",
+      "text": "allocator",
+      "file": "35b007facdc879f6da48c058.mp3"
+    },
+    {
+      "id": "example-allocator-0",
+      "text": "The custom allocator reuses small memory blocks.",
+      "file": "c01e911e2df541b26dbb4f15.mp3"
+    },
+    {
+      "id": "example-allocator-1",
+      "text": "Expose the allocator as a parameter so tests can replace it.",
+      "file": "1c1bae34b01ba5966ad8230f.mp3"
+    },
+    {
+      "id": "word-deallocate",
+      "text": "deallocate",
+      "file": "2e4949f6126a811c43607dd8.mp3"
+    },
+    {
+      "id": "example-deallocate-0",
+      "text": "Deallocate the buffer after the operation completes.",
+      "file": "3c10db24db4a62729c807921.mp3"
+    },
+    {
+      "id": "example-deallocate-1",
+      "text": "The framework does not deallocate the connection after a timeout.",
+      "file": "6a30762aeca8a54ccdb68f17.mp3"
+    },
+    {
+      "id": "word-deallocation",
+      "text": "deallocation",
+      "file": "10fddb8b369715d7985cb76f.mp3"
+    },
+    {
+      "id": "example-deallocation-0",
+      "text": "Incorrect deallocation can cause a memory error.",
+      "file": "d274111bce168a211925eea0.mp3"
+    },
+    {
+      "id": "example-deallocation-1",
+      "text": "Track every allocation together with its deallocation to find leaks.",
+      "file": "e8cf01f79d25a4611b545165.mp3"
+    },
+    {
+      "id": "word-reallocate",
+      "text": "reallocate",
+      "file": "b3bb5891870a6a0910bab7d2.mp3"
+    },
+    {
+      "id": "example-reallocate-0",
+      "text": "The container may reallocate its storage when it grows.",
+      "file": "4b66e8acd1270d727c4bfa0f.mp3"
+    },
+    {
+      "id": "example-reallocate-1",
+      "text": "The array may reallocate its buffer when you append more items.",
+      "file": "fb25086ea48399ad33d7bf5b.mp3"
+    },
+    {
+      "id": "word-reallocation",
+      "text": "reallocation",
+      "file": "314708ed27af856a4fe41a0e.mp3"
+    },
+    {
+      "id": "example-reallocation-0",
+      "text": "Reserve capacity to reduce the number of reallocations.",
+      "file": "e16f2eae0d778563f350adf6.mp3"
+    },
+    {
+      "id": "example-reallocation-1",
+      "text": "Preallocate the slice to avoid repeated reallocation during the loop.",
+      "file": "34f207016aa39031b20d5e19.mp3"
+    },
+    {
+      "id": "word-serialize",
+      "text": "serialize",
+      "file": "a7230785e9b84233e1453688.mp3"
+    },
+    {
+      "id": "example-serialize-0",
+      "text": "Serialize the object before sending it over the network.",
+      "file": "1031ae700cc1a2e68d33d4a1.mp3"
+    },
+    {
+      "id": "example-serialize-1",
+      "text": "The cache serializes the session data before writing it to disk.",
+      "file": "e6a7c05355f42aab1b4b3896.mp3"
+    },
+    {
+      "id": "word-serialization",
+      "text": "serialization",
+      "file": "a8313bd7791b493928db137c.mp3"
+    },
+    {
+      "id": "example-serialization-0",
+      "text": "Serialization converts the object into a format that can be stored.",
+      "file": "f0f284b2c70bf8799a09cf27.mp3"
+    },
+    {
+      "id": "example-serialization-1",
+      "text": "Change the serialization format only in a major release.",
+      "file": "e6257b0dfdb3837bc0fb279d.mp3"
+    },
+    {
+      "id": "word-serializer",
+      "text": "serializer",
+      "file": "d44d9bbabf882e3a852b1d06.mp3"
+    },
+    {
+      "id": "example-serializer-0",
+      "text": "The serializer converts dates to ISO strings.",
+      "file": "8ced5ead6ef65b748a958951.mp3"
+    },
+    {
+      "id": "example-serializer-1",
+      "text": "Register a custom serializer for the timestamp field.",
+      "file": "e488f142ee506ad7909da760.mp3"
+    },
+    {
+      "id": "word-serializable",
+      "text": "serializable",
+      "file": "0f69b20eedb54b094e68fea1.mp3"
+    },
+    {
+      "id": "example-serializable-0",
+      "text": "Only serializable values can be stored by this API.",
+      "file": "76b4779aece9d6d251d37e89.mp3"
+    },
+    {
+      "id": "example-serializable-1",
+      "text": "Keep the settings object serializable so it can be logged safely.",
+      "file": "3fd1cfc92a1c99589703e855.mp3"
+    },
+    {
+      "id": "word-deserialize",
+      "text": "deserialize",
+      "file": "679bf7474cddfcf162624d00.mp3"
+    },
+    {
+      "id": "example-deserialize-0",
+      "text": "Deserialize the response into a typed object.",
+      "file": "b1a2c50acc010ed11b939732.mp3"
+    },
+    {
+      "id": "example-deserialize-1",
+      "text": "Never deserialize untrusted input without validating it first.",
+      "file": "03b1c7410909eb2e0611bd0e.mp3"
+    },
+    {
+      "id": "word-deserialization",
+      "text": "deserialization",
+      "file": "d4fa5b4c58e64ff33692cc06.mp3"
+    },
+    {
+      "id": "example-deserialization-0",
+      "text": "Deserialization fails when a required field is missing.",
+      "file": "eee9e76fe432c81db88ce704.mp3"
+    },
+    {
+      "id": "example-deserialization-1",
+      "text": "Wrap deserialization in a try block to catch malformed payloads.",
+      "file": "60bc3d024bec2cee06cb2057.mp3"
+    },
+    {
+      "id": "word-deserializer",
+      "text": "deserializer",
+      "file": "78c383c8947cabee792a7c49.mp3"
+    },
+    {
+      "id": "example-deserializer-0",
+      "text": "The deserializer rejects unknown type names.",
+      "file": "911fa70401ab66a09a3754d0.mp3"
+    },
+    {
+      "id": "example-deserializer-1",
+      "text": "The strict deserializer fails on unexpected extra fields.",
+      "file": "93ab7d962162fc18883612ac.mp3"
+    },
+    {
+      "id": "word-validate",
+      "text": "validate",
+      "file": "0d71cc1c3da55864768bc555.mp3"
+    },
+    {
+      "id": "example-validate-0",
+      "text": "Validate the input before writing it to the database.",
+      "file": "e92a5cd359e6ed494629d31e.mp3"
+    },
+    {
+      "id": "example-validate-1",
+      "text": "The form validates the email field on the client side.",
+      "file": "832ae7d7553d7c8ee63cda38.mp3"
+    },
+    {
+      "id": "word-validation",
+      "text": "validation",
+      "file": "36323096138f4eed7d191c85.mp3"
+    },
+    {
+      "id": "example-validation-0",
+      "text": "Validation failed because the email field was empty.",
+      "file": "14ec8e3361f69b6a79ed0eeb.mp3"
+    },
+    {
+      "id": "example-validation-1",
+      "text": "Skip validation for internal calls to keep the hot path fast.",
+      "file": "d3e6bd40c14af0b90994a78c.mp3"
+    },
+    {
+      "id": "word-validator",
+      "text": "validator",
+      "file": "82cf8d9879a6399657603eca.mp3"
+    },
+    {
+      "id": "example-validator-0",
+      "text": "The validator checks both the type and the range.",
+      "file": "037fefcec2182717ef2b3b1c.mp3"
+    },
+    {
+      "id": "example-validator-1",
+      "text": "Write a reusable validator for the request body.",
+      "file": "5a36d0775cad8e6233c40687.mp3"
+    },
+    {
+      "id": "word-valid",
+      "text": "valid",
+      "file": "2321d0367e144efeffc7c54f.mp3"
+    },
+    {
+      "id": "example-valid-0",
+      "text": "The token is valid for ten minutes.",
+      "file": "288cd6f31b2f4e3f53278245.mp3"
+    },
+    {
+      "id": "example-valid-1",
+      "text": "The request is valid only if both headers are present.",
+      "file": "41c40816ea1d97014846a92b.mp3"
+    },
+    {
+      "id": "word-validity",
+      "text": "validity",
+      "file": "0db1449764540cbc2d3ee033.mp3"
+    },
+    {
+      "id": "example-validity-0",
+      "text": "Check the validity of the certificate before connecting.",
+      "file": "990659e321741e26f3817cbc.mp3"
+    },
+    {
+      "id": "example-validity-1",
+      "text": "The cache checks the validity of the token on every request.",
+      "file": "e246669e7bc5b9687716695b.mp3"
+    },
+    {
+      "id": "word-authenticate",
+      "text": "authenticate",
+      "file": "cbbe46240720adea88ab3952.mp3"
+    },
+    {
+      "id": "example-authenticate-0",
+      "text": "Authenticate the user before returning private data.",
+      "file": "7dda5d225a5ffbb8b29efb18.mp3"
+    },
+    {
+      "id": "example-authenticate-1",
+      "text": "The gateway authenticates every request before routing it.",
+      "file": "b6dbd9598d401a9e11b43d99.mp3"
+    },
+    {
+      "id": "word-authentication",
+      "text": "authentication",
+      "file": "3f0b2f51840c66877777dd33.mp3"
+    },
+    {
+      "id": "example-authentication-0",
+      "text": "Authentication failed because the credentials were incorrect.",
+      "file": "43bea55ed547e638680fbc44.mp3"
+    },
+    {
+      "id": "example-authentication-1",
+      "text": "Switch from password authentication to token authentication.",
+      "file": "aaaccc78853f56f0bcd205da.mp3"
+    },
+    {
+      "id": "word-authenticator",
+      "text": "authenticator",
+      "file": "65d2ec0935cd1e5d0020f698.mp3"
+    },
+    {
+      "id": "example-authenticator-0",
+      "text": "The authenticator verifies the one-time code.",
+      "file": "44dd0c0750e787b57a3daa73.mp3"
+    },
+    {
+      "id": "example-authenticator-1",
+      "text": "Configure the authenticator with the shared secret.",
+      "file": "96379b2c3752755562e07ce0.mp3"
+    },
+    {
+      "id": "word-authorize",
+      "text": "authorize",
+      "file": "7e7df9ffdceb8d304f0506b4.mp3"
+    },
+    {
+      "id": "example-authorize-0",
+      "text": "Authorize the request only if the user has the required role.",
+      "file": "ce1c37eb92f070b26c98599d.mp3"
+    },
+    {
+      "id": "example-authorize-1",
+      "text": "The service authorizes each call against the user's role.",
+      "file": "7471e5e9070c4fc346d14888.mp3"
+    },
+    {
+      "id": "word-authorization",
+      "text": "authorization",
+      "file": "e5cc7dc3b07fcaa7623d0bc3.mp3"
+    },
+    {
+      "id": "example-authorization-0",
+      "text": "Authorization determines which resources the user can access.",
+      "file": "11c3fb7e94444e6e9b7fe446.mp3"
+    },
+    {
+      "id": "example-authorization-1",
+      "text": "Add an authorization check before deleting the record.",
+      "file": "7243e29dd8d3a6c5a5e0409a.mp3"
+    },
+    {
+      "id": "word-unauthorized",
+      "text": "unauthorized",
+      "file": "9e9a42393c530533c272f1d2.mp3"
+    },
+    {
+      "id": "example-unauthorized-0",
+      "text": "Block unauthorized access to the admin interface.",
+      "file": "1e54cf91e2d519605aa35041.mp3"
+    },
+    {
+      "id": "example-unauthorized-1",
+      "text": "The client retries once after receiving an unauthorized response.",
+      "file": "d9e0608205732f818617402e.mp3"
+    },
+    {
+      "id": "word-persist",
+      "text": "persist",
+      "file": "9ece331cb7038476f791ef61.mp3"
+    },
+    {
+      "id": "example-persist-0",
+      "text": "Persist the settings before closing the application.",
+      "file": "51ce4d46b0eb6a28d03db39d.mp3"
+    },
+    {
+      "id": "example-persist-1",
+      "text": "The worker does not persist intermediate results.",
+      "file": "2c092f9ca50cc2505d6a3297.mp3"
+    },
+    {
+      "id": "word-persistence",
+      "text": "persistence",
+      "file": "5475014bf9673d1276a188a0.mp3"
+    },
+    {
+      "id": "example-persistence-0",
+      "text": "The persistence layer stores application data.",
+      "file": "81f1bb6e89f714d1d2a2bf28.mp3"
+    },
+    {
+      "id": "example-persistence-1",
+      "text": "Choose the persistence strategy before scaling the service.",
+      "file": "a9cc504a239df8e5b4cd2d6f.mp3"
+    },
+    {
+      "id": "word-persistent",
+      "text": "persistent",
+      "file": "1f1f8efe3885b6bb8ad1c303.mp3"
+    },
+    {
+      "id": "example-persistent-0",
+      "text": "Use persistent storage for data that must survive a restart.",
+      "file": "d6e7e75e6a09efe17d5da29d.mp3"
+    },
+    {
+      "id": "example-persistent-1",
+      "text": "A persistent volume keeps the data across pod restarts.",
+      "file": "20274251d27941ccdf0d9f43.mp3"
+    },
+    {
+      "id": "word-iterate",
+      "text": "iterate",
+      "file": "5148ce47c991938c896a05f1.mp3"
+    },
+    {
+      "id": "example-iterate-0",
+      "text": "Iterate over the collection without modifying it.",
+      "file": "5249859edf275c74dcefa5d6.mp3"
+    },
+    {
+      "id": "example-iterate-1",
+      "text": "Iterate in reverse when you remove items from the list.",
+      "file": "22a474d14267d0b680c82e1f.mp3"
+    },
+    {
+      "id": "word-iteration",
+      "text": "iteration",
+      "file": "0cc53588c96be6d30b5faf2d.mp3"
+    },
+    {
+      "id": "example-iteration-0",
+      "text": "Each iteration processes one batch of records.",
+      "file": "835c97185f893171bf88c054.mp3"
+    },
+    {
+      "id": "example-iteration-1",
+      "text": "Stop the iteration as soon as the target is found.",
+      "file": "77e8a7d95de096607fd12920.mp3"
+    },
+    {
+      "id": "word-iterator",
+      "text": "iterator",
+      "file": "792cfcbfc92f6701ef1934b2.mp3"
+    },
+    {
+      "id": "example-iterator-0",
+      "text": "The iterator returns one item at a time.",
+      "file": "29842e5eca3e0c4c6152540f.mp3"
+    },
+    {
+      "id": "example-iterator-1",
+      "text": "An exhausted iterator cannot be reused.",
+      "file": "09757d83d2d236247e540841.mp3"
+    },
+    {
+      "id": "word-iterable",
+      "text": "iterable",
+      "file": "6798697ab3e89493c0df33a6.mp3"
+    },
+    {
+      "id": "example-iterable-0",
+      "text": "The function accepts any iterable of strings.",
+      "file": "23bf1bc292de5062aeedb562.mp3"
+    },
+    {
+      "id": "example-iterable-1",
+      "text": "Convert the iterable into a list before sorting it.",
+      "file": "58e050ab6045c95dfbbf0002.mp3"
+    },
+    {
+      "id": "word-recurse",
+      "text": "recurse",
+      "file": "7d72702467963e9cf9f3ed5e.mp3"
+    },
+    {
+      "id": "example-recurse-0",
+      "text": "The function recurses into each subdirectory.",
+      "file": "9b3aa6be391b13192b50a61b.mp3"
+    },
+    {
+      "id": "example-recurse-1",
+      "text": "Do not recurse deeper than the configured limit.",
+      "file": "190fb5fbe2c269e7cae030b8.mp3"
+    },
+    {
+      "id": "word-recursion",
+      "text": "recursion",
+      "file": "6876d03b726eb84f3f7312b2.mp3"
+    },
+    {
+      "id": "example-recursion-0",
+      "text": "Deep recursion can exhaust the call stack.",
+      "file": "86a589f702ba83c49e679084.mp3"
+    },
+    {
+      "id": "example-recursion-1",
+      "text": "Rewrite the recursion as a loop to avoid stack growth.",
+      "file": "8ecaef101b13df5032ac9604.mp3"
+    },
+    {
+      "id": "word-recursive",
+      "text": "recursive",
+      "file": "7310f5da139244635273ebf6.mp3"
+    },
+    {
+      "id": "example-recursive-0",
+      "text": "The recursive function needs a clear base case.",
+      "file": "498253efebf65b0835b8bbdf.mp3"
+    },
+    {
+      "id": "example-recursive-1",
+      "text": "Test the recursive function with an empty input.",
+      "file": "4838770ef17a630579303c86.mp3"
+    },
+    {
+      "id": "word-compose",
+      "text": "compose",
+      "file": "765285778a5732be49246a40.mp3"
+    },
+    {
+      "id": "example-compose-0",
+      "text": "Compose small functions to build a larger transformation.",
+      "file": "3b6a5cd81cbcef38a3701847.mp3"
+    },
+    {
+      "id": "example-compose-1",
+      "text": "Compose the middleware chain from small reusable pieces.",
+      "file": "ab5e6ad1a0ed502e92b83b88.mp3"
+    },
+    {
+      "id": "word-composition",
+      "text": "composition",
+      "file": "7b88c15da5114579bca7ba0b.mp3"
+    },
+    {
+      "id": "example-composition-0",
+      "text": "Use composition to share behavior between components.",
+      "file": "ac20e9930bda9fdccf50e20d.mp3"
+    },
+    {
+      "id": "example-composition-1",
+      "text": "Prefer composition over deep inheritance hierarchies.",
+      "file": "3dd368c6594465ea1a5970e9.mp3"
+    },
+    {
+      "id": "word-composable",
+      "text": "composable",
+      "file": "951ddb70ddf82bea443d8665.mp3"
+    },
+    {
+      "id": "example-composable-0",
+      "text": "Design composable utilities with small interfaces.",
+      "file": "7ccf8fd9db86c6837f4b2b2b.mp3"
+    },
+    {
+      "id": "example-composable-1",
+      "text": "Split the client into composable parts that can be tested alone.",
+      "file": "cb8df94edee82feb636772ff.mp3"
+    },
+    {
+      "id": "word-decompose",
+      "text": "decompose",
+      "file": "465747c7b031b7903906a613.mp3"
+    },
+    {
+      "id": "example-decompose-0",
+      "text": "Decompose the large service into smaller modules.",
+      "file": "b8821d89c963749471f4e9df.mp3"
+    },
+    {
+      "id": "example-decompose-1",
+      "text": "Decompose the task list into steps with clear inputs and outputs.",
+      "file": "cdd0fc6bd1052418af6ce6da.mp3"
+    },
+    {
+      "id": "word-resolve",
+      "text": "resolve",
+      "file": "6dec4a64884928fbda82389b.mp3"
+    },
+    {
+      "id": "example-resolve-0",
+      "text": "Resolve the hostname before opening the connection.",
+      "file": "8e73959f80d305befca208c3.mp3"
+    },
+    {
+      "id": "example-resolve-1",
+      "text": "The promise never resolves if the callback throws.",
+      "file": "304bd25eeb57118345010f4c.mp3"
+    },
+    {
+      "id": "word-resolution",
+      "text": "resolution",
+      "file": "2305cf78211083a993a4741b.mp3"
+    },
+    {
+      "id": "example-resolution-0",
+      "text": "Name resolution failed because the DNS server was unavailable.",
+      "file": "75f109928b968db12ce76c0d.mp3"
+    },
+    {
+      "id": "example-resolution-1",
+      "text": "Enable debug logging to inspect dependency resolution.",
+      "file": "3da856de8527db75b93e3b2f.mp3"
+    },
+    {
+      "id": "word-resolver",
+      "text": "resolver",
+      "file": "cd87dd846a1d94664024a47a.mp3"
+    },
+    {
+      "id": "example-resolver-0",
+      "text": "The resolver maps the hostname to an IP address.",
+      "file": "9ea0f69ae76b7a1295230172.mp3"
+    },
+    {
+      "id": "example-resolver-1",
+      "text": "Configure a custom resolver for the internal domain.",
+      "file": "01aca125b9a9d3d2f92dba9c.mp3"
+    },
+    {
+      "id": "word-unresolved",
+      "text": "unresolved",
+      "file": "c1a9151a459977a9516a395c.mp3"
+    },
+    {
+      "id": "example-unresolved-0",
+      "text": "The linker reported an unresolved symbol.",
+      "file": "3dbb238cdc4df8cd86729170.mp3"
+    },
+    {
+      "id": "example-unresolved-1",
+      "text": "The build fails while an unresolved reference remains.",
+      "file": "c07804c83d229a44f0667248.mp3"
+    },
+    {
+      "id": "word-optimize",
+      "text": "optimize",
+      "file": "d1899e7e7836cc8a356792d7.mp3"
+    },
+    {
+      "id": "example-optimize-0",
+      "text": "Optimize the slow query before increasing server capacity.",
+      "file": "3bdae488e36804fad48b0ab9.mp3"
+    },
+    {
+      "id": "example-optimize-1",
+      "text": "Optimize the query only after measuring its cost.",
+      "file": "a4e91e6919213daa1347d65e.mp3"
+    },
+    {
+      "id": "word-optimization",
+      "text": "optimization",
+      "file": "fb7828113d39413cca9c5fae.mp3"
+    },
+    {
+      "id": "example-optimization-0",
+      "text": "Measure performance before and after the optimization.",
+      "file": "1b7b0a20d71b468cec28b669.mp3"
+    },
+    {
+      "id": "example-optimization-1",
+      "text": "The optimization cut the response time in half.",
+      "file": "f9f08fc54f62c1c2f928f406.mp3"
+    },
+    {
+      "id": "word-optimizer",
+      "text": "optimizer",
+      "file": "1842170d43a4ff077354878f.mp3"
+    },
+    {
+      "id": "example-optimizer-0",
+      "text": "The query optimizer chooses an execution plan.",
+      "file": "6e7c4ec2060f36c919e03a61.mp3"
+    },
+    {
+      "id": "example-optimizer-1",
+      "text": "Disable the optimizer to compare the generated plans.",
+      "file": "4604179d7c333dd5c310d6a1.mp3"
+    },
+    {
+      "id": "word-compress",
+      "text": "compress",
+      "file": "fe304ca13d97b7cc715504ce.mp3"
+    },
+    {
+      "id": "example-compress-0",
+      "text": "Compress the response to reduce transfer size.",
+      "file": "8bd013e3cab16ffd79d25de0.mp3"
+    },
+    {
+      "id": "example-compress-1",
+      "text": "Compress the log files before uploading them.",
+      "file": "dbfdc97aef296674d288c481.mp3"
+    },
+    {
+      "id": "word-compression",
+      "text": "compression",
+      "file": "52d98d822c1c5cfdecdf32e2.mp3"
+    },
+    {
+      "id": "example-compression-0",
+      "text": "Compression reduces storage requirements for repetitive data.",
+      "file": "d304f13d71465ee5ad99f129.mp3"
+    },
+    {
+      "id": "example-compression-1",
+      "text": "Enable compression for text responses above one kilobyte.",
+      "file": "682d8c5ec86a28de84c6f7e8.mp3"
+    },
+    {
+      "id": "word-decompress",
+      "text": "decompress",
+      "file": "98faa8a129272251ac13e6de.mp3"
+    },
+    {
+      "id": "example-decompress-0",
+      "text": "Decompress the archive before reading its contents.",
+      "file": "262b8cd8c48723dcd5794e1d.mp3"
+    },
+    {
+      "id": "example-decompress-1",
+      "text": "The client must decompress the body before parsing it.",
+      "file": "c5895a996f12ffb67ce4a0a9.mp3"
+    },
+    {
+      "id": "word-decompression",
+      "text": "decompression",
+      "file": "ec6ef1ff35ea1aed1b86b727.mp3"
+    },
+    {
+      "id": "example-decompression-0",
+      "text": "The download completed, but decompression failed.",
+      "file": "7c002b1ff1648358ba06f02c.mp3"
+    },
+    {
+      "id": "example-decompression-1",
+      "text": "Measure the decompression cost on large archives.",
+      "file": "bc8f88143c0b8abc9d93c116.mp3"
+    },
+    {
+      "id": "word-replicate",
+      "text": "replicate",
+      "file": "c5aba375a184f7d85a8b1680.mp3"
+    },
+    {
+      "id": "example-replicate-0",
+      "text": "Replicate the database to another region.",
+      "file": "642f75fc783a16b4ceca3749.mp3"
+    },
+    {
+      "id": "example-replicate-1",
+      "text": "The primary node replicates every write to two followers.",
+      "file": "f55e7272cee591dcfc98eebc.mp3"
+    },
+    {
+      "id": "word-replication",
+      "text": "replication",
+      "file": "aba4a605435d97c364a19164.mp3"
+    },
+    {
+      "id": "example-replication-0",
+      "text": "Monitor replication lag between the primary and the replica.",
+      "file": "682dc7b8d2a2befcc46c269e.mp3"
+    },
+    {
+      "id": "example-replication-1",
+      "text": "Replication protects against a single node failure.",
+      "file": "9e55ce044fd5c59600005397.mp3"
+    },
+    {
+      "id": "word-replica",
+      "text": "replica",
+      "file": "232c61dba188c1935dafa4a0.mp3"
+    },
+    {
+      "id": "example-replica-0",
+      "text": "Send read-only queries to the replica.",
+      "file": "3dc2202bf053cb535e82086a.mp3"
+    },
+    {
+      "id": "example-replica-1",
+      "text": "Promote the replica when the primary becomes unavailable.",
+      "file": "9896e5e14de7bc57a9583f0f.mp3"
+    },
+    {
+      "id": "word-distribute",
+      "text": "distribute",
+      "file": "8be7e2c48a98e7bb396ab113.mp3"
+    },
+    {
+      "id": "example-distribute-0",
+      "text": "Distribute incoming requests across healthy servers.",
+      "file": "485cd9ace930246f7d2387c3.mp3"
+    },
+    {
+      "id": "example-distribute-1",
+      "text": "The scheduler distributes jobs evenly across the workers.",
+      "file": "a340182da8f0e59d9c002948.mp3"
+    },
+    {
+      "id": "word-distribution",
+      "text": "distribution",
+      "file": "ad794fb65943ae08d246a79a.mp3"
+    },
+    {
+      "id": "example-distribution-0",
+      "text": "This Linux distribution includes the required tools.",
+      "file": "158209118f706806ec079347.mp3"
+    },
+    {
+      "id": "example-distribution-1",
+      "text": "Check the distribution of response times before tuning.",
+      "file": "e99eb2f83c37398ba9e4a982.mp3"
+    },
+    {
+      "id": "word-distributed",
+      "text": "distributed",
+      "file": "16a06a145dc4d177c7aab8f9.mp3"
+    },
+    {
+      "id": "example-distributed-0",
+      "text": "A distributed system must handle partial failures.",
+      "file": "fa444a7de86023a05938eec5.mp3"
+    },
+    {
+      "id": "example-distributed-1",
+      "text": "Debugging a distributed system requires correlation IDs.",
+      "file": "1c3b2db6ca26a330e802b0b7.mp3"
+    },
+    {
+      "id": "word-concurrent",
+      "text": "concurrent",
+      "file": "8dddc4de2813d921be306bcc.mp3"
+    },
+    {
+      "id": "example-concurrent-0",
+      "text": "Limit the number of concurrent requests.",
+      "file": "63e0eb326b8f91b45fbd922e.mp3"
+    },
+    {
+      "id": "example-concurrent-1",
+      "text": "Two concurrent writes to the same key can overwrite each other.",
+      "file": "4df5c73a499352094bff1fd3.mp3"
+    },
+    {
+      "id": "word-concurrency",
+      "text": "concurrency",
+      "file": "7b8bbcf0260236c1c52f91df.mp3"
+    },
+    {
+      "id": "example-concurrency-0",
+      "text": "Concurrency does not require simultaneous execution on multiple cores.",
+      "file": "f46e08b19a08dc20dfb6f3ea.mp3"
+    },
+    {
+      "id": "example-concurrency-1",
+      "text": "Set the concurrency level to match the number of cores.",
+      "file": "9dca032d5d47b770d42cf7b3.mp3"
+    },
+    {
+      "id": "word-concurrently",
+      "text": "concurrently",
+      "file": "158c16d5e4a722715827fd47.mp3"
+    },
+    {
+      "id": "example-concurrently-0",
+      "text": "The server handles several connections concurrently.",
+      "file": "88001712710178a30f379e86.mp3"
+    },
+    {
+      "id": "example-concurrently-1",
+      "text": "The tests run concurrently and finish in one minute.",
+      "file": "eb8246df5a475c6aaa1ac53f.mp3"
+    },
+    {
+      "id": "word-parallel",
+      "text": "parallel",
+      "file": "9a6e8319b7dd6378a4889072.mp3"
+    },
+    {
+      "id": "example-parallel-0",
+      "text": "Split the workload into parallel tasks.",
+      "file": "c1e3580c35d4c400e502c602.mp3"
+    },
+    {
+      "id": "example-parallel-1",
+      "text": "The compiler builds independent modules in parallel.",
+      "file": "9e6f1581051585ca0d288ddc.mp3"
+    },
+    {
+      "id": "word-parallelism",
+      "text": "parallelism",
+      "file": "dbb1a0971de058649f4169f3.mp3"
+    },
+    {
+      "id": "example-parallelism-0",
+      "text": "The algorithm exposes enough parallelism to use multiple cores.",
+      "file": "d5f4f8b608a209e74c4696c9.mp3"
+    },
+    {
+      "id": "example-parallelism-1",
+      "text": "Increasing parallelism helps only until the disk becomes the bottleneck.",
+      "file": "e45a991072264b93a2e03848.mp3"
+    },
+    {
+      "id": "word-parallelize",
+      "text": "parallelize",
+      "file": "50b7341c3bdfe251b2d8db86.mp3"
+    },
+    {
+      "id": "example-parallelize-0",
+      "text": "Parallelize the computation across independent batches.",
+      "file": "bac64d507a7fb501c21785ea.mp3"
+    },
+    {
+      "id": "example-parallelize-1",
+      "text": "Parallelize the import only if the records are independent.",
+      "file": "123648dac4315c2cb5e9e5c4.mp3"
+    },
+    {
+      "id": "word-idempotent",
+      "text": "idempotent",
+      "file": "0b443f2d020f8c9d0e88d014.mp3"
+    },
+    {
+      "id": "example-idempotent-0",
+      "text": "Design the operation to be idempotent so retries do not duplicate its effects.",
+      "file": "97d67da449fcb4f96f4b607a.mp3"
+    },
+    {
+      "id": "example-idempotent-1",
+      "text": "A GET request should be idempotent by definition.",
+      "file": "64f6bb789b06b0ab8a2087f4.mp3"
+    },
+    {
+      "id": "word-idempotency",
+      "text": "idempotency",
+      "file": "a1a03fb065b4f0d98854dee1.mp3"
+    },
+    {
+      "id": "example-idempotency-0",
+      "text": "Use an idempotency key to prevent duplicate processing.",
+      "file": "3f2b7186d56d8f191c90d1b5.mp3"
+    },
+    {
+      "id": "example-idempotency-1",
+      "text": "The API documents idempotency for the payment endpoint.",
+      "file": "cc8a8a2ae25786eee26cd35a.mp3"
+    },
+    {
+      "id": "word-atomic",
+      "text": "atomic",
+      "file": "00a3876e4b0d6d9b8f7d82d8.mp3"
+    },
+    {
+      "id": "example-atomic-0",
+      "text": "Use an atomic increment for the shared counter.",
+      "file": "42da7addc8cb02cda4d16ea2.mp3"
+    },
+    {
+      "id": "example-atomic-1",
+      "text": "Replace the check and the update with one atomic operation.",
+      "file": "667e6e3897e8448281014741.mp3"
+    },
+    {
+      "id": "word-atomicity",
+      "text": "atomicity",
+      "file": "40b8f590a7c24dbbcd5613af.mp3"
+    },
+    {
+      "id": "example-atomicity-0",
+      "text": "Transaction atomicity ensures that all changes are committed or none are.",
+      "file": "121b2a1c0060dc5ab1c243c8.mp3"
+    },
+    {
+      "id": "example-atomicity-1",
+      "text": "Atomicity does not prevent two transactions from conflicting.",
+      "file": "82c3aa871167a9f1749c1769.mp3"
+    },
+    {
+      "id": "word-encapsulate",
+      "text": "encapsulate",
+      "file": "a1eba630115815eea9ee6127.mp3"
+    },
+    {
+      "id": "example-encapsulate-0",
+      "text": "Encapsulate the database access behind an interface.",
+      "file": "95097116d48c53e91f902738.mp3"
+    },
+    {
+      "id": "example-encapsulate-1",
+      "text": "Encapsulate the retry logic so callers do not repeat it.",
+      "file": "4c1b6a13c276b96e12142383.mp3"
+    },
+    {
+      "id": "word-encapsulation",
+      "text": "encapsulation",
+      "file": "2ded999c4ef41fae9cc3a149.mp3"
+    },
+    {
+      "id": "example-encapsulation-0",
+      "text": "Encapsulation limits direct access to internal state.",
+      "file": "22ff196ac341ef2e35979994.mp3"
+    },
+    {
+      "id": "example-encapsulation-1",
+      "text": "Changing the internal format does not break encapsulation.",
+      "file": "e7f8ccd211d227db0f534459.mp3"
+    },
+    {
+      "id": "word-inherit",
+      "text": "inherit",
+      "file": "0fffd6956a6b849385a75214.mp3"
+    },
+    {
+      "id": "example-inherit-0",
+      "text": "The child class inherits behavior from its parent.",
+      "file": "ca43462b1cb313f0d76d6288.mp3"
+    },
+    {
+      "id": "example-inherit-1",
+      "text": "Subclasses inherit both fields and methods from the base class.",
+      "file": "163c96e2f26389156f26b4dc.mp3"
+    },
+    {
+      "id": "word-inheritance",
+      "text": "inheritance",
+      "file": "054861d11662995d5a65dc74.mp3"
+    },
+    {
+      "id": "example-inheritance-0",
+      "text": "Use inheritance when the subtype relationship is meaningful.",
+      "file": "eb01ea73c156812d665a448c.mp3"
+    },
+    {
+      "id": "example-inheritance-1",
+      "text": "Replace inheritance with composition when the hierarchy grows.",
+      "file": "71093778279bb9de62779129.mp3"
+    },
+    {
+      "id": "word-instance",
+      "text": "instance",
+      "file": "269954839fe1a9f52a6c6231.mp3"
+    },
+    {
+      "id": "example-instance-0",
+      "text": "Each instance maintains its own connection state.",
+      "file": "3388e3760b4584fce5447420.mp3"
+    },
+    {
+      "id": "example-instance-1",
+      "text": "Compare the object identity to check whether both variables hold the same instance.",
+      "file": "83dcf6a41f2589279437af54.mp3"
+    },
+    {
+      "id": "word-instantiate",
+      "text": "instantiate",
+      "file": "77bd79406396f15e1cdefc82.mp3"
+    },
+    {
+      "id": "example-instantiate-0",
+      "text": "Instantiate the client once and reuse it.",
+      "file": "60bc7e286bd1d149e8620475.mp3"
+    },
+    {
+      "id": "example-instantiate-1",
+      "text": "Instantiate the service in the test setup, not in each test.",
+      "file": "56860ee619e367d63dccdc9a.mp3"
+    },
+    {
+      "id": "word-instantiation",
+      "text": "instantiation",
+      "file": "1f3b92a7dd1868cb7124af63.mp3"
+    },
+    {
+      "id": "example-instantiation-0",
+      "text": "Lazy instantiation delays object creation until it is needed.",
+      "file": "1ab42375c1244c5ebd55a04a.mp3"
+    },
+    {
+      "id": "example-instantiation-1",
+      "text": "Move the instantiation outside the loop to reduce overhead.",
+      "file": "e89ad84252ed47b8d2935cc2.mp3"
+    },
+    {
+      "id": "word-polymorphism",
+      "text": "polymorphism",
+      "file": "16565a96bd34a935abe80c1d.mp3"
+    },
+    {
+      "id": "example-polymorphism-0",
+      "text": "Polymorphism lets different implementations share an interface.",
+      "file": "e80ae79e03316edfde17266e.mp3"
+    },
+    {
+      "id": "example-polymorphism-1",
+      "text": "Polymorphism keeps the caller independent of the concrete type.",
+      "file": "d3988cad8f4c953ae8f58804.mp3"
+    },
+    {
+      "id": "word-polymorphic",
+      "text": "polymorphic",
+      "file": "e6f124bb2ea2dc91cc522d0e.mp3"
+    },
+    {
+      "id": "example-polymorphic-0",
+      "text": "The function accepts a polymorphic object through a common interface.",
+      "file": "778bb723270cf59dee6e93cb.mp3"
+    },
+    {
+      "id": "example-polymorphic-1",
+      "text": "A polymorphic container can store values of different types.",
+      "file": "baf69aa916116df12d9500a4.mp3"
+    },
+    {
+      "id": "word-interrupt",
+      "text": "interrupt",
+      "file": "fd0050db4f7274753e12932c.mp3"
+    },
+    {
+      "id": "example-interrupt-0",
+      "text": "Interrupt the worker when the task is canceled.",
+      "file": "50b9947e97c109d97ddf6a32.mp3"
+    },
+    {
+      "id": "example-interrupt-1",
+      "text": "The signal handler interrupts the blocking read.",
+      "file": "3ad459ea275113aea465d51d.mp3"
+    },
+    {
+      "id": "word-interruption",
+      "text": "interruption",
+      "file": "3061e52acf6be6e0848035f8.mp3"
+    },
+    {
+      "id": "example-interruption-0",
+      "text": "Handle interruption by releasing resources and exiting cleanly.",
+      "file": "ccf85512f0be96a646e3d456.mp3"
+    },
+    {
+      "id": "example-interruption-1",
+      "text": "Save your progress before an unexpected interruption.",
+      "file": "e9cc52583377804d8b9d24f0.mp3"
+    },
+    {
+      "id": "word-buffer",
+      "text": "buffer",
+      "file": "646093d3e4c4d615941bbff5.mp3"
+    },
+    {
+      "id": "example-buffer-0",
+      "text": "Read the incoming bytes into a buffer.",
+      "file": "2b874410a85cf1e2e483cab2.mp3"
+    },
+    {
+      "id": "example-buffer-1",
+      "text": "Increase the buffer to reduce the number of read calls.",
+      "file": "f429eb19cae24c2448560e5a.mp3"
+    },
+    {
+      "id": "word-buffering",
+      "text": "buffering",
+      "file": "04121bd5ec483703d6cde1d6.mp3"
+    },
+    {
+      "id": "example-buffering-0",
+      "text": "Buffering reduces the number of small writes to disk.",
+      "file": "bbc3227de9039dd1585868af.mp3"
+    },
+    {
+      "id": "example-buffering-1",
+      "text": "Disable buffering when you need immediate output.",
+      "file": "875490b5bf18033fcac4f786.mp3"
+    },
+    {
+      "id": "word-encrypt",
+      "text": "encrypt",
+      "file": "2f03c38c6d00533631e13b97.mp3"
+    },
+    {
+      "id": "example-encrypt-0",
+      "text": "Encrypt sensitive data before storing it.",
+      "file": "6f63de3853c7492ca119119e.mp3"
+    },
+    {
+      "id": "example-encrypt-1",
+      "text": "The client encrypts the payload with the server's public key.",
+      "file": "2f284ee3b4f713448bce8f46.mp3"
+    },
+    {
+      "id": "word-encryption",
+      "text": "encryption",
+      "file": "0ba28569e48a5651987be66a.mp3"
+    },
+    {
+      "id": "example-encryption-0",
+      "text": "Enable encryption for data stored on disk.",
+      "file": "2d4a19008ccdd06966542fe1.mp3"
+    },
+    {
+      "id": "example-encryption-1",
+      "text": "Encryption at rest protects the files even if the disk is stolen.",
+      "file": "9f97de633bd63a5706f58547.mp3"
+    },
+    {
+      "id": "word-decrypt",
+      "text": "decrypt",
+      "file": "859e695a51e7bf2f5951b340.mp3"
+    },
+    {
+      "id": "example-decrypt-0",
+      "text": "The service decrypts the message using the correct key.",
+      "file": "e6d7bca0cbd55402691626b2.mp3"
+    },
+    {
+      "id": "example-decrypt-1",
+      "text": "Only the holder of the private key can decrypt the token.",
+      "file": "91a8f257a72677811a4c2fa1.mp3"
+    },
+    {
+      "id": "word-decryption",
+      "text": "decryption",
+      "file": "91ae59b65f9262689f47f0c3.mp3"
+    },
+    {
+      "id": "example-decryption-0",
+      "text": "Decryption fails if the key does not match.",
+      "file": "b8a4189a58438d2263c1847b.mp3"
+    },
+    {
+      "id": "example-decryption-1",
+      "text": "Store the decryption key outside the application directory.",
+      "file": "84b5677ee41e16e1e95463db.mp3"
+    },
+    {
+      "id": "word-cryptography",
+      "text": "cryptography",
+      "file": "810f90f008bb0c304927590a.mp3"
+    },
+    {
+      "id": "example-cryptography-0",
+      "text": "The library provides standard cryptography primitives.",
+      "file": "816e38029a1300dfe1cb5223.mp3"
+    },
+    {
+      "id": "example-cryptography-1",
+      "text": "Never implement your own cryptography in production code.",
+      "file": "93bb8f438e64ebb8938bb064.mp3"
+    },
+    {
+      "id": "word-cryptographic",
+      "text": "cryptographic",
+      "file": "8bafad8460324517df09c739.mp3"
+    },
+    {
+      "id": "example-cryptographic-0",
+      "text": "Use a cryptographic random number generator for security tokens.",
+      "file": "0bb93c891e06de0e5df6e092.mp3"
+    },
+    {
+      "id": "example-cryptographic-1",
+      "text": "Verify the cryptographic signature before trusting the payload.",
+      "file": "622195e827109ea26e7cc39a.mp3"
+    },
+    {
+      "id": "word-latency",
+      "text": "latency",
+      "file": "705c733ecb7b28ca9e6abc4b.mp3"
+    },
+    {
+      "id": "example-latency-0",
+      "text": "Measure the latency from the client to the server.",
+      "file": "2b2e1425ed1585b49f27d399.mp3"
+    },
+    {
+      "id": "example-latency-1",
+      "text": "Adding a region reduced latency for nearby users.",
+      "file": "445980958872cf6a0f209beb.mp3"
+    },
+    {
+      "id": "word-throughput",
+      "text": "throughput",
+      "file": "082be24b919e0047810b9aff.mp3"
+    },
+    {
+      "id": "example-throughput-0",
+      "text": "The new pipeline improves throughput without adding workers.",
+      "file": "038eef5b8d7203642c76479a.mp3"
+    },
+    {
+      "id": "example-throughput-1",
+      "text": "Throughput drops when the queue grows faster than the consumers.",
+      "file": "50281db2754f54ec753b5211.mp3"
+    },
+    {
+      "id": "word-bandwidth",
+      "text": "bandwidth",
+      "file": "95f14614942a48fee02ea727.mp3"
+    },
+    {
+      "id": "example-bandwidth-0",
+      "text": "Large downloads can consume the available bandwidth.",
+      "file": "93514160cddbd01633b87582.mp3"
+    },
+    {
+      "id": "example-bandwidth-1",
+      "text": "Compress the responses to save bandwidth on mobile networks.",
+      "file": "d02336c0da622f8c8ce49071.mp3"
+    },
+    {
+      "id": "word-deadlock",
+      "text": "deadlock",
+      "file": "ce9d0d590b82673daa76409f.mp3"
+    },
+    {
+      "id": "example-deadlock-0",
+      "text": "Acquire locks in a consistent order to reduce the risk of deadlock.",
+      "file": "02572885e3d0e18425563de2.mp3"
+    },
+    {
+      "id": "example-deadlock-1",
+      "text": "The service froze because two threads entered a deadlock.",
+      "file": "1b70b95689fcfdae709dd37f.mp3"
+    },
+    {
+      "id": "word-mutex",
+      "text": "mutex",
+      "file": "d73bfa660c51e11883be7373.mp3"
+    },
+    {
+      "id": "example-mutex-0",
+      "text": "Use a mutex to protect the shared counter.",
+      "file": "fdffaa0ca0129ba3554038a8.mp3"
+    },
+    {
+      "id": "example-mutex-1",
+      "text": "Hold the mutex only for the shortest possible section.",
+      "file": "0487f8ec86de2b187c42c1a7.mp3"
+    },
+    {
+      "id": "word-semaphore",
+      "text": "semaphore",
+      "file": "05a25ace4f2ff6cf64ff9bba.mp3"
+    },
+    {
+      "id": "example-semaphore-0",
+      "text": "Use a semaphore to limit access to a pool of resources.",
+      "file": "93365db0edce1427575b2688.mp3"
+    },
+    {
+      "id": "example-semaphore-1",
+      "text": "The semaphore blocks new workers once the limit is reached.",
+      "file": "8dc90b22fe9cbaf45aa06fcc.mp3"
+    },
+    {
+      "id": "word-override",
+      "text": "override",
+      "file": "25d5893f005f0fc249f364c8.mp3"
+    },
+    {
+      "id": "example-override-0",
+      "text": "Override the method to customize the default behavior.",
+      "file": "cd9e497b7f12dabac7f32577.mp3"
+    },
+    {
+      "id": "example-override-1",
+      "text": "The subclass overrides the method to add logging.",
+      "file": "dd9927de57b8d90ba7fcab5f.mp3"
+    },
+    {
+      "id": "word-overload",
+      "text": "overload",
+      "file": "be650033118ae6085704f24f.mp3"
+    },
+    {
+      "id": "example-overload-0",
+      "text": "In Java, you can overload a method by changing its parameter list.",
+      "file": "fc4061388019128d2121821a.mp3"
+    },
+    {
+      "id": "example-overload-1",
+      "text": "The compiler reports an ambiguous call when two overloads match.",
+      "file": "72139c1ee34c3c784aa4d1ab.mp3"
+    },
+    {
+      "id": "word-generic",
+      "text": "generic",
+      "file": "ff10635ff882734889d2ea42.mp3"
+    },
+    {
+      "id": "example-generic-0",
+      "text": "The generic function works with several element types.",
+      "file": "b5fb5783a526f19f3ec46d49.mp3"
+    },
+    {
+      "id": "example-generic-1",
+      "text": "Keep the generic parameter constrained to printable types.",
+      "file": "f5b949bfcd1e3871495c8c84.mp3"
+    },
+    {
+      "id": "word-socket",
+      "text": "socket",
+      "file": "dd75a30b57c5712fcdabe155.mp3"
+    },
+    {
+      "id": "example-socket-0",
+      "text": "Close the socket when the connection is no longer needed.",
+      "file": "8bc8efe6c44ee4804421553f.mp3"
+    },
+    {
+      "id": "example-socket-1",
+      "text": "The server keeps the socket open until the client disconnects.",
+      "file": "acfb3dc60d2d19cf8f74ac7a.mp3"
+    },
+    {
+      "id": "word-protocol",
+      "text": "protocol",
+      "file": "35ceba2e96a55f84aafacecf.mp3"
+    },
+    {
+      "id": "example-protocol-0",
+      "text": "Both services must use the same protocol version.",
+      "file": "095cf2620b24d6671e5e1a34.mp3"
+    },
+    {
+      "id": "example-protocol-1",
+      "text": "The handshake negotiates the protocol before any data is sent.",
+      "file": "4615d791405af35c077ee4ff.mp3"
+    },
+    {
+      "id": "reading-01-0",
+      "text": "Before you change a project, make sure you can run it. Start with the README and look for the required runtime, installation steps, and startup command. A project may depend on a specific version of a language or tool. Using a different version can lead to unexpected behavior.",
+      "file": "3722a0a4fd779da8379403d3.mp3"
+    },
+    {
+      "id": "reading-01-1",
+      "text": "Next, install the dependencies in the way the project recommends. A dependency is a package that the application needs in order to work. Some projects also require a separate environment. In Python, for example, a virtual environment allows different projects to use different versions of the same package.",
+      "file": "a8d93ca9b549da5ce05dca36.mp3"
+    },
+    {
+      "id": "reading-01-2",
+      "text": "Once installation is complete, start the application and check its output. A message saying that the server is ready is a useful sign, but you should also open the page or call an endpoint. This confirms that the application can respond to a real request. If startup fails, read the first relevant error before changing anything.",
+      "file": "216f117c9c22b63f224052ac.mp3"
+    },
+    {
+      "id": "reading-01-3",
+      "text": "Finally, write down the steps that worked. Include any required settings and explain how to stop the application. Another developer should be able to follow the same instructions without guessing. A clear setup guide saves time because it turns personal experience into a process that the whole team can repeat.",
+      "file": "2290c94626e56ff93eec2bd6.mp3"
+    },
+    {
+      "id": "reading-02-0",
+      "text": "The same application may run on a developer's laptop, a test server, and a production server. Its basic behavior can remain the same, while its database address, port, and other settings change. Keeping these values separate from the application code makes it easier to use the software in different environments.",
+      "file": "46e7a84428bb30463ca41218.mp3"
+    },
+    {
+      "id": "reading-02-1",
+      "text": "A setting may have a default value. The application uses that value unless you provide another one. For example, a service might listen on port eight thousand by default. An environment variable can override this setting, provided that the application is designed to read it. The documentation should explain which source takes priority.",
+      "file": "d98599f5a8bcd761bfea9ce4.mp3"
+    },
+    {
+      "id": "reading-02-2",
+      "text": "Configuration also needs validation. If a required value is missing, the application should report the problem clearly. If a value has the wrong format, the error should identify the setting and describe the expected format. A useful error helps the developer correct the input without searching through unrelated code.",
+      "file": "547105555ceb738f98237be4.mp3"
+    },
+    {
+      "id": "reading-02-3",
+      "text": "Treat configuration instructions as part of the product. For every option, explain its purpose, default value, and allowed values. State whether a restart is required after a change. Use safe examples instead of real passwords or access tokens. Good configuration documentation answers a practical question: what must I provide before this application can work in my environment?",
+      "file": "45e660083c2c9ecaec296244.mp3"
+    },
+    {
+      "id": "reading-03-0",
+      "text": "When a client needs information from a service, it sends a request to an endpoint. The request identifies an action and the resource involved. In an HTTP API, the method and URL help describe that action. Headers carry additional information, and some requests include a body containing the data to be processed.",
+      "file": "8603ecbe962f083bce677c5e.mp3"
+    },
+    {
+      "id": "reading-03-1",
+      "text": "Consider a task management application. To create a task, the client sends a title and an optional description. The server checks whether the title is present and whether the input is valid. It should also check whether the caller is allowed to create the task before making the requested change.",
+      "file": "ff8edc89419ab8fc14e3bb3f.mp3"
+    },
+    {
+      "id": "reading-03-2",
+      "text": "The server then returns a response. A successful response might include the new task's identifier and its current status. An unsuccessful response should help the client understand what went wrong. The HTTP status code provides a general signal, while the response body can provide details that are specific to the application.",
+      "file": "0a153bda6438b81584c800a2.mp3"
+    },
+    {
+      "id": "reading-03-3",
+      "text": "Good API documentation describes both sides of this exchange. It lists required fields, explains optional values, and shows examples of successful and unsuccessful responses. It also states which errors the caller can handle. Before integrating an API, read these details carefully. A request that works in one example may fail when the input or the caller's permissions change.",
+      "file": "a07b9aac54e9b69973561924.mp3"
+    },
+    {
+      "id": "reading-04-0",
+      "text": "Many features require more than one change to stored data. When a user creates a project, an application may insert a project record and another record identifying its owner. If only the first operation succeeds, the database may contain a project that no one can manage. The two changes belong together.",
+      "file": "a4fb225355f22fc2c30b0cbc.mp3"
+    },
+    {
+      "id": "reading-04-1",
+      "text": "A database transaction provides a way to group related operations. Instead of treating each operation as a separate result, the application defines a boundary around the work. When the transaction commits, its changes become permanent according to the database's durability guarantees. If it rolls back, the changes made within that transaction are discarded.",
+      "file": "e5f9ca8b3f485c3d7825755d.mp3"
+    },
+    {
+      "id": "reading-04-2",
+      "text": "This does not mean that every action performed by the application is covered. Sending an email is not automatically undone when a database transaction rolls back. The application must consider such external effects separately. Otherwise, a user might receive a confirmation message for a project that was never successfully created.",
+      "file": "e799680c513bd7b903b9e6a0.mp3"
+    },
+    {
+      "id": "reading-04-3",
+      "text": "When reading database documentation, pay attention to the scope of each guarantee. Look for explanations of transactions, constraints, and isolation levels. Ask what happens when an operation fails or when two users modify related data. Reliable software depends on understanding these boundaries. A feature is not complete merely because it works when every step succeeds.",
+      "file": "d0690c57429a61a666e09fb5.mp3"
+    },
+    {
+      "id": "reading-05-0",
+      "text": "When a program fails, changing code immediately is often less useful than gathering evidence. First, describe the expected behavior and the actual result. Then find a small, repeatable set of steps that produces the problem. A failure that can be reproduced is easier to investigate than one described only as something that sometimes goes wrong.",
+      "file": "85fb9ed4eee269dd5a350f83.mp3"
+    },
+    {
+      "id": "reading-05-1",
+      "text": "Read the error message carefully. An exception usually has a type and a message, and a stack trace can show the sequence of function calls that led to the failure. The location where an error appears is not always the place where the underlying mistake was made. Invalid data may have entered the system much earlier.",
+      "file": "32fe69773023e6551ad315c9.mp3"
+    },
+    {
+      "id": "reading-05-2",
+      "text": "Handle errors at a level that can respond meaningfully. A user interface may show a helpful message, while a lower layer reports the cause to its caller. Catching every exception and ignoring it can hide broken behavior. Cleanup may still be necessary, so resources such as open files should be released even when an operation fails.",
+      "file": "6ad7fe89d9bb0436d9f757a7.mp3"
+    },
+    {
+      "id": "reading-05-3",
+      "text": "After identifying the cause, make a focused change and repeat the original steps. Add a regression test when appropriate so that the same problem is less likely to return unnoticed. Finally, explain the cause and the fix. This gives the next developer a useful starting point if a similar failure occurs.",
+      "file": "47cbb001f1e680efeff55dfc.mp3"
+    },
+    {
+      "id": "reading-06-0",
+      "text": "Some operations spend much of their time waiting. A request may wait for a remote server, and a file operation may wait for storage. If a user interface cannot respond during that wait, the application feels frozen. Asynchronous programming allows the program to organize this work without requiring every operation to finish immediately.",
+      "file": "e5fbc6fbb46820916d38d603.mp3"
+    },
+    {
+      "id": "reading-06-1",
+      "text": "In JavaScript, a promise represents the eventual outcome of an operation. It can be fulfilled with a value or rejected with a reason. Inside an async function, await pauses the continuation of that function until the promise settles. This does not, by itself, move expensive computation to another thread or make it faster.",
+      "file": "64fbb304efa35fdfdfac9650.mp3"
+    },
+    {
+      "id": "reading-06-2",
+      "text": "The order of operations still matters. If one request needs an identifier returned by another, the second request must wait for the first result. Independent requests may be started together. However, starting several operations does not mean that every part of them runs in parallel. Concurrency and parallel execution describe different aspects of a system.",
+      "file": "dd3edae097c1b9ebe43aebf8.mp3"
+    },
+    {
+      "id": "reading-06-3",
+      "text": "Always consider failure and changing user intent. A search request may finish after the user has already entered a new query. In that case, an older result should not replace the newer one. Clear loading states, appropriate error handling, and checks for outdated results help an asynchronous interface remain understandable and correct.",
+      "file": "b393f59ce2df0475c0d5215a.mp3"
+    },
+    {
+      "id": "reading-07-0",
+      "text": "A useful test describes behavior that matters to a user or another part of the system. Instead of checking every internal detail, it asks whether a clear requirement is satisfied. For a function that calculates a total price, the important result may be the amount returned for a given set of items.",
+      "file": "02aa38060d1fe139a9cb24fb.mp3"
+    },
+    {
+      "id": "reading-07-1",
+      "text": "Many tests follow a simple structure: arrange, act, and assert. First, prepare the input and any required state. Next, perform the operation being tested. Finally, compare the actual result with the expected result. A descriptive test name should explain the situation and the behavior, so that a failure gives the reader a useful clue.",
+      "file": "b47a9bf7069fe3e7cb979160.mp3"
+    },
+    {
+      "id": "reading-07-2",
+      "text": "Different tests cover different boundaries. A unit test examines a small piece of behavior, while an integration test checks whether components work together. A test double can replace an external dependency when a controlled response is needed. However, a simulated response does not prove that the real service still follows the same contract.",
+      "file": "5e584a7ff0ee3af43d463163.mp3"
+    },
+    {
+      "id": "reading-07-3",
+      "text": "Include meaningful failure cases as well as successful ones. Missing input, empty results, and denied access may reveal problems that a normal example does not. Keep tests deterministic where possible, and investigate unexpected failures. Tests are most valuable when they detect important changes and explain them clearly, rather than merely increasing the number of checks.",
+      "file": "fc989bf0cab32bbc6551ea26.mp3"
+    },
+    {
+      "id": "reading-08-0",
+      "text": "Software development is a shared activity, even when one person writes most of the code. Other people need to understand, review, and maintain the result. A useful change therefore includes more than working code. It also includes a clear explanation of the problem, the chosen solution, and the behavior that will change.",
+      "file": "a099584174376bac7831eb99.mp3"
+    },
+    {
+      "id": "reading-08-1",
+      "text": "A branch allows a developer to work on a line of development without immediately changing the team's main branch. Keep the work focused on a specific purpose. Small, coherent commits are easier to inspect than a large collection of unrelated edits. A commit message should explain the change clearly enough to be useful later.",
+      "file": "ab65b830afa2d687f0fae124.mp3"
+    },
+    {
+      "id": "reading-08-2",
+      "text": "Before requesting a review, inspect your own diff and run the checks relevant to the change. Describe how the behavior was verified and mention any known limitations. During review, discuss the code and its consequences. A question about an assumption can be more useful than a comment that only expresses a personal preference.",
+      "file": "8d726508986b1155317bf019.mp3"
+    },
+    {
+      "id": "reading-08-3",
+      "text": "When branches contain conflicting changes, Git may require you to resolve the conflict before completing a merge. Read both versions and decide what the combined result should mean. Removing conflict markers is only part of the work. The final code must still behave correctly, so verify the affected behavior after the conflict is resolved.",
+      "file": "d07da15fbaed76fa00338893.mp3"
+    },
+    {
+      "id": "reading-09-0",
+      "text": "A system needs to distinguish between knowing who a user is and deciding what that user may do. Authentication establishes an identity, while authorization determines whether an action is permitted. A user who has signed in successfully is not automatically allowed to read every record or change every setting in the application.",
+      "file": "e0e676f85354837a62da0d5d.mp3"
+    },
+    {
+      "id": "reading-09-1",
+      "text": "Imagine a service that stores private project notes. A request may contain a valid access token and the identifier of a note. The server still needs to check whether that identity has permission to access that particular note. Trusting the identifier simply because it came from the client would leave an important check missing.",
+      "file": "1d38cf6452ed13e20ef49edb.mp3"
+    },
+    {
+      "id": "reading-09-2",
+      "text": "Permissions should be limited to what the task requires. A service that only reads reports does not need permission to delete them. Access checks must be enforced on the server for protected operations. Hiding a button in the user interface can improve the experience, but it does not prevent someone from sending a request directly.",
+      "file": "fc1e9db6126a84c0cfaa8025.mp3"
+    },
+    {
+      "id": "reading-09-3",
+      "text": "If the application cannot establish that access is allowed, it should deny the operation. Make this behavior explicit and test it. Include cases involving another user's data, missing credentials, and insufficient permissions. Clear rules are easier to review than scattered exceptions, and they help developers understand how to add new features without accidentally exposing protected information.",
+      "file": "4f8033c056271e392eadcf1a.mp3"
+    },
+    {
+      "id": "reading-10-0",
+      "text": "When an application feels slow, first define what slow means. A page may take too long to become usable, a search may respond late, or a background job may process too few records. These are different problems. Choosing a useful measurement helps the team discuss the same behavior instead of relying only on impressions.",
+      "file": "b3fca0a7a8cedd59dd26243a.mp3"
+    },
+    {
+      "id": "reading-10-1",
+      "text": "Measure the application under conditions that resemble its intended use. Record the input size, the environment, and the steps used in the measurement. Then identify where time or resources are being spent. A slow response might come from a database query, a remote request, or repeated computation. The most visible code is not necessarily the main bottleneck.",
+      "file": "dde67e042b927808b0b60d9d.mp3"
+    },
+    {
+      "id": "reading-10-2",
+      "text": "Caching can help when the same result is needed repeatedly. Instead of calculating or fetching it every time, the application stores a result for later reuse. However, cached data can become outdated. The design must explain when the result expires or is invalidated, and whether different users are allowed to share the same cached value.",
+      "file": "310abdde758f6b0460c49891.mp3"
+    },
+    {
+      "id": "reading-10-3",
+      "text": "After making an improvement, repeat the measurement and check correctness as well as speed. A faster implementation is not useful if it returns the wrong result. Keep the change only when the evidence supports it, and document the tradeoff. Good optimization makes a particular workload better while keeping the system's required behavior intact.",
+      "file": "d78d4d0fe685154412683872.mp3"
+    },
+    {
+      "id": "voice-test",
+      "text": "The constructor accepts a configuration object.",
+      "file": "826738216eaf4b2f8c846b09.mp3"
+    }
+  ]
+}

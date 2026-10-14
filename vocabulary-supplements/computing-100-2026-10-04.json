@@ -1,0 +1,3364 @@
+{
+  "schemaVersion": 1,
+  "title": "程序员计算机英语补充词库 · 100 词",
+  "createdDate": "2026-10-04",
+  "wordCount": 100,
+  "exampleCount": 100,
+  "notes": [
+    "本文件为独立补充词库，没有读取或修改现有应用。字段映射由接入方根据当前项目结构决定。",
+    "已与本对话此前整理的 120 词去重，未与用户后来使用其他软件扩充的词库比对。",
+    "按现代词族与技术场景组织，不把这些入口全部宣称为历史词根。word_family 关系不表示历史直接派生。",
+    "释义和例句为原创教学内容；参考资料支持部分技术概念，不代表整批音标已由词典逐条核验。",
+    "音标提供一种常见美式读法，未附音频；朗读应传 word 或 examples[].en，不传 IPA。",
+    "dictionaryUrl 是查词入口，不代表该网站必有每个派生词的独立页面。"
+  ],
+  "groups": [
+    {
+      "id": "execute",
+      "label": "execute",
+      "meaningZh": "执行",
+      "type": "word_family"
+    },
+    {
+      "id": "allocate",
+      "label": "allocate",
+      "meaningZh": "内存与资源分配",
+      "type": "word_family"
+    },
+    {
+      "id": "serialize",
+      "label": "serialize",
+      "meaningZh": "序列化",
+      "type": "word_family"
+    },
+    {
+      "id": "validate",
+      "label": "validate",
+      "meaningZh": "有效性校验",
+      "type": "word_family"
+    },
+    {
+      "id": "authenticate",
+      "label": "authenticate",
+      "meaningZh": "身份认证",
+      "type": "word_family"
+    },
+    {
+      "id": "authorize",
+      "label": "authorize",
+      "meaningZh": "访问授权",
+      "type": "word_family"
+    },
+    {
+      "id": "crypt",
+      "label": "crypt",
+      "meaningZh": "加密与密码学",
+      "type": "topic"
+    },
+    {
+      "id": "persist",
+      "label": "persist",
+      "meaningZh": "持久化",
+      "type": "word_family"
+    },
+    {
+      "id": "iterate",
+      "label": "iterate",
+      "meaningZh": "迭代与遍历",
+      "type": "word_family"
+    },
+    {
+      "id": "recurse",
+      "label": "recurse",
+      "meaningZh": "递归",
+      "type": "word_family"
+    },
+    {
+      "id": "compose",
+      "label": "compose",
+      "meaningZh": "组合与分解",
+      "type": "word_family"
+    },
+    {
+      "id": "resolve",
+      "label": "resolve",
+      "meaningZh": "解析与解决",
+      "type": "word_family"
+    },
+    {
+      "id": "optimize",
+      "label": "optimize",
+      "meaningZh": "性能优化",
+      "type": "word_family"
+    },
+    {
+      "id": "compress",
+      "label": "compress",
+      "meaningZh": "压缩与解压",
+      "type": "word_family"
+    },
+    {
+      "id": "replicate",
+      "label": "replicate",
+      "meaningZh": "复制与副本",
+      "type": "word_family"
+    },
+    {
+      "id": "distribute",
+      "label": "distribute",
+      "meaningZh": "分发与分布式",
+      "type": "word_family"
+    },
+    {
+      "id": "concurrent",
+      "label": "concurrent",
+      "meaningZh": "并发",
+      "type": "word_family"
+    },
+    {
+      "id": "parallel",
+      "label": "parallel",
+      "meaningZh": "并行",
+      "type": "word_family"
+    },
+    {
+      "id": "performance",
+      "label": "performance",
+      "meaningZh": "性能指标",
+      "type": "topic"
+    },
+    {
+      "id": "coordination",
+      "label": "coordination",
+      "meaningZh": "线程协调",
+      "type": "topic"
+    },
+    {
+      "id": "idempotent",
+      "label": "idempotent",
+      "meaningZh": "幂等性",
+      "type": "word_family"
+    },
+    {
+      "id": "atomic",
+      "label": "atomic",
+      "meaningZh": "原子性",
+      "type": "word_family"
+    },
+    {
+      "id": "encapsulate",
+      "label": "encapsulate",
+      "meaningZh": "封装",
+      "type": "word_family"
+    },
+    {
+      "id": "inherit",
+      "label": "inherit",
+      "meaningZh": "继承",
+      "type": "word_family"
+    },
+    {
+      "id": "instance",
+      "label": "instance",
+      "meaningZh": "实例化",
+      "type": "word_family"
+    },
+    {
+      "id": "object-model",
+      "label": "object-model",
+      "meaningZh": "对象与类型系统",
+      "type": "topic"
+    },
+    {
+      "id": "polymorphism",
+      "label": "polymorphism",
+      "meaningZh": "多态",
+      "type": "word_family"
+    },
+    {
+      "id": "interrupt",
+      "label": "interrupt",
+      "meaningZh": "中断",
+      "type": "word_family"
+    },
+    {
+      "id": "buffer",
+      "label": "buffer",
+      "meaningZh": "缓冲",
+      "type": "word_family"
+    },
+    {
+      "id": "network",
+      "label": "network",
+      "meaningZh": "网络通信",
+      "type": "topic"
+    }
+  ],
+  "words": [
+    {
+      "id": "execute",
+      "word": "execute",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈeksɪkjuːt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "执行；运行",
+      "groupId": "execute",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "execute a command",
+        "execute a task"
+      ],
+      "examples": [
+        {
+          "en": "The worker executes each task in a separate process.",
+          "zh": "工作进程在独立进程中执行每项任务。",
+          "domain": "执行",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "通常指执行程序、命令或任务；这里不收录非技术义项。",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/execute"
+    },
+    {
+      "id": "execution",
+      "word": "execution",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌeksɪˈkjuːʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "执行；运行过程",
+      "groupId": "execute",
+      "parentWordId": "execute",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "execution time",
+        "execution context"
+      ],
+      "examples": [
+        {
+          "en": "Execution stops when an unhandled exception occurs.",
+          "zh": "发生未处理的异常时，执行会停止。",
+          "domain": "执行",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/execution"
+    },
+    {
+      "id": "executable",
+      "word": "executable",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ɪɡˈzekjətəbəl/"
+      },
+      "partOfSpeech": "n./adj.",
+      "meaningZh": "可执行文件；可执行的",
+      "groupId": "execute",
+      "parentWordId": "execute",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "executable file",
+        "executable code"
+      ],
+      "examples": [
+        {
+          "en": "The build produces a standalone executable.",
+          "zh": "构建会生成一个独立的可执行文件。",
+          "domain": "执行",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/executable"
+    },
+    {
+      "id": "executor",
+      "word": "executor",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ɪɡˈzekjətɚ/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "执行器；任务执行组件",
+      "groupId": "execute",
+      "parentWordId": "execute",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "task executor",
+        "thread pool executor"
+      ],
+      "examples": [
+        {
+          "en": "Submit the task to the executor.",
+          "zh": "将任务提交给执行器。",
+          "domain": "执行",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/executor"
+    },
+    {
+      "id": "allocate",
+      "word": "allocate",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈæləkeɪt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "分配；划拨资源",
+      "groupId": "allocate",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "allocate memory",
+        "allocate resources"
+      ],
+      "examples": [
+        {
+          "en": "Allocate enough memory for the output buffer.",
+          "zh": "为输出缓冲区分配足够的内存。",
+          "domain": "内存与资源分配",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/allocate"
+    },
+    {
+      "id": "allocation",
+      "word": "allocation",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌæləˈkeɪʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "分配；分配过程",
+      "groupId": "allocate",
+      "parentWordId": "allocate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "memory allocation",
+        "resource allocation"
+      ],
+      "examples": [
+        {
+          "en": "Frequent memory allocation can slow down the application.",
+          "zh": "频繁分配内存可能使应用变慢。",
+          "domain": "内存与资源分配",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/allocation"
+    },
+    {
+      "id": "allocator",
+      "word": "allocator",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈæləkeɪtɚ/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "分配器",
+      "groupId": "allocate",
+      "parentWordId": "allocate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "memory allocator",
+        "custom allocator"
+      ],
+      "examples": [
+        {
+          "en": "The custom allocator reuses small memory blocks.",
+          "zh": "自定义分配器会重复利用小内存块。",
+          "domain": "内存与资源分配",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/allocator"
+    },
+    {
+      "id": "deallocate",
+      "word": "deallocate",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/diːˈæləkeɪt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "释放先前分配的资源",
+      "groupId": "allocate",
+      "parentWordId": "allocate",
+      "relationship": {
+        "type": "derivation",
+        "label": "加前缀 de-"
+      },
+      "collocations": [
+        "deallocate memory",
+        "deallocate a buffer"
+      ],
+      "examples": [
+        {
+          "en": "Deallocate the buffer after the operation completes.",
+          "zh": "操作完成后释放缓冲区。",
+          "domain": "内存与资源分配",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/deallocate"
+    },
+    {
+      "id": "deallocation",
+      "word": "deallocation",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌdiːæləˈkeɪʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "资源释放；解除分配",
+      "groupId": "allocate",
+      "parentWordId": "deallocate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "memory deallocation",
+        "resource deallocation"
+      ],
+      "examples": [
+        {
+          "en": "Incorrect deallocation can cause a memory error.",
+          "zh": "错误地释放内存可能导致内存错误。",
+          "domain": "内存与资源分配",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/deallocation"
+    },
+    {
+      "id": "reallocate",
+      "word": "reallocate",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌriːˈæləkeɪt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "重新分配；调整分配",
+      "groupId": "allocate",
+      "parentWordId": "allocate",
+      "relationship": {
+        "type": "derivation",
+        "label": "加前缀 re-"
+      },
+      "collocations": [
+        "reallocate memory",
+        "reallocate storage"
+      ],
+      "examples": [
+        {
+          "en": "The container may reallocate its storage when it grows.",
+          "zh": "容器扩容时可能重新分配存储空间。",
+          "domain": "内存与资源分配",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/reallocate"
+    },
+    {
+      "id": "reallocation",
+      "word": "reallocation",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌriːæləˈkeɪʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "重新分配",
+      "groupId": "allocate",
+      "parentWordId": "reallocate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "buffer reallocation",
+        "memory reallocation"
+      ],
+      "examples": [
+        {
+          "en": "Reserve capacity to reduce the number of reallocations.",
+          "zh": "预留容量以减少重新分配的次数。",
+          "domain": "内存与资源分配",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/reallocation"
+    },
+    {
+      "id": "serialize",
+      "word": "serialize",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈsɪriəlaɪz/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "序列化",
+      "groupId": "serialize",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "serialize an object",
+        "serialize data"
+      ],
+      "examples": [
+        {
+          "en": "Serialize the object before sending it over the network.",
+          "zh": "通过网络发送对象之前，先将它序列化。",
+          "domain": "序列化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [
+        "mdn-serialization"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/serialize"
+    },
+    {
+      "id": "serialization",
+      "word": "serialization",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌsɪriələˈzeɪʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "序列化",
+      "groupId": "serialize",
+      "parentWordId": "serialize",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "JSON serialization",
+        "serialization format"
+      ],
+      "examples": [
+        {
+          "en": "Serialization converts the object into a format that can be stored.",
+          "zh": "序列化将对象转换为可存储的格式。",
+          "domain": "序列化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [
+        "mdn-serialization"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/serialization"
+    },
+    {
+      "id": "serializer",
+      "word": "serializer",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈsɪriəlaɪzɚ/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "序列化器",
+      "groupId": "serialize",
+      "parentWordId": "serialize",
+      "relationship": {
+        "type": "derivation",
+        "label": "加后缀 -er，去末尾 e"
+      },
+      "collocations": [
+        "JSON serializer",
+        "custom serializer"
+      ],
+      "examples": [
+        {
+          "en": "The serializer converts dates to ISO strings.",
+          "zh": "序列化器将日期转换为 ISO 格式的字符串。",
+          "domain": "序列化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [
+        "mdn-serialization"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/serializer"
+    },
+    {
+      "id": "serializable",
+      "word": "serializable",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈsɪriəlaɪzəbəl/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "可序列化的",
+      "groupId": "serialize",
+      "parentWordId": "serialize",
+      "relationship": {
+        "type": "derivation",
+        "label": "加后缀 -able，去末尾 e"
+      },
+      "collocations": [
+        "serializable object",
+        "serializable value"
+      ],
+      "examples": [
+        {
+          "en": "Only serializable values can be stored by this API.",
+          "zh": "这个 API 只能存储可序列化的值。",
+          "domain": "序列化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "本条为“可序列化的”。数据库隔离级别 SERIALIZABLE 通常译为“可串行化”，是另一技术义项。",
+      "referenceIds": [
+        "mdn-serialization",
+        "postgres-isolation"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/serializable"
+    },
+    {
+      "id": "deserialize",
+      "word": "deserialize",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌdiːˈsɪriəlaɪz/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "反序列化",
+      "groupId": "serialize",
+      "parentWordId": "serialize",
+      "relationship": {
+        "type": "derivation",
+        "label": "加前缀 de-"
+      },
+      "collocations": [
+        "deserialize a response",
+        "deserialize JSON"
+      ],
+      "examples": [
+        {
+          "en": "Deserialize the response into a typed object.",
+          "zh": "将响应反序列化为具有明确类型的对象。",
+          "domain": "序列化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [
+        "mdn-serialization"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/deserialize"
+    },
+    {
+      "id": "deserialization",
+      "word": "deserialization",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌdiːsɪriələˈzeɪʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "反序列化",
+      "groupId": "serialize",
+      "parentWordId": "deserialize",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "deserialization error",
+        "safe deserialization"
+      ],
+      "examples": [
+        {
+          "en": "Deserialization fails when a required field is missing.",
+          "zh": "缺少必填字段时，反序列化会失败。",
+          "domain": "序列化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [
+        "mdn-serialization"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/deserialization"
+    },
+    {
+      "id": "deserializer",
+      "word": "deserializer",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌdiːˈsɪriəlaɪzɚ/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "反序列化器",
+      "groupId": "serialize",
+      "parentWordId": "deserialize",
+      "relationship": {
+        "type": "derivation",
+        "label": "加后缀 -er，去末尾 e"
+      },
+      "collocations": [
+        "custom deserializer",
+        "JSON deserializer"
+      ],
+      "examples": [
+        {
+          "en": "The deserializer rejects unknown type names.",
+          "zh": "反序列化器会拒绝未知的类型名称。",
+          "domain": "序列化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [
+        "mdn-serialization"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/deserializer"
+    },
+    {
+      "id": "validate",
+      "word": "validate",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈvælɪdeɪt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "校验；验证有效性",
+      "groupId": "validate",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "validate input",
+        "validate a schema"
+      ],
+      "examples": [
+        {
+          "en": "Validate the input before writing it to the database.",
+          "zh": "将输入写入数据库之前先进行校验。",
+          "domain": "有效性校验",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/validate"
+    },
+    {
+      "id": "validation",
+      "word": "validation",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌvælɪˈdeɪʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "校验；有效性验证",
+      "groupId": "validate",
+      "parentWordId": "validate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "input validation",
+        "validation error"
+      ],
+      "examples": [
+        {
+          "en": "Validation failed because the email field was empty.",
+          "zh": "由于电子邮件字段为空，校验失败。",
+          "domain": "有效性校验",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/validation"
+    },
+    {
+      "id": "validator",
+      "word": "validator",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈvælɪdeɪtɚ/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "校验器",
+      "groupId": "validate",
+      "parentWordId": "validate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "schema validator",
+        "custom validator"
+      ],
+      "examples": [
+        {
+          "en": "The validator checks both the type and the range.",
+          "zh": "校验器同时检查类型和取值范围。",
+          "domain": "有效性校验",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/validator"
+    },
+    {
+      "id": "valid",
+      "word": "valid",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈvælɪd/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "有效的；符合规则的",
+      "groupId": "validate",
+      "parentWordId": "validate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "valid token",
+        "valid input"
+      ],
+      "examples": [
+        {
+          "en": "The token is valid for ten minutes.",
+          "zh": "这个令牌的有效期为十分钟。",
+          "domain": "有效性校验",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/valid"
+    },
+    {
+      "id": "validity",
+      "word": "validity",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/vəˈlɪdəti/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "有效性",
+      "groupId": "validate",
+      "parentWordId": "valid",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "certificate validity",
+        "token validity"
+      ],
+      "examples": [
+        {
+          "en": "Check the validity of the certificate before connecting.",
+          "zh": "连接前检查证书的有效性。",
+          "domain": "有效性校验",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/validity"
+    },
+    {
+      "id": "authenticate",
+      "word": "authenticate",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ɔːˈθentɪkeɪt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "认证；验证身份",
+      "groupId": "authenticate",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "authenticate a user",
+        "authenticate a request"
+      ],
+      "examples": [
+        {
+          "en": "Authenticate the user before returning private data.",
+          "zh": "返回私有数据之前，先验证用户身份。",
+          "domain": "身份认证",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/authenticate"
+    },
+    {
+      "id": "authentication",
+      "word": "authentication",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ɔːˌθentɪˈkeɪʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "身份认证",
+      "groupId": "authenticate",
+      "parentWordId": "authenticate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "multi-factor authentication",
+        "authentication token"
+      ],
+      "examples": [
+        {
+          "en": "Authentication failed because the credentials were incorrect.",
+          "zh": "由于凭据不正确，身份认证失败。",
+          "domain": "身份认证",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "回答“你是谁”；与决定访问权限的 authorization 区分。",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/authentication"
+    },
+    {
+      "id": "authenticator",
+      "word": "authenticator",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ɔːˈθentɪkeɪtɚ/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "认证器；身份验证组件",
+      "groupId": "authenticate",
+      "parentWordId": "authenticate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "authenticator app",
+        "custom authenticator"
+      ],
+      "examples": [
+        {
+          "en": "The authenticator verifies the one-time code.",
+          "zh": "认证器验证一次性验证码。",
+          "domain": "身份认证",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/authenticator"
+    },
+    {
+      "id": "authorize",
+      "word": "authorize",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈɔːθəraɪz/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "授权；批准访问",
+      "groupId": "authorize",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "authorize a request",
+        "authorize access"
+      ],
+      "examples": [
+        {
+          "en": "Authorize the request only if the user has the required role.",
+          "zh": "仅在用户具有所需角色时，才授权该请求。",
+          "domain": "访问授权",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/authorize"
+    },
+    {
+      "id": "authorization",
+      "word": "authorization",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌɔːθərəˈzeɪʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "授权；权限判定",
+      "groupId": "authorize",
+      "parentWordId": "authorize",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "authorization policy",
+        "authorization check"
+      ],
+      "examples": [
+        {
+          "en": "Authorization determines which resources the user can access.",
+          "zh": "授权决定用户能够访问哪些资源。",
+          "domain": "访问授权",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "回答“你可以访问什么或执行什么”；与 authentication 区分。",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/authorization"
+    },
+    {
+      "id": "unauthorized",
+      "word": "unauthorized",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ʌnˈɔːθəraɪzd/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "未经授权的",
+      "groupId": "authorize",
+      "parentWordId": "authorize",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族：un- + authorized"
+      },
+      "collocations": [
+        "unauthorized access",
+        "unauthorized request"
+      ],
+      "examples": [
+        {
+          "en": "Block unauthorized access to the admin interface.",
+          "zh": "阻止对管理界面的未经授权访问。",
+          "domain": "访问授权",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "普通技术形容词表示未经授权；HTTP 401 的协议语义涉及缺少有效认证凭据，不能只按中文词面判断状态码。",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/unauthorized"
+    },
+    {
+      "id": "encrypt",
+      "word": "encrypt",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ɪnˈkrɪpt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "加密",
+      "groupId": "crypt",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "encrypt data",
+        "encrypt a file"
+      ],
+      "examples": [
+        {
+          "en": "Encrypt sensitive data before storing it.",
+          "zh": "存储敏感数据之前先进行加密。",
+          "domain": "加密与密码学",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/encrypt"
+    },
+    {
+      "id": "encryption",
+      "word": "encryption",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ɪnˈkrɪpʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "加密",
+      "groupId": "crypt",
+      "parentWordId": "encrypt",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "data encryption",
+        "end-to-end encryption"
+      ],
+      "examples": [
+        {
+          "en": "Enable encryption for data stored on disk.",
+          "zh": "为存储在磁盘上的数据启用加密。",
+          "domain": "加密与密码学",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/encryption"
+    },
+    {
+      "id": "decrypt",
+      "word": "decrypt",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/diːˈkrɪpt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "解密",
+      "groupId": "crypt",
+      "parentWordId": "encrypt",
+      "relationship": {
+        "type": "technical_related",
+        "label": "技术对比：加密与解密"
+      },
+      "collocations": [
+        "decrypt a message",
+        "decrypt data"
+      ],
+      "examples": [
+        {
+          "en": "The service decrypts the message using the correct key.",
+          "zh": "服务使用正确的密钥解密消息。",
+          "domain": "加密与密码学",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/decrypt"
+    },
+    {
+      "id": "decryption",
+      "word": "decryption",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/diːˈkrɪpʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "解密",
+      "groupId": "crypt",
+      "parentWordId": "decrypt",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "decryption key",
+        "decryption failure"
+      ],
+      "examples": [
+        {
+          "en": "Decryption fails if the key does not match.",
+          "zh": "密钥不匹配时，解密会失败。",
+          "domain": "加密与密码学",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/decryption"
+    },
+    {
+      "id": "cryptography",
+      "word": "cryptography",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/krɪpˈtɑːɡrəfi/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "密码学",
+      "groupId": "crypt",
+      "parentWordId": "encrypt",
+      "relationship": {
+        "type": "technical_related",
+        "label": "技术关联：所属领域"
+      },
+      "collocations": [
+        "applied cryptography",
+        "public-key cryptography"
+      ],
+      "examples": [
+        {
+          "en": "The library provides standard cryptography primitives.",
+          "zh": "这个库提供标准密码学原语。",
+          "domain": "加密与密码学",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/cryptography"
+    },
+    {
+      "id": "cryptographic",
+      "word": "cryptographic",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌkrɪptəˈɡræfɪk/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "密码学的",
+      "groupId": "crypt",
+      "parentWordId": "cryptography",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "cryptographic key",
+        "cryptographic hash"
+      ],
+      "examples": [
+        {
+          "en": "Use a cryptographic random number generator for security tokens.",
+          "zh": "使用密码学随机数生成器生成安全令牌。",
+          "domain": "加密与密码学",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/cryptographic"
+    },
+    {
+      "id": "persist",
+      "word": "persist",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/pɚˈsɪst/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "持久化保存；持续存在",
+      "groupId": "persist",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "persist data",
+        "persist changes"
+      ],
+      "examples": [
+        {
+          "en": "Persist the settings before closing the application.",
+          "zh": "关闭应用前将设置持久化保存。",
+          "domain": "持久化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/persist"
+    },
+    {
+      "id": "persistence",
+      "word": "persistence",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/pɚˈsɪstəns/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "持久化；持久性",
+      "groupId": "persist",
+      "parentWordId": "persist",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "persistence layer",
+        "data persistence"
+      ],
+      "examples": [
+        {
+          "en": "The persistence layer stores application data.",
+          "zh": "持久化层存储应用数据。",
+          "domain": "持久化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/persistence"
+    },
+    {
+      "id": "persistent",
+      "word": "persistent",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/pɚˈsɪstənt/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "持久的；持续存在的",
+      "groupId": "persist",
+      "parentWordId": "persist",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "persistent storage",
+        "persistent connection"
+      ],
+      "examples": [
+        {
+          "en": "Use persistent storage for data that must survive a restart.",
+          "zh": "对于重启后仍需保留的数据，使用持久化存储。",
+          "domain": "持久化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/persistent"
+    },
+    {
+      "id": "iterate",
+      "word": "iterate",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈɪtəreɪt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "迭代；遍历",
+      "groupId": "iterate",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "iterate over a list",
+        "iterate through records"
+      ],
+      "examples": [
+        {
+          "en": "Iterate over the collection without modifying it.",
+          "zh": "遍历这个集合，但不要修改它。",
+          "domain": "迭代与遍历",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [
+        "python-glossary"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/iterate"
+    },
+    {
+      "id": "iteration",
+      "word": "iteration",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌɪtəˈreɪʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "迭代；一轮循环",
+      "groupId": "iterate",
+      "parentWordId": "iterate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "loop iteration",
+        "iteration count"
+      ],
+      "examples": [
+        {
+          "en": "Each iteration processes one batch of records.",
+          "zh": "每轮迭代处理一批记录。",
+          "domain": "迭代与遍历",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [
+        "python-glossary"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/iteration"
+    },
+    {
+      "id": "iterator",
+      "word": "iterator",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈɪtəreɪtɚ/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "迭代器",
+      "groupId": "iterate",
+      "parentWordId": "iterate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "iterator protocol",
+        "custom iterator"
+      ],
+      "examples": [
+        {
+          "en": "The iterator returns one item at a time.",
+          "zh": "迭代器每次返回一个元素。",
+          "domain": "迭代与遍历",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [
+        "python-glossary"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/iterator"
+    },
+    {
+      "id": "iterable",
+      "word": "iterable",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈɪtərəbəl/"
+      },
+      "partOfSpeech": "n./adj.",
+      "meaningZh": "可迭代对象；可迭代的",
+      "groupId": "iterate",
+      "parentWordId": "iterate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "iterable object",
+        "iterable collection"
+      ],
+      "examples": [
+        {
+          "en": "The function accepts any iterable of strings.",
+          "zh": "这个函数接受任何由字符串组成的可迭代对象。",
+          "domain": "迭代与遍历",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [
+        "python-glossary"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/iterable"
+    },
+    {
+      "id": "recurse",
+      "word": "recurse",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/rɪˈkɝːs/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "递归执行",
+      "groupId": "recurse",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "recurse into a directory",
+        "recurse through a tree"
+      ],
+      "examples": [
+        {
+          "en": "The function recurses into each subdirectory.",
+          "zh": "这个函数递归进入每个子目录。",
+          "domain": "递归",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/recurse"
+    },
+    {
+      "id": "recursion",
+      "word": "recursion",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/rɪˈkɝːʒən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "递归",
+      "groupId": "recurse",
+      "parentWordId": "recurse",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "recursion depth",
+        "tail recursion"
+      ],
+      "examples": [
+        {
+          "en": "Deep recursion can exhaust the call stack.",
+          "zh": "过深的递归可能耗尽调用栈。",
+          "domain": "递归",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/recursion"
+    },
+    {
+      "id": "recursive",
+      "word": "recursive",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/rɪˈkɝːsɪv/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "递归的",
+      "groupId": "recurse",
+      "parentWordId": "recurse",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "recursive function",
+        "recursive call"
+      ],
+      "examples": [
+        {
+          "en": "The recursive function needs a clear base case.",
+          "zh": "这个递归函数需要一个明确的终止条件。",
+          "domain": "递归",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/recursive"
+    },
+    {
+      "id": "compose",
+      "word": "compose",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/kəmˈpoʊz/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "组合；构成",
+      "groupId": "compose",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "compose functions",
+        "compose components"
+      ],
+      "examples": [
+        {
+          "en": "Compose small functions to build a larger transformation.",
+          "zh": "组合小函数以构建更大的转换操作。",
+          "domain": "组合与分解",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/compose"
+    },
+    {
+      "id": "composition",
+      "word": "composition",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌkɑːmpəˈzɪʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "组合；组合关系",
+      "groupId": "compose",
+      "parentWordId": "compose",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "function composition",
+        "object composition"
+      ],
+      "examples": [
+        {
+          "en": "Use composition to share behavior between components.",
+          "zh": "使用组合在组件之间共享行为。",
+          "domain": "组合与分解",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/composition"
+    },
+    {
+      "id": "composable",
+      "word": "composable",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/kəmˈpoʊzəbəl/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "可组合的",
+      "groupId": "compose",
+      "parentWordId": "compose",
+      "relationship": {
+        "type": "derivation",
+        "label": "加后缀 -able，去末尾 e"
+      },
+      "collocations": [
+        "composable function",
+        "composable architecture"
+      ],
+      "examples": [
+        {
+          "en": "Design composable utilities with small interfaces.",
+          "zh": "设计接口简单、可组合的工具函数。",
+          "domain": "组合与分解",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/composable"
+    },
+    {
+      "id": "decompose",
+      "word": "decompose",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌdiːkəmˈpoʊz/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "分解；拆分",
+      "groupId": "compose",
+      "parentWordId": "compose",
+      "relationship": {
+        "type": "derivation",
+        "label": "加前缀 de-"
+      },
+      "collocations": [
+        "decompose a problem",
+        "decompose a service"
+      ],
+      "examples": [
+        {
+          "en": "Decompose the large service into smaller modules.",
+          "zh": "将大型服务拆分成更小的模块。",
+          "domain": "组合与分解",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/decompose"
+    },
+    {
+      "id": "resolve",
+      "word": "resolve",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/rɪˈzɑːlv/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "解析；解决；使 Promise 完成",
+      "groupId": "resolve",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "resolve a hostname",
+        "resolve a dependency"
+      ],
+      "examples": [
+        {
+          "en": "Resolve the hostname before opening the connection.",
+          "zh": "建立连接之前先解析主机名。",
+          "domain": "解析与解决",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "具体意义取决于对象：hostname 是名称解析，dependency 是依赖解析，conflict 是解决冲突。",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/resolve"
+    },
+    {
+      "id": "resolution",
+      "word": "resolution",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌrezəˈluːʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "解析；解决过程；分辨率",
+      "groupId": "resolve",
+      "parentWordId": "resolve",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "name resolution",
+        "dependency resolution"
+      ],
+      "examples": [
+        {
+          "en": "Name resolution failed because the DNS server was unavailable.",
+          "zh": "由于 DNS 服务器不可用，名称解析失败。",
+          "domain": "解析与解决",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/resolution"
+    },
+    {
+      "id": "resolver",
+      "word": "resolver",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/rɪˈzɑːlvɚ/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "解析器；解析组件",
+      "groupId": "resolve",
+      "parentWordId": "resolve",
+      "relationship": {
+        "type": "derivation",
+        "label": "加后缀 -er，去末尾 e"
+      },
+      "collocations": [
+        "DNS resolver",
+        "dependency resolver"
+      ],
+      "examples": [
+        {
+          "en": "The resolver maps the hostname to an IP address.",
+          "zh": "解析器将主机名映射为 IP 地址。",
+          "domain": "解析与解决",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/resolver"
+    },
+    {
+      "id": "unresolved",
+      "word": "unresolved",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌʌnrɪˈzɑːlvd/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "未解决的；未解析的",
+      "groupId": "resolve",
+      "parentWordId": "resolve",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族：un- + resolved"
+      },
+      "collocations": [
+        "unresolved symbol",
+        "unresolved dependency"
+      ],
+      "examples": [
+        {
+          "en": "The linker reported an unresolved symbol.",
+          "zh": "链接器报告了一个未解析的符号。",
+          "domain": "解析与解决",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/unresolved"
+    },
+    {
+      "id": "optimize",
+      "word": "optimize",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈɑːptɪmaɪz/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "优化",
+      "groupId": "optimize",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "optimize a query",
+        "optimize performance"
+      ],
+      "examples": [
+        {
+          "en": "Optimize the slow query before increasing server capacity.",
+          "zh": "增加服务器容量之前，先优化慢查询。",
+          "domain": "性能优化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/optimize"
+    },
+    {
+      "id": "optimization",
+      "word": "optimization",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌɑːptɪməˈzeɪʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "优化",
+      "groupId": "optimize",
+      "parentWordId": "optimize",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "query optimization",
+        "compiler optimization"
+      ],
+      "examples": [
+        {
+          "en": "Measure performance before and after the optimization.",
+          "zh": "测量优化前后的性能。",
+          "domain": "性能优化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/optimization"
+    },
+    {
+      "id": "optimizer",
+      "word": "optimizer",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈɑːptɪmaɪzɚ/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "优化器",
+      "groupId": "optimize",
+      "parentWordId": "optimize",
+      "relationship": {
+        "type": "derivation",
+        "label": "加后缀 -er，去末尾 e"
+      },
+      "collocations": [
+        "query optimizer",
+        "cost-based optimizer"
+      ],
+      "examples": [
+        {
+          "en": "The query optimizer chooses an execution plan.",
+          "zh": "查询优化器选择一个执行计划。",
+          "domain": "性能优化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/optimizer"
+    },
+    {
+      "id": "compress",
+      "word": "compress",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/kəmˈpres/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "压缩",
+      "groupId": "compress",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "compress data",
+        "compress a file"
+      ],
+      "examples": [
+        {
+          "en": "Compress the response to reduce transfer size.",
+          "zh": "压缩响应以减小传输大小。",
+          "domain": "压缩与解压",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/compress"
+    },
+    {
+      "id": "compression",
+      "word": "compression",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/kəmˈpreʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "压缩",
+      "groupId": "compress",
+      "parentWordId": "compress",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "lossless compression",
+        "compression ratio"
+      ],
+      "examples": [
+        {
+          "en": "Compression reduces storage requirements for repetitive data.",
+          "zh": "压缩可以降低重复数据的存储需求。",
+          "domain": "压缩与解压",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/compression"
+    },
+    {
+      "id": "decompress",
+      "word": "decompress",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌdiːkəmˈpres/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "解压缩",
+      "groupId": "compress",
+      "parentWordId": "compress",
+      "relationship": {
+        "type": "derivation",
+        "label": "加前缀 de-"
+      },
+      "collocations": [
+        "decompress an archive",
+        "decompress data"
+      ],
+      "examples": [
+        {
+          "en": "Decompress the archive before reading its contents.",
+          "zh": "读取归档内容之前先解压缩。",
+          "domain": "压缩与解压",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/decompress"
+    },
+    {
+      "id": "decompression",
+      "word": "decompression",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌdiːkəmˈpreʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "解压缩",
+      "groupId": "compress",
+      "parentWordId": "decompress",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "decompression error",
+        "decompression step"
+      ],
+      "examples": [
+        {
+          "en": "The download completed, but decompression failed.",
+          "zh": "下载已完成，但解压缩失败。",
+          "domain": "压缩与解压",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/decompression"
+    },
+    {
+      "id": "replicate",
+      "word": "replicate",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈreplɪkeɪt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "复制；制作副本",
+      "groupId": "replicate",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "replicate data",
+        "replicate a database"
+      ],
+      "examples": [
+        {
+          "en": "Replicate the database to another region.",
+          "zh": "将数据库复制到另一个区域。",
+          "domain": "复制与副本",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/replicate"
+    },
+    {
+      "id": "replication",
+      "word": "replication",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌreplɪˈkeɪʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "复制；副本同步",
+      "groupId": "replicate",
+      "parentWordId": "replicate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "database replication",
+        "replication lag"
+      ],
+      "examples": [
+        {
+          "en": "Monitor replication lag between the primary and the replica.",
+          "zh": "监控主库与副本之间的复制延迟。",
+          "domain": "复制与副本",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/replication"
+    },
+    {
+      "id": "replica",
+      "word": "replica",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈreplɪkə/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "副本",
+      "groupId": "replicate",
+      "parentWordId": "replicate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "read replica",
+        "database replica"
+      ],
+      "examples": [
+        {
+          "en": "Send read-only queries to the replica.",
+          "zh": "将只读查询发送到副本。",
+          "domain": "复制与副本",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "副本通常用于复制、读取或可用性；持续同步的副本不能自动替代备份。",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/replica"
+    },
+    {
+      "id": "distribute",
+      "word": "distribute",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/dɪˈstrɪbjuːt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "分发；分配",
+      "groupId": "distribute",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "distribute requests",
+        "distribute workload"
+      ],
+      "examples": [
+        {
+          "en": "Distribute incoming requests across healthy servers.",
+          "zh": "将传入请求分配到健康的服务器上。",
+          "domain": "分发与分布式",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/distribute"
+    },
+    {
+      "id": "distribution",
+      "word": "distribution",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌdɪstrɪˈbjuːʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "分发；发行版；分布",
+      "groupId": "distribute",
+      "parentWordId": "distribute",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "Linux distribution",
+        "load distribution"
+      ],
+      "examples": [
+        {
+          "en": "This Linux distribution includes the required tools.",
+          "zh": "这个 Linux 发行版包含所需工具。",
+          "domain": "分发与分布式",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/distribution"
+    },
+    {
+      "id": "distributed",
+      "word": "distributed",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/dɪˈstrɪbjuːtɪd/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "分布式的",
+      "groupId": "distribute",
+      "parentWordId": "distribute",
+      "relationship": {
+        "type": "inflection",
+        "label": "过去分词形容词化"
+      },
+      "collocations": [
+        "distributed system",
+        "distributed tracing"
+      ],
+      "examples": [
+        {
+          "en": "A distributed system must handle partial failures.",
+          "zh": "分布式系统必须处理部分组件失效的情况。",
+          "domain": "分发与分布式",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "过去分词用作形容词，在 distributed system 等技术表达中有独立学习价值。",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/distributed"
+    },
+    {
+      "id": "concurrent",
+      "word": "concurrent",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/kənˈkɝːənt/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "并发的",
+      "groupId": "concurrent",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "concurrent request",
+        "concurrent access"
+      ],
+      "examples": [
+        {
+          "en": "Limit the number of concurrent requests.",
+          "zh": "限制并发请求的数量。",
+          "domain": "并发",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [
+        "python-glossary"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/concurrent"
+    },
+    {
+      "id": "concurrency",
+      "word": "concurrency",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/kənˈkɝːənsi/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "并发；并发性",
+      "groupId": "concurrent",
+      "parentWordId": "concurrent",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "concurrency control",
+        "concurrency limit"
+      ],
+      "examples": [
+        {
+          "en": "Concurrency does not require simultaneous execution on multiple cores.",
+          "zh": "并发并不要求在多个核心上同时执行。",
+          "domain": "并发",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "多个任务的执行进程在时间上重叠，可能交替推进，不要求同一瞬间在多个核心上执行。",
+      "referenceIds": [
+        "python-glossary"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/concurrency"
+    },
+    {
+      "id": "concurrently",
+      "word": "concurrently",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/kənˈkɝːəntli/"
+      },
+      "partOfSpeech": "adv.",
+      "meaningZh": "并发地",
+      "groupId": "concurrent",
+      "parentWordId": "concurrent",
+      "relationship": {
+        "type": "derivation",
+        "label": "加后缀 -ly"
+      },
+      "collocations": [
+        "run concurrently",
+        "execute concurrently"
+      ],
+      "examples": [
+        {
+          "en": "The server handles several connections concurrently.",
+          "zh": "服务器并发处理多个连接。",
+          "domain": "并发",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [
+        "python-glossary"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/concurrently"
+    },
+    {
+      "id": "parallel",
+      "word": "parallel",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈpærəlel/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "并行的",
+      "groupId": "parallel",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "parallel execution",
+        "parallel processing"
+      ],
+      "examples": [
+        {
+          "en": "Split the workload into parallel tasks.",
+          "zh": "将工作负载拆分成可并行执行的任务。",
+          "domain": "并行",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [
+        "python-glossary"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/parallel"
+    },
+    {
+      "id": "parallelism",
+      "word": "parallelism",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈpærəlelɪzəm/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "并行；并行性",
+      "groupId": "parallel",
+      "parentWordId": "parallel",
+      "relationship": {
+        "type": "derivation",
+        "label": "加后缀 -ism"
+      },
+      "collocations": [
+        "data parallelism",
+        "task parallelism"
+      ],
+      "examples": [
+        {
+          "en": "The algorithm exposes enough parallelism to use multiple cores.",
+          "zh": "这个算法具有足够的并行性，可以利用多个核心。",
+          "domain": "并行",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "多个计算在同一时间实际执行；与 concurrency 的侧重点不同。",
+      "referenceIds": [
+        "python-glossary"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/parallelism"
+    },
+    {
+      "id": "parallelize",
+      "word": "parallelize",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈpærəlelaɪz/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "使并行化",
+      "groupId": "parallel",
+      "parentWordId": "parallel",
+      "relationship": {
+        "type": "derivation",
+        "label": "加后缀 -ize"
+      },
+      "collocations": [
+        "parallelize a loop",
+        "parallelize computation"
+      ],
+      "examples": [
+        {
+          "en": "Parallelize the computation across independent batches.",
+          "zh": "将计算分配到相互独立的批次中并行执行。",
+          "domain": "并行",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [
+        "python-glossary"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/parallelize"
+    },
+    {
+      "id": "latency",
+      "word": "latency",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈleɪtənsi/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "延迟",
+      "groupId": "performance",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "network latency",
+        "tail latency"
+      ],
+      "examples": [
+        {
+          "en": "Measure the latency from the client to the server.",
+          "zh": "测量客户端到服务器的延迟。",
+          "domain": "性能指标",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/latency"
+    },
+    {
+      "id": "throughput",
+      "word": "throughput",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈθruːpʊt/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "吞吐量",
+      "groupId": "performance",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "request throughput",
+        "network throughput"
+      ],
+      "examples": [
+        {
+          "en": "The new pipeline improves throughput without adding workers.",
+          "zh": "新流水线在不增加工作进程的情况下提高了吞吐量。",
+          "domain": "性能指标",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/throughput"
+    },
+    {
+      "id": "deadlock",
+      "word": "deadlock",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈdedlɑːk/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "死锁",
+      "groupId": "coordination",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "deadlock detection",
+        "avoid deadlock"
+      ],
+      "examples": [
+        {
+          "en": "Acquire locks in a consistent order to reduce the risk of deadlock.",
+          "zh": "按固定顺序获取锁，以降低死锁风险。",
+          "domain": "线程协调",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/deadlock"
+    },
+    {
+      "id": "mutex",
+      "word": "mutex",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈmjuːteks/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "互斥锁",
+      "groupId": "coordination",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "acquire a mutex",
+        "release a mutex"
+      ],
+      "examples": [
+        {
+          "en": "Use a mutex to protect the shared counter.",
+          "zh": "使用互斥锁保护共享计数器。",
+          "domain": "线程协调",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/mutex"
+    },
+    {
+      "id": "idempotent",
+      "word": "idempotent",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌaɪdəmˈpoʊtənt/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "幂等的",
+      "groupId": "idempotent",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "idempotent operation",
+        "idempotent request"
+      ],
+      "examples": [
+        {
+          "en": "Design the operation to be idempotent so retries do not duplicate its effects.",
+          "zh": "将操作设计为幂等，以免重试重复产生作用。",
+          "domain": "幂等性",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "重复执行与执行一次具有相同的预期作用，不要求每次响应内容或状态码完全相同。",
+      "referenceIds": [
+        "mdn-idempotent"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/idempotent"
+    },
+    {
+      "id": "idempotency",
+      "word": "idempotency",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌaɪdəmˈpoʊtənsi/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "幂等性",
+      "groupId": "idempotent",
+      "parentWordId": "idempotent",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "idempotency key",
+        "ensure idempotency"
+      ],
+      "examples": [
+        {
+          "en": "Use an idempotency key to prevent duplicate processing.",
+          "zh": "使用幂等键防止重复处理。",
+          "domain": "幂等性",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "另一常见名词形式是 idempotence；本条优先收录 API 文档中常见的 idempotency。",
+      "referenceIds": [
+        "mdn-idempotent"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/idempotency"
+    },
+    {
+      "id": "atomic",
+      "word": "atomic",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/əˈtɑːmɪk/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "原子的；不可分割的",
+      "groupId": "atomic",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "atomic operation",
+        "atomic update"
+      ],
+      "examples": [
+        {
+          "en": "Use an atomic increment for the shared counter.",
+          "zh": "对共享计数器使用原子递增操作。",
+          "domain": "原子性",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "针对具体操作及其契约理解“不可分割”；不能假定任意一行代码都是原子的。",
+      "referenceIds": [
+        "python-glossary"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/atomic"
+    },
+    {
+      "id": "atomicity",
+      "word": "atomicity",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌætəˈmɪsəti/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "原子性",
+      "groupId": "atomic",
+      "parentWordId": "atomic",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "transaction atomicity",
+        "guarantee atomicity"
+      ],
+      "examples": [
+        {
+          "en": "Transaction atomicity ensures that all changes are committed or none are.",
+          "zh": "事务的原子性保证所有变更要么全部提交，要么全部不提交。",
+          "domain": "原子性",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "事务语境强调全部成功或全部不生效；并发原子操作则需结合其可观察效果理解。",
+      "referenceIds": [
+        "python-glossary"
+      ],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/atomicity"
+    },
+    {
+      "id": "encapsulate",
+      "word": "encapsulate",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ɪnˈkæpsəleɪt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "封装",
+      "groupId": "encapsulate",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "encapsulate logic",
+        "encapsulate data"
+      ],
+      "examples": [
+        {
+          "en": "Encapsulate the database access behind an interface.",
+          "zh": "将数据库访问封装在接口之后。",
+          "domain": "封装",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/encapsulate"
+    },
+    {
+      "id": "encapsulation",
+      "word": "encapsulation",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ɪnˌkæpsəˈleɪʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "封装",
+      "groupId": "encapsulate",
+      "parentWordId": "encapsulate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "data encapsulation",
+        "break encapsulation"
+      ],
+      "examples": [
+        {
+          "en": "Encapsulation limits direct access to internal state.",
+          "zh": "封装限制了对内部状态的直接访问。",
+          "domain": "封装",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/encapsulation"
+    },
+    {
+      "id": "inherit",
+      "word": "inherit",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ɪnˈherɪt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "继承",
+      "groupId": "inherit",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "inherit a method",
+        "inherit behavior"
+      ],
+      "examples": [
+        {
+          "en": "The child class inherits behavior from its parent.",
+          "zh": "子类从父类继承行为。",
+          "domain": "继承",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/inherit"
+    },
+    {
+      "id": "inheritance",
+      "word": "inheritance",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ɪnˈherɪtəns/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "继承",
+      "groupId": "inherit",
+      "parentWordId": "inherit",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "class inheritance",
+        "multiple inheritance"
+      ],
+      "examples": [
+        {
+          "en": "Use inheritance when the subtype relationship is meaningful.",
+          "zh": "当子类型关系有实际意义时使用继承。",
+          "domain": "继承",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/inheritance"
+    },
+    {
+      "id": "instantiate",
+      "word": "instantiate",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ɪnˈstænʃieɪt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "实例化",
+      "groupId": "instance",
+      "parentWordId": "instance",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "instantiate a class",
+        "instantiate an object"
+      ],
+      "examples": [
+        {
+          "en": "Instantiate the client once and reuse it.",
+          "zh": "将客户端实例化一次并重复使用。",
+          "domain": "实例化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/instantiate"
+    },
+    {
+      "id": "instantiation",
+      "word": "instantiation",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ɪnˌstænʃiˈeɪʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "实例化",
+      "groupId": "instance",
+      "parentWordId": "instantiate",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "class instantiation",
+        "lazy instantiation"
+      ],
+      "examples": [
+        {
+          "en": "Lazy instantiation delays object creation until it is needed.",
+          "zh": "延迟实例化会将对象的创建推迟到需要它时。",
+          "domain": "实例化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/instantiation"
+    },
+    {
+      "id": "instance",
+      "word": "instance",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈɪnstəns/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "实例",
+      "groupId": "instance",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "class instance",
+        "instance method"
+      ],
+      "examples": [
+        {
+          "en": "Each instance maintains its own connection state.",
+          "zh": "每个实例维护自己的连接状态。",
+          "domain": "实例化",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/instance"
+    },
+    {
+      "id": "override",
+      "word": "override",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌoʊvɚˈraɪd/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "重写；覆盖",
+      "groupId": "object-model",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "override a method",
+        "override a setting"
+      ],
+      "examples": [
+        {
+          "en": "Override the method to customize the default behavior.",
+          "zh": "重写这个方法以自定义默认行为。",
+          "domain": "对象与类型系统",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "方法重写通常发生于继承或接口实现语境；不要与改变参数列表的方法重载 overload 混淆。",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/override"
+    },
+    {
+      "id": "overload",
+      "word": "overload",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌoʊvɚˈloʊd/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "重载；使超负荷",
+      "groupId": "object-model",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "overload a method",
+        "overload an operator"
+      ],
+      "examples": [
+        {
+          "en": "In Java, you can overload a method by changing its parameter list.",
+          "zh": "在 Java 中，可以通过改变参数列表来重载方法。",
+          "domain": "对象与类型系统",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "是否支持方法或运算符重载、如何选择实现，取决于编程语言。",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/overload"
+    },
+    {
+      "id": "generic",
+      "word": "generic",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/dʒəˈnerɪk/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "泛型的；通用的",
+      "groupId": "object-model",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "generic type",
+        "generic function"
+      ],
+      "examples": [
+        {
+          "en": "The generic function works with several element types.",
+          "zh": "这个泛型函数适用于多种元素类型。",
+          "domain": "对象与类型系统",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/generic"
+    },
+    {
+      "id": "polymorphism",
+      "word": "polymorphism",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌpɑːliˈmɔːrfɪzəm/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "多态",
+      "groupId": "polymorphism",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "runtime polymorphism",
+        "subtype polymorphism"
+      ],
+      "examples": [
+        {
+          "en": "Polymorphism lets different implementations share an interface.",
+          "zh": "多态让不同实现共享同一个接口。",
+          "domain": "多态",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/polymorphism"
+    },
+    {
+      "id": "polymorphic",
+      "word": "polymorphic",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌpɑːliˈmɔːrfɪk/"
+      },
+      "partOfSpeech": "adj.",
+      "meaningZh": "多态的",
+      "groupId": "polymorphism",
+      "parentWordId": "polymorphism",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "polymorphic function",
+        "polymorphic behavior"
+      ],
+      "examples": [
+        {
+          "en": "The function accepts a polymorphic object through a common interface.",
+          "zh": "这个函数通过通用接口接收多态对象。",
+          "domain": "多态",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/polymorphic"
+    },
+    {
+      "id": "interrupt",
+      "word": "interrupt",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌɪntɚˈrʌpt/"
+      },
+      "partOfSpeech": "v.",
+      "meaningZh": "中断；打断",
+      "groupId": "interrupt",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "interrupt a thread",
+        "interrupt execution"
+      ],
+      "examples": [
+        {
+          "en": "Interrupt the worker when the task is canceled.",
+          "zh": "任务取消时中断工作线程。",
+          "domain": "中断",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/interrupt"
+    },
+    {
+      "id": "interruption",
+      "word": "interruption",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˌɪntɚˈrʌpʃən/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "中断",
+      "groupId": "interrupt",
+      "parentWordId": "interrupt",
+      "relationship": {
+        "type": "word_family",
+        "label": "同族对应"
+      },
+      "collocations": [
+        "thread interruption",
+        "service interruption"
+      ],
+      "examples": [
+        {
+          "en": "Handle interruption by releasing resources and exiting cleanly.",
+          "zh": "通过释放资源并正常退出，来处理中断。",
+          "domain": "中断",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/interruption"
+    },
+    {
+      "id": "buffer",
+      "word": "buffer",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈbʌfɚ/"
+      },
+      "partOfSpeech": "n./v.",
+      "meaningZh": "缓冲区；缓冲",
+      "groupId": "buffer",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "input buffer",
+        "buffer size"
+      ],
+      "examples": [
+        {
+          "en": "Read the incoming bytes into a buffer.",
+          "zh": "将传入的字节读入缓冲区。",
+          "domain": "缓冲",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/buffer"
+    },
+    {
+      "id": "buffering",
+      "word": "buffering",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈbʌfərɪŋ/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "缓冲过程",
+      "groupId": "buffer",
+      "parentWordId": "buffer",
+      "relationship": {
+        "type": "derivation",
+        "label": "加 -ing，名词用法"
+      },
+      "collocations": [
+        "output buffering",
+        "double buffering"
+      ],
+      "examples": [
+        {
+          "en": "Buffering reduces the number of small writes to disk.",
+          "zh": "缓冲可以减少向磁盘进行小量写入的次数。",
+          "domain": "缓冲",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "-ing 名词用法，作为独立技术过程收录，不将所有动词屈折形式机械扩充为新词。",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/buffering"
+    },
+    {
+      "id": "socket",
+      "word": "socket",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈsɑːkɪt/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "套接字",
+      "groupId": "network",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "TCP socket",
+        "socket connection"
+      ],
+      "examples": [
+        {
+          "en": "Close the socket when the connection is no longer needed.",
+          "zh": "不再需要连接时关闭套接字。",
+          "domain": "网络通信",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/socket"
+    },
+    {
+      "id": "protocol",
+      "word": "protocol",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈproʊtəkɔːl/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "协议",
+      "groupId": "network",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "network protocol",
+        "protocol version"
+      ],
+      "examples": [
+        {
+          "en": "Both services must use the same protocol version.",
+          "zh": "两个服务必须使用相同的协议版本。",
+          "domain": "网络通信",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/protocol"
+    },
+    {
+      "id": "bandwidth",
+      "word": "bandwidth",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈbændwɪdθ/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "带宽",
+      "groupId": "performance",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "network bandwidth",
+        "bandwidth limit"
+      ],
+      "examples": [
+        {
+          "en": "Large downloads can consume the available bandwidth.",
+          "zh": "大型下载可能占用可用带宽。",
+          "domain": "性能指标",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/bandwidth"
+    },
+    {
+      "id": "semaphore",
+      "word": "semaphore",
+      "pronunciation": {
+        "locale": "en-US",
+        "ipa": "/ˈseməfɔːr/"
+      },
+      "partOfSpeech": "n.",
+      "meaningZh": "信号量",
+      "groupId": "coordination",
+      "parentWordId": null,
+      "relationship": {
+        "type": "group_entry",
+        "label": "学习入口"
+      },
+      "collocations": [
+        "counting semaphore",
+        "acquire a semaphore"
+      ],
+      "examples": [
+        {
+          "en": "Use a semaphore to limit access to a pool of resources.",
+          "zh": "使用信号量限制对资源池的访问。",
+          "domain": "线程协调",
+          "origin": "original"
+        }
+      ],
+      "usageNote": "",
+      "referenceIds": [],
+      "dictionaryUrl": "https://dictionary.cambridge.org/dictionary/english/semaphore"
+    }
+  ],
+  "references": [
+    {
+      "id": "python-glossary",
+      "title": "Python 官方术语表",
+      "url": "https://docs.python.org/3/glossary.html"
+    },
+    {
+      "id": "mdn-serialization",
+      "title": "MDN：Serialization",
+      "url": "https://developer.mozilla.org/en-US/docs/Glossary/Serialization"
+    },
+    {
+      "id": "mdn-idempotent",
+      "title": "MDN：Idempotent",
+      "url": "https://developer.mozilla.org/en-US/docs/Glossary/Idempotent"
+    },
+    {
+      "id": "postgres-isolation",
+      "title": "PostgreSQL：事务隔离",
+      "url": "https://www.postgresql.org/docs/current/transaction-iso.html"
+    }
+  ]
+}

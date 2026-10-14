@@ -1,0 +1,100 @@
+execute|ˈeksɪkjuːt|v.|执行；运行|execute|||The worker executes each task in a separate process.|工作进程在独立进程中执行每项任务。|execute a command;execute a task
+execution|ˌeksɪˈkjuːʃən|n.|执行；运行过程|execute|execute|同族对应|Execution stops when an unhandled exception occurs.|发生未处理的异常时，执行会停止。|execution time;execution context
+executable|ɪɡˈzekjətəbəl|n./adj.|可执行文件；可执行的|execute|execute|同族对应|The build produces a standalone executable.|构建会生成一个独立的可执行文件。|executable file;executable code
+executor|ɪɡˈzekjətɚ|n.|执行器；任务执行组件|execute|execute|同族对应|Submit the task to the executor.|将任务提交给执行器。|task executor;thread pool executor
+allocate|ˈæləkeɪt|v.|分配；划拨资源|allocate|||Allocate enough memory for the output buffer.|为输出缓冲区分配足够的内存。|allocate memory;allocate resources
+allocation|ˌæləˈkeɪʃən|n.|分配；分配过程|allocate|allocate|同族对应|Frequent memory allocation can slow down the application.|频繁分配内存可能使应用变慢。|memory allocation;resource allocation
+allocator|ˈæləkeɪtɚ|n.|分配器|allocate|allocate|同族对应|The custom allocator reuses small memory blocks.|自定义分配器会重复利用小内存块。|memory allocator;custom allocator
+deallocate|diːˈæləkeɪt|v.|释放先前分配的资源|allocate|allocate|加前缀 de-|Deallocate the buffer after the operation completes.|操作完成后释放缓冲区。|deallocate memory;deallocate a buffer
+deallocation|ˌdiːæləˈkeɪʃən|n.|资源释放；解除分配|allocate|deallocate|同族对应|Incorrect deallocation can cause a memory error.|错误地释放内存可能导致内存错误。|memory deallocation;resource deallocation
+reallocate|ˌriːˈæləkeɪt|v.|重新分配；调整分配|allocate|allocate|加前缀 re-|The container may reallocate its storage when it grows.|容器扩容时可能重新分配存储空间。|reallocate memory;reallocate storage
+reallocation|ˌriːæləˈkeɪʃən|n.|重新分配|allocate|reallocate|同族对应|Reserve capacity to reduce the number of reallocations.|预留容量以减少重新分配的次数。|buffer reallocation;memory reallocation
+serialize|ˈsɪriəlaɪz|v.|序列化|serialize|||Serialize the object before sending it over the network.|通过网络发送对象之前，先将它序列化。|serialize an object;serialize data
+serialization|ˌsɪriələˈzeɪʃən|n.|序列化|serialize|serialize|同族对应|Serialization converts the object into a format that can be stored.|序列化将对象转换为可存储的格式。|JSON serialization;serialization format
+serializer|ˈsɪriəlaɪzɚ|n.|序列化器|serialize|serialize|加后缀 -er，去末尾 e|The serializer converts dates to ISO strings.|序列化器将日期转换为 ISO 格式的字符串。|JSON serializer;custom serializer
+serializable|ˈsɪriəlaɪzəbəl|adj.|可序列化的|serialize|serialize|加后缀 -able，去末尾 e|Only serializable values can be stored by this API.|这个 API 只能存储可序列化的值。|serializable object;serializable value
+deserialize|ˌdiːˈsɪriəlaɪz|v.|反序列化|serialize|serialize|加前缀 de-|Deserialize the response into a typed object.|将响应反序列化为具有明确类型的对象。|deserialize a response;deserialize JSON
+deserialization|ˌdiːsɪriələˈzeɪʃən|n.|反序列化|serialize|deserialize|同族对应|Deserialization fails when a required field is missing.|缺少必填字段时，反序列化会失败。|deserialization error;safe deserialization
+deserializer|ˌdiːˈsɪriəlaɪzɚ|n.|反序列化器|serialize|deserialize|加后缀 -er，去末尾 e|The deserializer rejects unknown type names.|反序列化器会拒绝未知的类型名称。|custom deserializer;JSON deserializer
+validate|ˈvælɪdeɪt|v.|校验；验证有效性|validate|||Validate the input before writing it to the database.|将输入写入数据库之前先进行校验。|validate input;validate a schema
+validation|ˌvælɪˈdeɪʃən|n.|校验；有效性验证|validate|validate|同族对应|Validation failed because the email field was empty.|由于电子邮件字段为空，校验失败。|input validation;validation error
+validator|ˈvælɪdeɪtɚ|n.|校验器|validate|validate|同族对应|The validator checks both the type and the range.|校验器同时检查类型和取值范围。|schema validator;custom validator
+valid|ˈvælɪd|adj.|有效的；符合规则的|validate|validate|同族对应|The token is valid for ten minutes.|这个令牌的有效期为十分钟。|valid token;valid input
+validity|vəˈlɪdəti|n.|有效性|validate|valid|同族对应|Check the validity of the certificate before connecting.|连接前检查证书的有效性。|certificate validity;token validity
+authenticate|ɔːˈθentɪkeɪt|v.|认证；验证身份|authenticate|||Authenticate the user before returning private data.|返回私有数据之前，先验证用户身份。|authenticate a user;authenticate a request
+authentication|ɔːˌθentɪˈkeɪʃən|n.|身份认证|authenticate|authenticate|同族对应|Authentication failed because the credentials were incorrect.|由于凭据不正确，身份认证失败。|multi-factor authentication;authentication token
+authenticator|ɔːˈθentɪkeɪtɚ|n.|认证器；身份验证组件|authenticate|authenticate|同族对应|The authenticator verifies the one-time code.|认证器验证一次性验证码。|authenticator app;custom authenticator
+authorize|ˈɔːθəraɪz|v.|授权；批准访问|authorize|||Authorize the request only if the user has the required role.|仅在用户具有所需角色时，才授权该请求。|authorize a request;authorize access
+authorization|ˌɔːθərəˈzeɪʃən|n.|授权；权限判定|authorize|authorize|同族对应|Authorization determines which resources the user can access.|授权决定用户能够访问哪些资源。|authorization policy;authorization check
+unauthorized|ʌnˈɔːθəraɪzd|adj.|未经授权的|authorize|authorize|同族：un- + authorized|Block unauthorized access to the admin interface.|阻止对管理界面的未经授权访问。|unauthorized access;unauthorized request
+encrypt|ɪnˈkrɪpt|v.|加密|crypt|||Encrypt sensitive data before storing it.|存储敏感数据之前先进行加密。|encrypt data;encrypt a file
+encryption|ɪnˈkrɪpʃən|n.|加密|crypt|encrypt|同族对应|Enable encryption for data stored on disk.|为存储在磁盘上的数据启用加密。|data encryption;end-to-end encryption
+decrypt|diːˈkrɪpt|v.|解密|crypt|encrypt|技术对比：加密与解密|The service decrypts the message using the correct key.|服务使用正确的密钥解密消息。|decrypt a message;decrypt data
+decryption|diːˈkrɪpʃən|n.|解密|crypt|decrypt|同族对应|Decryption fails if the key does not match.|密钥不匹配时，解密会失败。|decryption key;decryption failure
+cryptography|krɪpˈtɑːɡrəfi|n.|密码学|crypt|encrypt|技术关联：所属领域|The library provides standard cryptography primitives.|这个库提供标准密码学原语。|applied cryptography;public-key cryptography
+cryptographic|ˌkrɪptəˈɡræfɪk|adj.|密码学的|crypt|cryptography|同族对应|Use a cryptographic random number generator for security tokens.|使用密码学随机数生成器生成安全令牌。|cryptographic key;cryptographic hash
+persist|pɚˈsɪst|v.|持久化保存；持续存在|persist|||Persist the settings before closing the application.|关闭应用前将设置持久化保存。|persist data;persist changes
+persistence|pɚˈsɪstəns|n.|持久化；持久性|persist|persist|同族对应|The persistence layer stores application data.|持久化层存储应用数据。|persistence layer;data persistence
+persistent|pɚˈsɪstənt|adj.|持久的；持续存在的|persist|persist|同族对应|Use persistent storage for data that must survive a restart.|对于重启后仍需保留的数据，使用持久化存储。|persistent storage;persistent connection
+iterate|ˈɪtəreɪt|v.|迭代；遍历|iterate|||Iterate over the collection without modifying it.|遍历这个集合，但不要修改它。|iterate over a list;iterate through records
+iteration|ˌɪtəˈreɪʃən|n.|迭代；一轮循环|iterate|iterate|同族对应|Each iteration processes one batch of records.|每轮迭代处理一批记录。|loop iteration;iteration count
+iterator|ˈɪtəreɪtɚ|n.|迭代器|iterate|iterate|同族对应|The iterator returns one item at a time.|迭代器每次返回一个元素。|iterator protocol;custom iterator
+iterable|ˈɪtərəbəl|n./adj.|可迭代对象；可迭代的|iterate|iterate|同族对应|The function accepts any iterable of strings.|这个函数接受任何由字符串组成的可迭代对象。|iterable object;iterable collection
+recurse|rɪˈkɝːs|v.|递归执行|recurse|||The function recurses into each subdirectory.|这个函数递归进入每个子目录。|recurse into a directory;recurse through a tree
+recursion|rɪˈkɝːʒən|n.|递归|recurse|recurse|同族对应|Deep recursion can exhaust the call stack.|过深的递归可能耗尽调用栈。|recursion depth;tail recursion
+recursive|rɪˈkɝːsɪv|adj.|递归的|recurse|recurse|同族对应|The recursive function needs a clear base case.|这个递归函数需要一个明确的终止条件。|recursive function;recursive call
+compose|kəmˈpoʊz|v.|组合；构成|compose|||Compose small functions to build a larger transformation.|组合小函数以构建更大的转换操作。|compose functions;compose components
+composition|ˌkɑːmpəˈzɪʃən|n.|组合；组合关系|compose|compose|同族对应|Use composition to share behavior between components.|使用组合在组件之间共享行为。|function composition;object composition
+composable|kəmˈpoʊzəbəl|adj.|可组合的|compose|compose|加后缀 -able，去末尾 e|Design composable utilities with small interfaces.|设计接口简单、可组合的工具函数。|composable function;composable architecture
+decompose|ˌdiːkəmˈpoʊz|v.|分解；拆分|compose|compose|加前缀 de-|Decompose the large service into smaller modules.|将大型服务拆分成更小的模块。|decompose a problem;decompose a service
+resolve|rɪˈzɑːlv|v.|解析；解决；使 Promise 完成|resolve|||Resolve the hostname before opening the connection.|建立连接之前先解析主机名。|resolve a hostname;resolve a dependency
+resolution|ˌrezəˈluːʃən|n.|解析；解决过程；分辨率|resolve|resolve|同族对应|Name resolution failed because the DNS server was unavailable.|由于 DNS 服务器不可用，名称解析失败。|name resolution;dependency resolution
+resolver|rɪˈzɑːlvɚ|n.|解析器；解析组件|resolve|resolve|加后缀 -er，去末尾 e|The resolver maps the hostname to an IP address.|解析器将主机名映射为 IP 地址。|DNS resolver;dependency resolver
+unresolved|ˌʌnrɪˈzɑːlvd|adj.|未解决的；未解析的|resolve|resolve|同族：un- + resolved|The linker reported an unresolved symbol.|链接器报告了一个未解析的符号。|unresolved symbol;unresolved dependency
+optimize|ˈɑːptɪmaɪz|v.|优化|optimize|||Optimize the slow query before increasing server capacity.|增加服务器容量之前，先优化慢查询。|optimize a query;optimize performance
+optimization|ˌɑːptɪməˈzeɪʃən|n.|优化|optimize|optimize|同族对应|Measure performance before and after the optimization.|测量优化前后的性能。|query optimization;compiler optimization
+optimizer|ˈɑːptɪmaɪzɚ|n.|优化器|optimize|optimize|加后缀 -er，去末尾 e|The query optimizer chooses an execution plan.|查询优化器选择一个执行计划。|query optimizer;cost-based optimizer
+compress|kəmˈpres|v.|压缩|compress|||Compress the response to reduce transfer size.|压缩响应以减小传输大小。|compress data;compress a file
+compression|kəmˈpreʃən|n.|压缩|compress|compress|同族对应|Compression reduces storage requirements for repetitive data.|压缩可以降低重复数据的存储需求。|lossless compression;compression ratio
+decompress|ˌdiːkəmˈpres|v.|解压缩|compress|compress|加前缀 de-|Decompress the archive before reading its contents.|读取归档内容之前先解压缩。|decompress an archive;decompress data
+decompression|ˌdiːkəmˈpreʃən|n.|解压缩|compress|decompress|同族对应|The download completed, but decompression failed.|下载已完成，但解压缩失败。|decompression error;decompression step
+replicate|ˈreplɪkeɪt|v.|复制；制作副本|replicate|||Replicate the database to another region.|将数据库复制到另一个区域。|replicate data;replicate a database
+replication|ˌreplɪˈkeɪʃən|n.|复制；副本同步|replicate|replicate|同族对应|Monitor replication lag between the primary and the replica.|监控主库与副本之间的复制延迟。|database replication;replication lag
+replica|ˈreplɪkə|n.|副本|replicate|replicate|同族对应|Send read-only queries to the replica.|将只读查询发送到副本。|read replica;database replica
+distribute|dɪˈstrɪbjuːt|v.|分发；分配|distribute|||Distribute incoming requests across healthy servers.|将传入请求分配到健康的服务器上。|distribute requests;distribute workload
+distribution|ˌdɪstrɪˈbjuːʃən|n.|分发；发行版；分布|distribute|distribute|同族对应|This Linux distribution includes the required tools.|这个 Linux 发行版包含所需工具。|Linux distribution;load distribution
+distributed|dɪˈstrɪbjuːtɪd|adj.|分布式的|distribute|distribute|过去分词形容词化|A distributed system must handle partial failures.|分布式系统必须处理部分组件失效的情况。|distributed system;distributed tracing
+concurrent|kənˈkɝːənt|adj.|并发的|concurrent|||Limit the number of concurrent requests.|限制并发请求的数量。|concurrent request;concurrent access
+concurrency|kənˈkɝːənsi|n.|并发；并发性|concurrent|concurrent|同族对应|Concurrency does not require simultaneous execution on multiple cores.|并发并不要求在多个核心上同时执行。|concurrency control;concurrency limit
+concurrently|kənˈkɝːəntli|adv.|并发地|concurrent|concurrent|加后缀 -ly|The server handles several connections concurrently.|服务器并发处理多个连接。|run concurrently;execute concurrently
+parallel|ˈpærəlel|adj.|并行的|parallel|||Split the workload into parallel tasks.|将工作负载拆分成可并行执行的任务。|parallel execution;parallel processing
+parallelism|ˈpærəlelɪzəm|n.|并行；并行性|parallel|parallel|加后缀 -ism|The algorithm exposes enough parallelism to use multiple cores.|这个算法具有足够的并行性，可以利用多个核心。|data parallelism;task parallelism
+parallelize|ˈpærəlelaɪz|v.|使并行化|parallel|parallel|加后缀 -ize|Parallelize the computation across independent batches.|将计算分配到相互独立的批次中并行执行。|parallelize a loop;parallelize computation
+latency|ˈleɪtənsi|n.|延迟|performance|||Measure the latency from the client to the server.|测量客户端到服务器的延迟。|network latency;tail latency
+throughput|ˈθruːpʊt|n.|吞吐量|performance|||The new pipeline improves throughput without adding workers.|新流水线在不增加工作进程的情况下提高了吞吐量。|request throughput;network throughput
+deadlock|ˈdedlɑːk|n.|死锁|coordination|||Acquire locks in a consistent order to reduce the risk of deadlock.|按固定顺序获取锁，以降低死锁风险。|deadlock detection;avoid deadlock
+mutex|ˈmjuːteks|n.|互斥锁|coordination|||Use a mutex to protect the shared counter.|使用互斥锁保护共享计数器。|acquire a mutex;release a mutex
+idempotent|ˌaɪdəmˈpoʊtənt|adj.|幂等的|idempotent|||Design the operation to be idempotent so retries do not duplicate its effects.|将操作设计为幂等，以免重试重复产生作用。|idempotent operation;idempotent request
+idempotency|ˌaɪdəmˈpoʊtənsi|n.|幂等性|idempotent|idempotent|同族对应|Use an idempotency key to prevent duplicate processing.|使用幂等键防止重复处理。|idempotency key;ensure idempotency
+atomic|əˈtɑːmɪk|adj.|原子的；不可分割的|atomic|||Use an atomic increment for the shared counter.|对共享计数器使用原子递增操作。|atomic operation;atomic update
+atomicity|ˌætəˈmɪsəti|n.|原子性|atomic|atomic|同族对应|Transaction atomicity ensures that all changes are committed or none are.|事务的原子性保证所有变更要么全部提交，要么全部不提交。|transaction atomicity;guarantee atomicity
+encapsulate|ɪnˈkæpsəleɪt|v.|封装|encapsulate|||Encapsulate the database access behind an interface.|将数据库访问封装在接口之后。|encapsulate logic;encapsulate data
+encapsulation|ɪnˌkæpsəˈleɪʃən|n.|封装|encapsulate|encapsulate|同族对应|Encapsulation limits direct access to internal state.|封装限制了对内部状态的直接访问。|data encapsulation;break encapsulation
+inherit|ɪnˈherɪt|v.|继承|inherit|||The child class inherits behavior from its parent.|子类从父类继承行为。|inherit a method;inherit behavior
+inheritance|ɪnˈherɪtəns|n.|继承|inherit|inherit|同族对应|Use inheritance when the subtype relationship is meaningful.|当子类型关系有实际意义时使用继承。|class inheritance;multiple inheritance
+instantiate|ɪnˈstænʃieɪt|v.|实例化|instance|instance|同族对应|Instantiate the client once and reuse it.|将客户端实例化一次并重复使用。|instantiate a class;instantiate an object
+instantiation|ɪnˌstænʃiˈeɪʃən|n.|实例化|instance|instantiate|同族对应|Lazy instantiation delays object creation until it is needed.|延迟实例化会将对象的创建推迟到需要它时。|class instantiation;lazy instantiation
+instance|ˈɪnstəns|n.|实例|instance|||Each instance maintains its own connection state.|每个实例维护自己的连接状态。|class instance;instance method
+override|ˌoʊvɚˈraɪd|v.|重写；覆盖|object-model|||Override the method to customize the default behavior.|重写这个方法以自定义默认行为。|override a method;override a setting
+overload|ˌoʊvɚˈloʊd|v.|重载；使超负荷|object-model|||In Java, you can overload a method by changing its parameter list.|在 Java 中，可以通过改变参数列表来重载方法。|overload a method;overload an operator
+generic|dʒəˈnerɪk|adj.|泛型的；通用的|object-model|||The generic function works with several element types.|这个泛型函数适用于多种元素类型。|generic type;generic function
+polymorphism|ˌpɑːliˈmɔːrfɪzəm|n.|多态|polymorphism|||Polymorphism lets different implementations share an interface.|多态让不同实现共享同一个接口。|runtime polymorphism;subtype polymorphism
+polymorphic|ˌpɑːliˈmɔːrfɪk|adj.|多态的|polymorphism|polymorphism|同族对应|The function accepts a polymorphic object through a common interface.|这个函数通过通用接口接收多态对象。|polymorphic function;polymorphic behavior
+interrupt|ˌɪntəˈrʌpt|v.|中断；打断|interrupt|||Interrupt the worker when the task is canceled.|任务取消时中断工作线程。|interrupt a thread;interrupt execution
+interruption|ˌɪntəˈrʌpʃən|n.|中断|interrupt|interrupt|同族对应|Handle interruption by releasing resources and exiting cleanly.|通过释放资源并正常退出，来处理中断。|thread interruption;service interruption
+buffer|ˈbʌfɚ|n./v.|缓冲区；缓冲|buffer|||Read the incoming bytes into a buffer.|将传入的字节读入缓冲区。|input buffer;buffer size
+buffering|ˈbʌfərɪŋ|n.|缓冲过程|buffer|buffer|加 -ing，名词用法|Buffering reduces the number of small writes to disk.|缓冲可以减少向磁盘进行小量写入的次数。|output buffering;double buffering
+socket|ˈsɑːkɪt|n.|套接字|network|||Close the socket when the connection is no longer needed.|不再需要连接时关闭套接字。|TCP socket;socket connection
+protocol|ˈproʊtəkɔːl|n.|协议|network|||Both services must use the same protocol version.|两个服务必须使用相同的协议版本。|network protocol;protocol version
+bandwidth|ˈbændwɪdθ|n.|带宽|performance|||Large downloads can consume the available bandwidth.|大型下载可能占用可用带宽。|network bandwidth;bandwidth limit
+semaphore|ˈseməfɔːr|n.|信号量|coordination|||Use a semaphore to limit access to a pool of resources.|使用信号量限制对资源池的访问。|counting semaphore;acquire a semaphore

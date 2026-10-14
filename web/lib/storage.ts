@@ -1,0 +1,5 @@
+import type {LearningData} from './learning';
+let database:Promise<IDBDatabase>|undefined;
+function open(){if(!database)database=new Promise((resolve,reject)=>{const req=indexedDB.open('enstudy-learning',1);req.onupgradeneeded=()=>req.result.createObjectStore('learning');req.onsuccess=()=>{req.result.onversionchange=()=>{req.result.close();database=undefined;};resolve(req.result);};req.onerror=()=>{database=undefined;reject(req.error);};req.onblocked=()=>reject(new Error('请关闭其他旧版本学习页后重试'));});return database;}
+export async function readLearning():Promise<LearningData|undefined>{const db=await open();return new Promise((resolve,reject)=>{const req=db.transaction('learning','readonly').objectStore('learning').get('main');req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});}
+export async function writeLearning(data:LearningData){const db=await open();return new Promise<void>((resolve,reject)=>{const tx=db.transaction('learning','readwrite');tx.objectStore('learning').put(data,'main');tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error);});}

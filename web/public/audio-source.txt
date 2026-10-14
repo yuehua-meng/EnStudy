@@ -1,0 +1,11 @@
+EnStudy audio provenance
+
+Engine: Piper TTS 1.8.0 (https://github.com/OHF-Voice/piper1-gpl)
+Voice: en_US-ljspeech-high, American English female voice
+Model card: https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/high/MODEL_CARD
+Training dataset: LJ Speech (https://keithito.com/LJ-Speech-Dataset/)
+The model card lists the dataset as public domain.
+Audio encoding: mono MP3, 64 kbps, using lameenc 1.8.4
+
+Audio is generated from EnStudy vocabulary examples and original study passages.
+The speech engine and model weights are not included in the public website.
