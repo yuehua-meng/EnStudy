@@ -3,6 +3,14 @@
 通过词根与词族图谱、技术例句和双语短文，学习软件开发中常见的英语表达。
 界面面向中文开发者，支持桌面和手机浏览器。
 
+[![Verify](https://github.com/yuehua-meng/EnStudy/actions/workflows/verify.yml/badge.svg)](https://github.com/yuehua-meng/EnStudy/actions/workflows/verify.yml)
+[![MIT License](https://img.shields.io/badge/license-MIT-126c61)](LICENSE)
+![220 words](https://img.shields.io/badge/words-220-126c61)
+![10 readings](https://img.shields.io/badge/readings-10-126c61)
+![700 audio files](https://img.shields.io/badge/Piper_audio-700-126c61)
+
+[![EnStudy 桌面界面：从词根展开核心词和扩展词](docs/screenshots/00-overview.jpg)](docs/screenshots/01-word-graph.jpg)
+
 ## 功能
 
 - **词汇图谱**：从词基、核心词扩展到相关词，悬浮查看音标与释义，点击查看技术例句。
@@ -14,6 +22,81 @@
 
 词库同时包含词源关系、现代词族关系和技术关联，关系标签用于区分这些含义。
 短文是围绕常见开发主题编写的学习材料，相关官方文档以链接形式提供。
+
+## 界面预览
+
+下面是项目实际运行时的截图，收藏与复习使用本地演示词条。点击展开查看完整页面。
+
+<details>
+<summary><strong>01 · 词根探索：把单词放回词族中学习</strong></summary>
+
+从历史词根展开核心词和扩展词，查看派生关系、音标、释义与技术例句。
+
+![词根探索与单词详情](docs/screenshots/01-word-graph.jpg)
+
+</details>
+
+<details>
+<summary><strong>02 · 场景词库：按软件开发场景查词</strong></summary>
+
+按 API 与网络、数据处理、构建与交付等主题筛选，点击词条查看例句与翻译。
+
+![API 与网络场景词库](docs/screenshots/02-scenario-library.jpg)
+
+</details>
+
+<details>
+<summary><strong>03 · 短文阅读：读懂、朗读，再复述</strong></summary>
+
+十篇开发主题文章，提供段落朗读、中英对照、核心搭配、句型拆解与复述练习。
+
+![短文目录与双语阅读](docs/screenshots/03-reading.jpg)
+
+</details>
+
+<details>
+<summary><strong>04 · 我的收藏：积累工作中常遇到的表达</strong></summary>
+
+集中查看收藏的词条，保留技术例句和朗读入口，也可按场景筛选。
+
+![收藏词条与技术例句](docs/screenshots/04-bookmarks.jpg)
+
+</details>
+
+<details>
+<summary><strong>05 · 间隔复习：先回忆，再揭晓答案</strong></summary>
+
+根据回忆情况选择“不认识”“有点模糊”或“认识”，安排后续复习。
+
+![间隔复习与回忆评分](docs/screenshots/05-spaced-review.jpg)
+
+</details>
+
+<details>
+<summary><strong>06 · 学习设置与备份：试听英语声音、保存进度</strong></summary>
+
+查看 Piper 音频方案，试听声音，导出学习记录或合并导入已有备份。
+
+![声音设置与学习数据备份](docs/screenshots/06-settings.jpg)
+
+</details>
+
+### 手机浏览器
+
+手机端提供抽屉导航、纵向词树和适合窄屏的双语阅读。下面按 390 × 844 的视口展示。
+
+<table>
+  <tr>
+    <th>学习导航</th>
+    <th>词根探索</th>
+    <th>双语短文</th>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/09-mobile-navigation.jpg" alt="手机端抽屉导航" width="260"></td>
+    <td><img src="docs/screenshots/07-mobile-word-tree.jpg" alt="手机端纵向词树" width="260"></td>
+    <td><img src="docs/screenshots/08-mobile-reading.jpg" alt="手机端双语阅读与段落朗读" width="260"></td>
+  </tr>
+</table>
 
 ## 快速开始
 
