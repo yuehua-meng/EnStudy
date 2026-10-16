@@ -1,0 +1,25 @@
+services:
+  enstudy-api:
+    build: ../server
+    restart: unless-stopped
+    env_file: ../server/.env
+    volumes:
+      - enstudy_accounts:/data
+    # Host Caddy can connect here. Never publish this port to the internet.
+    ports:
+      - "127.0.0.1:8090:8090"
+    mem_limit: 384m
+    cpus: 1.5
+    pids_limit: 64
+    read_only: true
+    tmpfs:
+      - /tmp:size=32m,mode=1777
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8090/api/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+volumes:
+  enstudy_accounts:

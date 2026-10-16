@@ -4,6 +4,10 @@ export type ReviewEvent={id:string;wordId:string;rating:Rating;answeredAt:number
 export type LearningData={version:1;records:Record<string,LearningRecord>;events:ReviewEvent[];selected:string};
 export const emptyData=():LearningData=>({version:1,records:{},events:[],selected:'constructor'});
 export const blankRecord=():LearningRecord=>({starred:false,inReview:false,level:0,dueAt:0,updatedAt:0,seenAt:0});
+// Vocabulary includes "constructor", which is also an inherited Object property.
+export function learningRecord(data:LearningData,id:string):LearningRecord{
+ return Object.hasOwn(data.records,id)?data.records[id]:blankRecord();
+}
 // IP-based HTTP deployments may not expose randomUUID, but getRandomValues works.
 export function createReviewEventId():string{
  if(typeof crypto.randomUUID==='function')return crypto.randomUUID();
@@ -23,8 +27,9 @@ export function validateBackup(input:unknown,known:Set<string>):{data:LearningDa
  if(raw.version!==1||!raw.records||typeof raw.records!=='object'||Array.isArray(raw.records)||!Array.isArray(raw.events))throw new Error('不支持的备份版本或格式');
  const data=emptyData();let skipped=0;
  for(const [id,value] of Object.entries(raw.records)){
-  if(!value||typeof value!=='object')throw new Error('学习记录格式无效');
-  const v=value as LearningRecord;
+  if(!value||typeof value!=='object'||Array.isArray(value))throw new Error('学习记录格式无效');
+  // Older releases could omit default fields for this particular word.
+  const v=(id==='constructor'?{...blankRecord(),...value}:value) as LearningRecord;
   if(typeof v.starred!=='boolean'||typeof v.inReview!=='boolean'||![v.level,v.dueAt,v.updatedAt,v.seenAt].every(n=>typeof n==='number'&&Number.isFinite(n)&&n>=0)||!Number.isInteger(v.level)||v.level>6||[v.dueAt,v.updatedAt,v.seenAt].some(n=>n>8.64e15))throw new Error('学习记录包含无效字段');
   if(!known.has(id)){skipped++;continue;}
   data.records[id]={starred:v.starred,inReview:v.inReview,level:v.level,dueAt:v.dueAt,updatedAt:v.updatedAt,seenAt:v.seenAt};
@@ -42,7 +47,16 @@ export function validateBackup(input:unknown,known:Set<string>):{data:LearningDa
 }
 export function mergeBackup(local:LearningData,incoming:LearningData):LearningData{
  const records={...local.records};
- for(const [id,v]of Object.entries(incoming.records))if(!records[id]||v.updatedAt>records[id].updatedAt)records[id]=v;
+ const winsTie=(a:LearningRecord,b:LearningRecord)=>{
+  for(const field of ['starred','inReview','level','dueAt'] as const){if(a[field]!==b[field])return Number(a[field])<Number(b[field]);}
+  return false;
+ };
+ for(const [id,v]of Object.entries(incoming.records)){
+  const previous=Object.hasOwn(records,id)?records[id]:undefined;
+  // Deterministic tie-breaking also converges for simultaneous device changes.
+  const chosen=!previous||v.updatedAt>previous.updatedAt||(v.updatedAt===previous.updatedAt&&winsTie(v,previous))?v:previous;
+  records[id]={...chosen,seenAt:Math.max(v.seenAt,previous?.seenAt||0)};
+ }
  const events=Array.from(new Map([...local.events,...incoming.events].map(e=>[e.id,e])).values()).sort((a,b)=>a.answeredAt-b.answeredAt).slice(-10000);
  return {...local,records,events};
 }

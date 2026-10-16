@@ -5,13 +5,15 @@ import {BookOpen, ChevronLeft, ChevronRight, ExternalLink, Eye, EyeOff, Headphon
 import {Button} from '@/components/ui/button';
 import {NativeSelect} from '@/components/ui/native-select';
 import articles from '@/lib/reading-articles.json';
-import type {SpeechState} from '@/lib/speech';
+import type {SpeechState,SpeechItem} from '@/lib/speech';
 
 type Props = {
   articleId: string;
   onSelect: (id: string) => void;
   speech: SpeechState;
   onPlay: (id: string, text: string) => void;
+  onReadAll: (key:string,items:SpeechItem[],repeats:number) => void;
+  onStop: () => void;
   rate: number;
   onRateChange: (rate: number) => void;
   onSettings: () => void;
@@ -25,11 +27,15 @@ function InlineText({text}: {text: string}) {
   )}</>;
 }
 
-export default function ReadingPanel({articleId, onSelect, speech, onPlay, rate, onRateChange, onSettings}: Props) {
+export default function ReadingPanel({articleId, onSelect, speech, onPlay, onReadAll, onStop, rate, onRateChange, onSettings}: Props) {
   const [showTranslation, setShowTranslation] = useState(false);
+  const [repeats,setRepeats]=useState('100');
+  const validRepeats=/^\d+$/.test(repeats)&&Number(repeats)>=1&&Number(repeats)<=10000;
   const heading = useRef<HTMLHeadingElement>(null);
   const index = Math.max(0, articles.findIndex(article => article.id === articleId));
   const article = articles[index];
+  const progress=speech.sequence?.key===article.id?speech.sequence:undefined;
+  const running=!!progress&&(speech.status==='playing'||speech.status==='loading');
 
   function select(id: string) {
     onSelect(id);
@@ -63,7 +69,15 @@ export default function ReadingPanel({articleId, onSelect, speech, onPlay, rate,
           <NativeSelect aria-label="短文朗读语速" value={rate} onChange={event => onRateChange(Number(event.target.value))}><option value={1}>正常语速</option><option value={.8}>慢速朗读</option></NativeSelect>
           <Button variant="ghost" size="sm" onClick={onSettings}><Headphones size={16}/>声音设置</Button>
         </div>
-        <p className="reading-audio-hint">点击段落旁的小喇叭朗读，再次点击停止。Piper 美式英语音频，无需安装手机语音包。</p>
+        <form className="reading-repeat" onSubmit={event=>{event.preventDefault();if(validRepeats)onReadAll(article.id,article.paragraphs.map((p,i)=>({id:`reading-${article.id}-${i}`,text:p.en})),Number(repeats));}}>
+          <label htmlFor="reading-repeat-count">整篇朗读</label>
+          <input id="reading-repeat-count" type="number" inputMode="numeric" min={1} max={10000} step={1} value={repeats} disabled={running} onChange={event=>setRepeats(event.target.value)} aria-describedby="repeat-help" required/>
+          <span>遍</span><Button type="submit" disabled={!validRepeats||running}>确认并开始</Button>
+          {running&&<Button type="button" variant="outline" onClick={onStop}><Square size={15}/>停止朗读</Button>}
+          <p id="repeat-help">支持 1–10000 遍，按正文段落顺序朗读英文。</p>
+          {progress&&<p className="repeat-progress" role="status">{running?`第 ${progress.completed+1} / ${progress.total} 遍 · 第 ${progress.paragraph} / ${progress.paragraphs} 段`:`已完成 ${progress.completed} / ${progress.total} 遍`}</p>}
+        </form>
+        <p className="reading-audio-hint">点击段落小喇叭可单独朗读。切换文章、语速或页面会停止；手机请保持页面在前台，锁屏或切到后台会停止。</p>
       </header>
 
       <div className="reading-passages">{article.paragraphs.map((paragraph, i) => {

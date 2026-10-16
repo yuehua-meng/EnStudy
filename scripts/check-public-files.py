@@ -71,6 +71,8 @@ def scan(name, data, findings):
         findings.append((name, 0, 'private-or-generated-file'))
     if any(part.startswith('.env') and part != '.env.example' for part in parts):
         findings.append((name, 0, 'private-environment-file'))
+    if name.startswith('server/data/') or name.endswith(('.sqlite3', '.sqlite3-wal', '.sqlite3-shm')):
+        findings.append((name, 0, 'private-account-database'))
     if name.endswith(('.pem', '.key', '.p12', '.pfx', '.tar.gz', '.tsbuildinfo', '.onnx', '.onnx.incomplete')):
         findings.append((name, 0, 'private-or-generated-file'))
     # MP3 data is supplied intentionally; inspect it for textual metadata too.

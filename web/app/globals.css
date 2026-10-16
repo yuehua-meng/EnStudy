@@ -360,3 +360,20 @@ html{min-width:320px;scroll-padding-top:90px;-webkit-text-size-adjust:100%}
 }
 @media(max-width:359px){.word-grid{grid-template-columns:1fr}.reading-catalog ol{grid-template-columns:1fr}.reading-header h2{font-size:23px}.reading-meta{gap:7px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation-duration:.01ms!important}}
+
+.account-trigger{flex-shrink:0;max-width:150px;overflow:hidden;text-overflow:ellipsis}
+.account-trigger span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.topbar .search-area{margin-left:auto}
+.account-form{display:grid;gap:14px}
+.account-form label{display:grid;gap:7px;font-size:14px}
+.account-form input:not([type=checkbox]),.reading-repeat input{border:1px solid #ccdadd;border-radius:8px;padding:10px 12px;background:#fff;min-height:44px;width:100%;font-size:16px}
+.account-form input:focus-visible,.reading-repeat input:focus-visible{outline:2px solid #17786c;outline-offset:2px}
+.account-form .account-merge{display:flex;align-items:flex-start;gap:10px;line-height:1.6}
+.account-merge input{margin-top:5px;accent-color:#17786c;width:17px;height:17px;flex-shrink:0}
+.account-name{font-weight:700;font-size:20px;overflow-wrap:anywhere}
+.account-dialog{max-height:calc(100dvh - 32px);overflow-y:auto}
+.reading-repeat{display:flex;align-items:center;flex-wrap:wrap;gap:10px;padding:16px;margin-top:18px;background:#f0f7f5;border:1px solid #d4e6df;border-radius:12px;font-size:14px}
+.reading-repeat input{width:100px}
+.reading-repeat p{flex-basis:100%;font-size:12px;color:#647b82;margin:0}
+.reading-repeat .repeat-progress{font-weight:600;color:#176e61;font-size:14px}
+@media(max-width:768px){.account-trigger{order:1;margin-left:auto;max-width:132px}.topbar .search-area{order:2}.reading-repeat{gap:8px;padding:12px}.reading-repeat button{min-height:44px}.account-dialog{width:calc(100% - 24px)}}

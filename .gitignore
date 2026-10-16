@@ -25,3 +25,7 @@ __pycache__/
 Thumbs.db
 *learning-backup*.json
 .test-tmp/
+/server/data/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
