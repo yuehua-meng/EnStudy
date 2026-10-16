@@ -13,6 +13,7 @@ function load(path){
 const {SpeechController}=load('../lib/speech.ts');
 const {mergeBackup,emptyData,learningRecord,validateBackup}=load('../lib/learning.ts');
 const {normalizePhone,accountLabel,phoneCountries}=load('../lib/phone.ts');
+const {courses,grammarRoute,grammarHref,linkedGrammarChapter}=load('../lib/grammar.ts');
 const manifest=JSON.parse(readFileSync(new URL('../lib/audio-manifest.json',import.meta.url),'utf8'));
 const texts=Object.keys(manifest.textToFile).slice(0,4);
 let created=[];
@@ -89,4 +90,26 @@ test('international phone normalization agrees with backend fixtures',()=>{
  assert.equal(accountLabel('13800138000'),'+86 138****8000');assert.equal(accountLabel('legacy_user'),'legacy_user');
  const countries=phoneCountries();assert.ok(countries.length>200);assert.equal(countries[0].country,'CN');
  assert.equal(new Set(countries.map(item=>item.country)).size,countries.length);
+});
+
+test('grammar chapter links, refresh routes and malformed links resolve safely',()=>{
+ assert.deepEqual(grammarRoute(grammarHref('grammar','47')),{section:'grammar',chapterId:'47'});
+ assert.deepEqual(grammarRoute('?section=grammar&chapter=999'),{section:'grammar',chapterId:'00'});
+ assert.deepEqual(grammarRoute('?section=phonetics'),{section:'ipa',chapterId:'00'});
+ assert.equal(grammarRoute('?word=construct'),null);
+ assert.equal(linkedGrammarChapter(encodeURI('01 be动词.md')).id,'01');
+ assert.equal(linkedGrammarChapter('https://example.com/01%20be动词.md'),undefined);
+ assert.equal(linkedGrammarChapter('%invalid'),undefined);
+});
+
+test('all three collections keep directory links and chapter routes inside their own course',()=>{
+ assert.deepEqual(courses.map(course=>[course.label,course.chapters.length]),[['英语全语法',48],['国际音标',18],['口语语音',14]]);
+ for(const course of courses)for(const chapter of course.chapters){
+  assert.deepEqual(grammarRoute(grammarHref(course.id,chapter.id)),{section:course.id,chapterId:chapter.id});
+  assert.equal(linkedGrammarChapter(encodeURIComponent(chapter.file),course.id)?.id,chapter.id);
+ }
+ assert.equal(linkedGrammarChapter('03%20%5Bi%CB%90%5D%2C%20%5B%C9%AA%5D%2C%20%5Bp%5D%2C%20%5Bb%5D.md','ipa')?.id,'03');
+ assert.equal(linkedGrammarChapter('01 所谓浊化.md','grammar'),undefined);
+ assert.deepEqual(grammarRoute('?section=ipa&chapter=47'),{section:'ipa',chapterId:'00'});
+ assert.deepEqual(grammarRoute('?section=spoken&chapter=13'),{section:'spoken',chapterId:'13'});
 });

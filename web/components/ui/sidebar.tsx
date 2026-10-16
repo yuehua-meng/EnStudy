@@ -197,7 +197,7 @@ function Sidebar({
         >
           <SheetHeader className="sr-only">
             <SheetTitle>学习导航</SheetTitle>
-            <SheetDescription>选择词根探索、场景词库、短文阅读或复习。</SheetDescription>
+            <SheetDescription>选择词根探索、音标语法讲解、场景词库、短文阅读或复习。</SheetDescription>
           </SheetHeader>
           <div className="flex h-full w-full flex-col">{children}</div>
         </SheetContent>
