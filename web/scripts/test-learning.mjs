@@ -12,6 +12,7 @@ function load(path){
 }
 const {SpeechController}=load('../lib/speech.ts');
 const {mergeBackup,emptyData,learningRecord,validateBackup}=load('../lib/learning.ts');
+const {normalizePhone,accountLabel,phoneCountries}=load('../lib/phone.ts');
 const manifest=JSON.parse(readFileSync(new URL('../lib/audio-manifest.json',import.meta.url),'utf8'));
 const texts=Object.keys(manifest.textToFile).slice(0,4);
 let created=[];
@@ -81,4 +82,11 @@ test('simultaneous conflicting edits converge regardless of merge direction',()=
  a.records.word={starred:false,inReview:true,updatedAt:200,seenAt:1,level:1,dueAt:1000};
  b.records.word={...a.records.word,starred:true,seenAt:2};
  assert.deepEqual(mergeBackup(a,b).records,mergeBackup(b,a).records);
+});
+test('international phone normalization agrees with backend fixtures',()=>{
+ const cases=JSON.parse(readFileSync(new URL('../../tests/phone-cases.json',import.meta.url),'utf8'));
+ for(const row of cases)assert.equal(normalizePhone(row.input,row.country),row.expected,JSON.stringify(row));
+ assert.equal(accountLabel('13800138000'),'+86 138****8000');assert.equal(accountLabel('legacy_user'),'legacy_user');
+ const countries=phoneCountries();assert.ok(countries.length>200);assert.equal(countries[0].country,'CN');
+ assert.equal(new Set(countries.map(item=>item.country)).size,countries.length);
 });

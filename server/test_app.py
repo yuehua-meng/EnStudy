@@ -6,8 +6,9 @@ import sqlite3
 import tempfile
 import time
 import unittest
+from argon2 import PasswordHasher
 
-from app import create_app, empty_data, merge_data
+from app import create_app, empty_data, merge_data, normalize_phone
 from concurrent.futures import ThreadPoolExecutor
 
 
@@ -31,7 +32,7 @@ class AccountsTest(unittest.TestCase):
         return (client or self.client).post('/api/' + path, json=data,
             headers={'Origin': self.config['APP_ORIGIN'], **headers}, base_url=self.config['APP_ORIGIN'])
 
-    def register(self, name='developer', client=None):
+    def register(self, name='13800138000', client=None):
         response = self.post('register', dict(username=name, password=self.password), client)
         self.assertEqual(response.status_code, 200, response.json)
         return response.json['user']
@@ -42,21 +43,22 @@ class AccountsTest(unittest.TestCase):
             dueAt=123, updatedAt=stamp or int(time.time()*1000), seenAt=12)
         return data
 
-    def test_registration_hash_secure_cookie_and_case_insensitive_login(self):
-        response = self.post('register', dict(username='Developer', password=self.password))
+    def test_phone_registration_hash_secure_cookie_and_login(self):
+        response = self.post('register', dict(username='13800138000', password=self.password))
         self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json['user']['username'], '+8613800138000')
         for flag in ('Secure', 'HttpOnly', 'SameSite=Lax', 'Path=/api'):
             self.assertIn(flag, response.headers['Set-Cookie'])
         with closing(sqlite3.connect(self.path)) as db, db:
             hashed = db.execute('SELECT password_hash FROM users').fetchone()[0]
         self.assertTrue(hashed.startswith('$argon2id$'))
         self.assertNotIn(self.password, hashed)
-        self.assertEqual(self.post('login', dict(username='DEVELOPER', password=self.password)).status_code, 200)
+        self.assertEqual(self.post('login', dict(username='13800138000', password=self.password)).status_code, 200)
 
     def test_two_devices_merge_and_removal_does_not_resurrect(self):
         user = self.register()
         other = self.app.test_client()
-        self.post('login', dict(username='developer', password=self.password), other)
+        self.post('login', dict(username='13800138000', password=self.password), other)
         header = {'X-EnStudy-Account': user['id']}
         first = self.record(stamp=100)
         first['events'] = [dict(id='event-1', wordId='constructor', rating='good', answeredAt=100, dueAt=200)]
@@ -71,7 +73,7 @@ class AccountsTest(unittest.TestCase):
     def test_account_isolation_and_changed_cookie_guard(self):
         one = self.register()
         self.post('sync', self.record(), **{'X-EnStudy-Account': one['id']})
-        two = self.register('another')
+        two = self.register('13900139000')
         response = self.post('sync', self.record(), **{'X-EnStudy-Account': one['id']})
         self.assertEqual(response.status_code, 409)
         response = self.post('sync', empty_data(), **{'X-EnStudy-Account': two['id']})
@@ -99,28 +101,80 @@ class AccountsTest(unittest.TestCase):
         response = self.client.post('/api/register', data='{}', headers={'Origin': self.config['APP_ORIGIN']})
         self.assertEqual(response.status_code, 415)
 
-    def test_password_and_username_validation(self):
-        for name, password in [('ab', self.password), ('中文名字', self.password), ('developer', secrets.token_hex(5)[:9]),
-                               ('developer', 'a'*129)]:
+    def test_password_and_phone_validation(self):
+        for name, password in [('ab', self.password), ('中文名字', self.password), ('13800138000', secrets.token_hex(5)[:9]),
+                               ('13800138000', 'a'*129)]:
             self.assertEqual(self.post('register', dict(username=name, password=password)).status_code, 400)
         self.password = secrets.token_hex(5)
         self.assertEqual(len(self.password), 10)
         self.register()
-        self.assertEqual(self.post('login', dict(username='developer', password=self.password)).status_code, 200)
+        self.assertEqual(self.post('login', dict(username='13800138000', password=self.password)).status_code, 200)
+
+    def test_new_registration_requires_mobile_even_when_frontend_is_bypassed(self):
+        invalid = ['developer', 'test_user', '+999123456789', '123', '+11234567890123456',
+                   'call +12025550123', '+12025550123 ext 4', None, 13800138000]
+        for username in invalid:
+            with self.subTest(username=username):
+                self.assertEqual(self.post('register', dict(username=username, password=self.password)).status_code, 400)
+        with closing(sqlite3.connect(self.path)) as db:
+            self.assertEqual(db.execute('SELECT count(*) FROM users').fetchone()[0], 0)
+
+    def test_duplicate_phone_registration_does_not_replace_account_or_password(self):
+        user = self.register()
+        response = self.post('register', dict(username='13800138000', password=secrets.token_urlsafe(24)))
+        self.assertEqual(response.status_code, 409)
+        response = self.post('login', dict(username='13800138000', password=self.password))
+        self.assertEqual(response.json['user']['id'], user['id'])
+
+    def test_existing_legacy_account_can_still_log_in_but_cannot_be_registered(self):
+        old_id = secrets.token_hex(16)
+        with closing(sqlite3.connect(self.path)) as db, db:
+            db.execute('INSERT INTO users VALUES (?,?,?,?)', (old_id, 'developer', PasswordHasher().hash(self.password), time.time()))
+        response = self.post('login', dict(username='DEVELOPER', password=self.password))
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json['user']['id'], old_id)
+        self.assertEqual(self.post('register', dict(username='another_user', password=self.password)).status_code, 400)
+
+    def test_international_formats_match_frontend_cases(self):
+        cases = json.loads((Path(__file__).resolve().parents[1] / 'tests/phone-cases.json').read_text(encoding='utf-8'))
+        for case in cases:
+            with self.subTest(case=case):
+                self.assertEqual(normalize_phone(case['input'], case['country']), case['expected'])
+
+    def test_equivalent_international_forms_share_one_account(self):
+        response = self.post('register', dict(username='+1 (202) 555-0123', password=self.password))
+        self.assertEqual(response.status_code, 200)
+        user = response.json['user']
+        self.assertEqual(user['username'], '+12025550123')
+        response = self.post('register', dict(username='2025550123', country='US', password=self.password))
+        self.assertEqual(response.status_code, 409)
+        response = self.post('login', dict(username='0012025550123', password=self.password))
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json['user']['id'], user['id'])
+
+    def test_existing_bare_cn_mobile_keeps_identity_and_cannot_be_claimed_again(self):
+        old_id = secrets.token_hex(16)
+        with closing(sqlite3.connect(self.path)) as db, db:
+            db.execute('INSERT INTO users VALUES (?,?,?,?)', (old_id, '13800138000', PasswordHasher().hash(self.password), time.time()))
+        response = self.post('login', dict(username='+86 13800138000', password=self.password))
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json['user']['id'], old_id)
+        response = self.post('register', dict(username='+8613800138000', password=self.password))
+        self.assertEqual(response.status_code, 409)
 
     def test_generic_login_error_and_account_attempt_limit(self):
         self.register()
-        missing = self.post('login', dict(username='missing', password='wrong'))
-        existing = self.post('login', dict(username='developer', password='wrong'))
+        missing = self.post('login', dict(username='13700137000', password='wrong'))
+        existing = self.post('login', dict(username='13800138000', password='wrong'))
         self.assertEqual(missing.json, existing.json)
         for _ in range(9):
-            self.post('login', dict(username='developer', password='wrong'))
-        self.assertEqual(self.post('login', dict(username='developer', password=self.password)).status_code, 429)
+            self.post('login', dict(username='13800138000', password='wrong'))
+        self.assertEqual(self.post('login', dict(username='13800138000', password=self.password)).status_code, 429)
 
     def test_registration_limit_and_proxy_header_cannot_bypass(self):
         for i in range(5):
-            self.register(f'user{i}')
-        response = self.post('register', dict(username='user6', password=self.password), **{'X-Real-IP': 'fake'})
+            self.register(f'1380000000{i}')
+        response = self.post('register', dict(username='13800000006', password=self.password), **{'X-Real-IP': 'fake'})
         self.assertEqual(response.status_code, 429)
 
     def test_reject_invalid_sync_and_payload_size(self):
@@ -137,7 +191,7 @@ class AccountsTest(unittest.TestCase):
         user = self.register()
         self.post('sync', self.record(), **{'X-EnStudy-Account': user['id']})
         other = create_app(self.config).test_client()
-        response = self.post('login', dict(username='developer', password=self.password), other)
+        response = self.post('login', dict(username='13800138000', password=self.password), other)
         self.assertEqual(response.json['user']['id'], user['id'])
         response = self.post('sync', empty_data(), other, **{'X-EnStudy-Account': user['id']})
         self.assertTrue(response.json['data']['records']['constructor']['starred'])
@@ -158,7 +212,7 @@ class AccountsTest(unittest.TestCase):
         user = self.register()
         clients = [self.app.test_client(), self.app.test_client()]
         for client in clients:
-            self.post('login', dict(username='developer', password=self.password), client)
+            self.post('login', dict(username='13800138000', password=self.password), client)
         def write(index):
             data = self.record(stamp=100 + index)
             data['records'][f'word{index}'] = data['records'].pop('constructor')

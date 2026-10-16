@@ -34,3 +34,9 @@
 
 短文和补充词库引用官方技术文档作为延伸阅读。链接指向的文档保留其原有版权与许可，
 不属于 EnStudy 的 MIT 授权范围。项目文章为原创学习材料，不是官方文档全文副本。
+
+## 国际电话号码解析
+
+- libphonenumber-js：MIT，https://github.com/catamphetamine/libphonenumber-js 。
+- python-phonenumbers：Apache-2.0，https://github.com/daviddrysdale/python-phonenumbers 。
+- 使用号码元数据校验长度并规范化账号格式，不向外部服务发送输入号码。

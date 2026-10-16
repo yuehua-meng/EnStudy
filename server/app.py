@@ -1,4 +1,4 @@
-"""Small, same-origin account service. No phone numbers, SMS or third-party login."""
+"""Small account service: mobile-number registration, passwords and legacy login."""
 import hashlib
 from contextlib import closing
 import hmac
@@ -10,16 +10,40 @@ import re
 import secrets
 import sqlite3
 import time
+import unicodedata
 from urllib.parse import urlsplit
 
 from argon2 import PasswordHasher
 from argon2.exceptions import VerificationError, InvalidHashError
 from flask import Flask, g, jsonify, request
+import phonenumbers
 from werkzeug.exceptions import HTTPException
 
 SESSION_TTL = 7 * 86400
 COOKIE = 'enstudy_session'
 ID = re.compile(r'^[a-zA-Z0-9_-]{1,120}$')
+
+def normalize_phone(value, country='CN'):
+    if not isinstance(value, str) or len(value) > 64 or not isinstance(country, str) or country not in phonenumbers.SUPPORTED_REGIONS:
+        return None
+    value = unicodedata.normalize('NFKC', value).strip()
+    if value.startswith('00'):
+        value = '+' + value[2:]
+    if not re.fullmatch(r'\+?[0-9 ().-]+', value):
+        return None
+    try:
+        phone = phonenumbers.parse(value, country)
+        if phone.extension or not phonenumbers.is_possible_number(phone) or phonenumbers.region_code_for_country_code(phone.country_code) == '001':
+            return None
+        normalized = phonenumbers.format_number(phone, phonenumbers.PhoneNumberFormat.E164)
+        return normalized if re.fullmatch(r'\+[1-9][0-9]{1,14}', normalized) else None
+    except phonenumbers.NumberParseException:
+        return None
+
+
+def phone_aliases(username):
+    # Before international registration, an existing username could be a bare CN mobile.
+    return [username, username[3:]] if re.fullmatch(r'\+861[3-9][0-9]{9}', username) else [username]
 
 
 class ApiError(Exception):
@@ -196,14 +220,18 @@ def create_app(config=None):
             raise ApiError('请求格式无效')
         return value
 
-    def credentials():
+    def credentials(require_phone=False):
         value = payload()
         username, password = value.get('username'), value.get('password')
-        if not isinstance(username, str) or not re.fullmatch(r'[a-zA-Z0-9_]{3,32}', username):
-            raise ApiError('用户名需为 3–32 位英文字母、数字或下划线')
+        normalized = normalize_phone(username, value.get('country', 'CN'))
+        if require_phone:
+            if not normalized:
+                raise ApiError('请检查国家／地区和手机号，或输入 +国际区号开头的号码')
+        elif not normalized and (not isinstance(username, str) or not re.fullmatch(r'[a-zA-Z0-9_]{3,32}', username)):
+            raise ApiError('请输入有效的手机号或已有旧账号')
         if not isinstance(password, str) or not 1 <= len(password) <= 128:
             raise ApiError('密码长度无效')
-        return username.lower(), password
+        return normalized or username.lower(), password
 
     def authenticated():
         token = request.cookies.get(COOKIE, '')
@@ -233,7 +261,7 @@ def create_app(config=None):
 
     @app.post('/api/register')
     def register():
-        username, password = credentials()
+        username, password = credentials(require_phone=True)
         if len(password) < 10:
             raise ApiError('请使用至少 10 位的密码或长口令')
         limit([(f'register:{ip_key()}', 5, 3600), ('register:global', 50, 86400), ('hash:global', 60, 60)])
@@ -241,13 +269,16 @@ def create_app(config=None):
         db, user = database(), dict(id=secrets.token_hex(16), username=username)
         db.execute('BEGIN IMMEDIATE')
         try:
+            aliases = phone_aliases(username)
+            if db.execute('SELECT 1 FROM users WHERE username IN (' + ','.join('?' for _ in aliases) + ')', aliases).fetchone():
+                raise ApiError('该手机号无法注册，已有账户请直接登录', 409)
             if db.execute('SELECT count(*) FROM users').fetchone()[0] >= app.config['MAX_USERS']:
                 raise ApiError('注册名额已满，请联系站点维护者', 503)
             db.execute('INSERT INTO users VALUES (?,?,?,?)', (user['id'], username, password_hash, time.time()))
             db.commit()
         except sqlite3.IntegrityError:
             db.rollback()
-            raise ApiError('该用户名无法注册，请换一个用户名', 409)
+            raise ApiError('该手机号无法注册，已有账户请直接登录', 409)
         except Exception:
             db.rollback()
             raise
@@ -256,17 +287,21 @@ def create_app(config=None):
     @app.post('/api/login')
     def login():
         username, password = credentials()
-        limit([(f'login:ip:{ip_key()}', 30, 900), (f'login:user:{digest(username)}', 10, 900), ('hash:global', 60, 60)])
-        row = database().execute('SELECT * FROM users WHERE username=?', (username,)).fetchone()
+        raw = payload()['username'].lower()
+        aliases = list(dict.fromkeys([raw, *phone_aliases(username)]))
+        rows = database().execute('SELECT * FROM users WHERE username IN (' + ','.join('?' for _ in aliases) + ')', aliases).fetchall()
+        row = next((row for alias in aliases for row in rows if row['username'] == alias), None)
+        identity = row['id'] if row else username
+        limit([(f'login:ip:{ip_key()}', 30, 900), (f'login:user:{digest(identity)}', 10, 900), ('hash:global', 60, 60)])
         try:
             hasher.verify(row['password_hash'] if row else dummy_hash, password)
         except (VerificationError, InvalidHashError):
-            raise ApiError('用户名或密码错误', 401)
+            raise ApiError('账号或密码错误', 401)
         if not row:
-            raise ApiError('用户名或密码错误', 401)
+            raise ApiError('账号或密码错误', 401)
         if hasher.check_needs_rehash(row['password_hash']):
             database().execute('UPDATE users SET password_hash=? WHERE id=?', (hasher.hash(password), row['id']))
-        database().execute('DELETE FROM limits WHERE key=?', (f'login:user:{digest(username)}',))
+        database().execute('DELETE FROM limits WHERE key=?', (f'login:user:{digest(identity)}',))
         return issue_session(dict(id=row['id'], username=row['username']))
 
     @app.post('/api/logout')
