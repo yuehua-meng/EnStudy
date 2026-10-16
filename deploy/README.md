@@ -57,6 +57,26 @@ Docker 网络内的代理应将目标改为 `enstudy-web:8080`。
 
 ## 更新与回退
 
+### 裸 IP 的 HTTPS 与旧 HTTP 入口并存
+
+无需先购买域名，也可以给公网 IP 申请浏览器信任的证书。Let’s Encrypt 的 IP 证书属于短有效期证书，必须可靠自动续期；参考[官方 Certbot 说明](https://letsencrypt.org/2026/03/11/shorter-certs-certbot)。
+
+使用 Certbot 5.4 或更新版本，以 `--preferred-profile shortlived --webroot --webroot-path YOUR_WEBROOT --ip-address YOUR_PUBLIC_IP` 申请。先使用独立 staging 配置目录验证挑战，再申请正式证书；staging 证书不可装到面向用户的站点。
+
+旧 HTTP 站点继续提供学习与备份功能，仅为 `/.well-known/acme-challenge/*` 增加公开文件路由。另建 `https://YOUR_PUBLIC_IP` 站点供 EnStudy 与账户 API 使用；显式关闭自动 HTTP 重定向，防止旧客户的访问地址和浏览器存储来源发生改变。HTTP 上的账户 API 应拒绝请求，HTTPS 的 API 路由先于静态路由。其他项目的路由和鉴权规则须保持原样。
+
+腾讯云实例的云防火墙或安全组需放行入站 TCP 443。IP 客户端可能不发送 SNI，且容器内看到的是私网地址；必要时为 Caddy 设置该公网 IP 的 `default_sni` 与 `fallback_sni`，然后使用正常证书校验检查连接，不能靠跳过 TLS 验证解决。
+
+证书和密钥可复制到现有 Caddy 挂载目录的私有子目录。仓库提供 `renew_ip_certificate.py`：校验公私钥匹配和证书有效期后，原子替换文件并重载指定 Caddy 容器；重载失败时恢复原文件。使用方法：
+
+```sh
+python3 renew_ip_certificate.py --lineage /etc/letsencrypt/live/YOUR_CERT_NAME --destination /YOUR_CADDY_MOUNT/private-tls --container YOUR_EDGE_CONTAINER
+```
+
+将该命令接入仅匹配此证书 lineage 的 Certbot deploy hook，使用系统定时器每日多次执行 `certbot renew --cert-name YOUR_CERT_NAME --quiet`。用 `renew --dry-run` 验证挑战和自动续期流程；不要把测试证书复制到线上。私钥、ACME 账户、站点实际 IP、含鉴权信息的代理配置和数据库备份均不得提交。
+
+HTTP 页面的登录入口会引导到同主机的 HTTPS 页面。两种协议的 IndexedDB 隔离：旧用户应先在 HTTP 设置中导出，再在 HTTPS 导入，登录时选择合并游客记录。未强制跳转，因此旧学习数据仍能从原地址访问。
+
 重新构建、打包并运行安装器即可生成新版本，旧版本保留。
 若需回退，把 `current` 链接原子切换到确认存在的旧版本；保持 Caddy 挂载部署根目录，
 不要直接挂载 `current` 指向的某个版本。安装器失败后遗留的候选目录可在核查后清理。

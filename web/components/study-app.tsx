@@ -32,7 +32,7 @@ function StudyWorkspace(){
  const [articleId,setArticleId]=useState('01');
  const [query,setQuery]=useState('');const [searchOpen,setSearchOpen]=useState(false);const [showTranslation,setShowTranslation]=useState(true);const [rootOpen,setRootOpen]=useState(false);const [settingsOpen,setSettingsOpen]=useState(false);
  const {data,dataRef,loaded,saveMessage,syncMessage,user,commit,signIn,signOut,sync}=useLearningAccount(known);
- const [accountOpen,setAccountOpen]=useState(false);
+ const [accountOpen,setAccountOpen]=useState(()=>typeof window!=='undefined'&&['login','register'].includes(new URLSearchParams(window.location.search).get('account')||''));
  const [speech,setSpeech]=useState<SpeechState>(emptySpeech);const controller=useRef<SpeechController|null>(null);const [rate,setRate]=useState(()=>{try{const p=JSON.parse(localStorage.getItem('enstudy-preferences')||'{}');return p.rate===.8?.8:1}catch{return 1}});
  const [now,setNow]=useState(()=>Date.now());const [revealKey,setRevealKey]=useState('');const ratedKey=useRef('');const [pendingBackup,setPendingBackup]=useState<ReturnType<typeof validateBackup>|null>(null);const fileInput=useRef<HTMLInputElement>(null);const detailRef=useRef<HTMLElement>(null);
  const word=findWord(selected)!;const family=families.find(f=>f.id===familyId)!;const familyWords=useMemo(()=>words.filter(w=>w.family===familyId),[familyId]);const record=learningRecord(data,selected);
