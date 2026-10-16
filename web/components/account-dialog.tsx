@@ -1,4 +1,5 @@
 import {useMemo,useState} from 'react';
+import {CheckCircle2} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 import {Dialog,DialogContent,DialogHeader,DialogTitle,DialogDescription} from '@/components/ui/dialog';
 import {secureAccountAccess,type Account} from '@/lib/account';
@@ -18,13 +19,14 @@ export default function AccountDialog({open,onOpenChange,user,syncMessage,onSign
  const countries=useMemo(phoneCountries,[]);
  const legacy=mode==='login'&&legacyLogin;
  const normalized=legacy?null:normalizePhone(username,country);
+ const syncComplete=syncMessage.startsWith('同步完成');
  const secure=typeof window!=='undefined'&&secureAccountAccess();
  const secureUrl=typeof window!=='undefined'?new URL(window.location.href):null;
  if(secureUrl){secureUrl.protocol='https:';if(secureUrl.port==='80')secureUrl.port='';secureUrl.searchParams.set('account',mode);}
  async function run(action:()=>Promise<void>){setBusy(true);setError('');try{await action();setPassword('');setConfirm('');}catch(e){setError(e instanceof Error?e.message:'操作失败，请稍后再试');}finally{setBusy(false);}}
  return <Dialog open={open} onOpenChange={next=>{if(!busy){setPassword('');setConfirm('');setError('');onOpenChange(next);}}}>
   <DialogContent className="account-dialog"><DialogHeader><DialogTitle>{user?'我的账户':mode==='login'?'登录 EnStudy':'创建账户'}</DialogTitle><DialogDescription>游客也能学习。登录后，收藏、复习记录和探索进度可在电脑与手机间同步。</DialogDescription></DialogHeader>
-   {user?<><p className="account-name">{accountLabel(user.username)}</p><p role="status">{syncMessage}</p><p className="small-label">退出后恢复本机游客记录，账户的本地缓存会保留，供下次登录继续同步。</p><div className="backup-actions"><Button disabled={busy} onClick={()=>void run(onSync)}>立即同步</Button><Button variant="outline" disabled={busy} onClick={()=>void run(onSignOut)}>退出登录</Button></div></>:
+   {user?<><p className="account-name">{accountLabel(user.username)}</p><p role="status" className={syncComplete?'account-sync-complete':undefined}>{syncComplete&&<CheckCircle2 size={24} aria-hidden="true"/>}{syncMessage}</p><p className="small-label">退出后恢复本机游客记录，账户的本地缓存会保留，供下次登录继续同步。</p><div className="backup-actions"><Button disabled={busy} onClick={()=>void run(onSync)}>立即同步</Button><Button variant="outline" disabled={busy} onClick={()=>void run(onSignOut)}>退出登录</Button></div></>:
    <form className="account-form" onSubmit={event=>{event.preventDefault();if(!legacy&&!normalized){setError(PHONE_HINT);return;}if(mode==='register'&&password!==confirm){setError('两次输入的密码不一致');return;}void run(async()=>{await onSignIn(mode,legacy?username.trim():normalized!,password,mergeGuest);onOpenChange(false);});}}>
     {!secure&&<div className="account-secure-entry"><p>注册和登录请进入本站的 HTTPS 安全页面，IP 地址保持不变。</p><Button type="button" onClick={()=>{if(secureUrl)window.location.assign(secureUrl.href);}}>进入安全页面{mode==='register'?'注册':'登录'}</Button><p className="small-label">原 HTTP 页面仍可学习。有本机学习记录时，请先在“学习设置与备份”导出，再到安全页面导入；登录时勾选合并游客记录即可同步。</p></div>}
     {secure&&<>{!legacy&&<label>国家／地区<NativeSelect aria-label="手机号国家或地区" value={country} disabled={busy} onChange={event=>{setCountry(event.target.value as PhoneCountry);setError('');}}>{countries.map(item=><option key={item.country} value={item.country}>{item.label}</option>)}</NativeSelect></label>}

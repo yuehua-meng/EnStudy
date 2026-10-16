@@ -371,6 +371,8 @@ html{min-width:320px;scroll-padding-top:90px;-webkit-text-size-adjust:100%}
 .account-form .account-merge{display:flex;align-items:flex-start;gap:10px;line-height:1.6}
 .account-merge input{margin-top:5px;accent-color:#17786c;width:17px;height:17px;flex-shrink:0}
 .account-name{font-weight:700;font-size:20px;overflow-wrap:anywhere}
+.account-sync-complete{display:flex;align-items:center;gap:10px;font-size:22px;font-weight:700;line-height:1.5;color:#176e61}
+.account-sync-complete svg{flex-shrink:0}
 .account-secure-entry{display:grid;gap:12px;padding:14px;border:1px solid #d4e6df;border-radius:10px;background:#f0f7f5;line-height:1.7}
 .account-dialog{max-height:calc(100dvh - 32px);overflow-y:auto}
 .reading-repeat{display:flex;align-items:center;flex-wrap:wrap;gap:10px;padding:16px;margin-top:18px;background:#f0f7f5;border:1px solid #d4e6df;border-radius:12px;font-size:14px}

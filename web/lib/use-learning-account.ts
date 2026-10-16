@@ -69,7 +69,7 @@ export function useLearningAccount(known:Set<string>){
    // A response may arrive after the user made another local edit.
    const next=mergeBackup(dataRef.current,incoming);
    if(JSON.stringify(next)!==JSON.stringify(dataRef.current))commit(()=>next);
-   setSyncMessage(`已同步 · ${new Date().toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit'})}`);
+   setSyncMessage(`同步完成 · ${new Date().toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit'})}`);
   }catch(error){
    if(alive.current&&generation===epoch.current)setSyncMessage(error instanceof ApiError&&[401,409].includes(error.status)?error.message:'同步失败，本机已保留，联网后将重试');
   }finally{syncing.current=false;}
